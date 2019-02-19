@@ -7,7 +7,7 @@
     "pages/teachingVideo/index",
     "pages/library/index",
     "pages/community/index",
-    "pages/myInformation/subPage/index"
+    "pages/myInformation/subPage/myInfoDetail/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

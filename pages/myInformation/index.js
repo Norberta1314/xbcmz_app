@@ -4,7 +4,7 @@ Page({
   
   bindSearchInfo: function(e) {
     wx.navigateTo({
-      url: '/pages/myInformation/subPage/index',
+      url: '/pages/myInformation/subPage/myInfoDetail/index',
     })
   }
 })
