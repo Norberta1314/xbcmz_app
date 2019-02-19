@@ -1,12 +1,52 @@
 {
   "pages":[
+    "pages/myInformation/index",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/learning/index",
+    "pages/teachingVideo/index",
+    "pages/library/index",
+    "pages/community/index",
+    "pages/myInformation/subPage/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#eeeeee",
+    "navigationBarTitleText": "point教学",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "backgroundColor": "#eeeeee",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/bar/selected/learning.png",
+        "iconPath": "images/bar/unselected/learning.png",
+        "pagePath": "pages/learning/index",
+        "text": "学业"
+      },{
+        "selectedIconPath": "images/bar/selected/teachingVideo.png",
+        "iconPath": "images/bar/unselected/teachingVideo.png",
+        "pagePath": "pages/teachingVideo/index",
+        "text": "教学视频"
+      },{
+        "selectedIconPath": "images/bar/selected/myInformation.png",
+        "iconPath": "images/bar/unselected/myInformation.png",
+        "pagePath": "pages/myInformation/index",
+        "text": "我的"
+      }, {
+        "selectedIconPath": "images/bar/selected/library.png",
+        "iconPath": "images/bar/unselected/library.png",
+        "pagePath": "pages/library/index",
+        "text": "图书馆"
+      }, {
+        "selectedIconPath": "images/bar/selected/community.png",
+        "iconPath": "images/bar/unselected/community.png",
+        "pagePath": "pages/community/index",
+        "text": "社区讨论"
+      }
+    ]
   }
 }

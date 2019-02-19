@@ -1,0 +1,103 @@
+button {
+  padding: 0;
+}
+
+.userinfo {
+  position: relative; 
+  width: 750rpx;
+  height: 300rpx;
+}
+
+.userinfo-background{
+  top:0rpx;
+  height: 300rpx;
+  width: 750rpx;
+}
+
+.userinfo-avatar {
+  position: absolute;
+  overflow:hidden;  
+  display: block; 
+  top: 60rpx;
+  left: 60rpx;
+  width: 128rpx;
+  height: 128rpx;
+
+  border: 2px solid #fff; 
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);  
+}
+
+.userinfo-name {
+  position: absolute;
+  overflow: hidden;
+  display: block;
+  top: 80rpx;
+  left: 240rpx;
+}
+
+.userinfo-attention {
+  position: absolute;
+  top: 210rpx;
+  left: 140rpx;
+}
+
+.attention-num {
+  font-size: 24rpx;
+}
+.be-attention-num {
+  margin-left: 200rpx;
+  font-size: 24rpx;
+}
+
+.bar-time {
+  position: relative;
+  width: auto;
+}
+.bar-img {
+  position: absolute;
+  top: -80rpx;
+  width: 740rpx;
+  height: 160rpx;
+}
+
+.button-group {
+  position: relative;
+  margin-top: 70rpx;
+  display: block;
+  overflow: hidden;
+}
+
+.button-group-top {
+  position: relative;
+  height: 158rpx;
+}
+.button-top {
+  float: left;
+  width: 333rpx;
+  height: 133rpx;
+  margin-top: 30rpx;
+  margin-left: 28rpx;
+}
+
+.searchInfo-img {
+  width: 333rpx;
+  height: 133rpx;
+}
+
+.mysterious-img {
+  width: 333rpx;
+  height: 133rpx;
+}
+
+.button-main {
+  width: 700rpx;
+  height: 80rpx;
+
+  margin-top: 30rpx;
+}
+
+.button-main-img {
+  width: 700rpx;
+  height: 80rpx;
+}
