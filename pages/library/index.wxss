@@ -1,0 +1,48 @@
+.body_block {
+    background-image: url('https://s2.ax1x.com/2019/02/26/koMyng.png');
+    background-size: 750rpx 1108rpx;
+    background-attachment:fixed;
+    height: 1108rpx;
+    width: 750rpx;
+}
+
+button {
+    background:transparent;
+    position: absolute;
+    width: 130rpx;
+    height: 130rpx;
+    padding: 0;
+}
+
+image {
+    width: 130rpx;
+    height: 130rpx;
+}
+
+button ::after {
+    border: none;
+}
+
+.search_book {
+    left: 318rpx;
+    top: 176rpx;
+}
+
+.advice_book {
+    left: 116rpx;
+    top: 576rpx;
+}
+
+.together_book {
+    left: 526rpx;
+    top: 576rpx;
+}
+
+.moon {
+    position: absolute;
+    left: 318rpx;
+    top: 402rpx;
+
+    width: 100rpx;
+    height: 100rpx;
+}

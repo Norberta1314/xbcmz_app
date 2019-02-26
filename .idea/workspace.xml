@@ -1,13 +1,371 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="43" />
-    <option name="width" value="1400" />
-    <option name="height" value="763" />
+  <component name="ChangeListManager">
+    <list default="true" id="f4240903-b32a-431b-9d68-d9475598feb8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/comunity/comment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/comunity/like_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/comunity/like_unselected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/learning/evaluation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/learning/examination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/learning/grade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/learning/materials.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/learning/schedule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/learning/task.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/learning/teacher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/learning/today_course_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/library/advice_book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/library/moon/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/library/moon/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/library/moon/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/library/moon/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/library/moon/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/library/search_book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/library/together_book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/video/search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/community/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/community/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/community/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/community/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/community/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/community/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learning/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learning/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learning/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learning/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learning/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learning/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/library/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/library/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/library/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/library/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/library/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/library/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/myInformation/subPage/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/myInformation/subPage/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/myInformation/subPage/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/myInformation/subPage/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/myInformation/subPage/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/myInformation/subPage/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/teachingVideo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/teachingVideo/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/teachingVideo/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/teachingVideo/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/teachingVideo/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/teachingVideo/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.50545454">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/community/index.wxml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="159">
+                  <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pages/library/index.wxml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/teachingVideo/index.wxss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret selection-end-line="4" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/library/index.wxss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="533">
+                  <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pages/library/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="65">
+                  <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pages/learning/index.js" />
+        <option value="$PROJECT_DIR$/pages/learning/index.wxml" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/pages/community/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/community/index.js" />
+        <option value="$PROJECT_DIR$/pages/community/index.wxss" />
+        <option value="$PROJECT_DIR$/pages/teachingVideo/index.js" />
+        <option value="$PROJECT_DIR$/pages/teachingVideo/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/learning/index.wxss" />
+        <option value="$PROJECT_DIR$/pages/teachingVideo/index.wxss" />
+        <option value="$PROJECT_DIR$/pages/library/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/library/index.wxss" />
+        <option value="$PROJECT_DIR$/pages/library/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="xbcmz_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xbcmz_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xbcmz_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xbcmz_app" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xbcmz_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xbcmz_app" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xbcmz_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xbcmz_app" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="community" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xbcmz_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xbcmz_app" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4240903-b32a-431b-9d68-d9475598feb8" name="Default Changelist" comment="" />
+      <created>1550990501541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550990501541</updated>
+      <workItem from="1550990504427" duration="466000" />
+      <workItem from="1550990982935" duration="1130000" />
+      <workItem from="1550998458626" duration="291000" />
+      <workItem from="1550998776112" duration="5895000" />
+      <workItem from="1551082683065" duration="333000" />
+      <workItem from="1551083066883" duration="15000" />
+      <workItem from="1551083100176" duration="3019000" />
+      <workItem from="1551097665731" duration="6154000" />
+      <workItem from="1551156528829" duration="4617000" />
+      <workItem from="1551169009547" duration="9215000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="31135000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1007752" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16867469" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pages/library/index.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/learning/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/pages/myInformation/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="65" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/community/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/teachingVideo/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/learning/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/learning/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/teachingVideo/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/community/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/community/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="45" column="49" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/teachingVideo/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/library/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/library/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/library/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

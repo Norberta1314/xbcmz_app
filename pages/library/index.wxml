@@ -1,3 +1,15 @@
-<view class='container'>
-  <view>library</view>
+<view class='body_block'>
+
+  <button class='search_book'>
+    <image src='../../images/library/search_book.png'/>
+  </button>
+  <button class='advice_book'>
+    <image src='../../images/library/advice_book.png'/>
+  </button>
+  <button class='together_book'>
+    <image src='../../images/library/together_book.png'/>
+  </button>
+
+  <image src='{{ moonList[people] }}' class='moon'/>
+
 </view>

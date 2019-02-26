@@ -1,3 +1,56 @@
-<view class='container'>
-  <view>learning</view>
+<view class='background'>
+  <view class='button_group'>
+    <!-- 课表查询 -->
+    <button class='button_learning'>
+      <image src='../../images/learning/schedule.png' class='button_learning_img'></image>
+    </button>
+    <!-- 成绩查询 -->
+    <button class='button_learning'>
+      <image src='../../images/learning/grade.png' class='button_learning_img'></image>
+    </button>
+    <!-- 考试安排 -->
+    <button class='button_learning'>
+      <image src='../../images/learning/examination.png' class='button_learning_img'></image>
+    </button>
+    <!-- 作业管理   -->
+    <button class='button_learning'>
+      <image src='../../images/learning/task.png' class='button_learning_img'></image>
+    </button>
+    <!-- 课程资料 -->
+    <button class='button_learning'>
+      <image src='../../images/learning/materials.png' class='button_learning_img'></image>
+    </button>
+    <!-- 教学考评 -->
+    <button class='button_learning'>
+      <image src='../../images/learning/evaluation.png' class='button_learning_img'></image>
+    </button>
+    <!-- 教师查询 -->
+    <button class='button_learning'>
+      <image src='../../images/learning/teacher.png' class='button_learning_img'></image>
+    </button>
+  </view>
+
+  <!--通知-->
+  <view class='notice'>
+    通知：请各位同学在4月之前完成服务外包大赛作品的制作与提交！
+  </view>
+
+  <!--日历-->
+  <swiper class='canlendar'
+          indicator-dots='true' autoplay='true'  interval='4000' duration='500' circular='true'>
+    <swiper-item>
+      <view class='attendance_calendar'></view>
+    </swiper-item>
+    <swiper-item>
+      <view class='read_calendar'></view>
+    </swiper-item>
+  </swiper>
+
+  <!--今日课表-->
+  <view class='today_course' >
+    <image src='../../images/learning/today_course_img.png' class='today_course_img'>
+
+    </image>
+
+  </view>
 </view>

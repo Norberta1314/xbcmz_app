@@ -1,0 +1,122 @@
+.body_block {
+    background-image: url('https://s2.ax1x.com/2019/02/26/koErCD.png');
+    background-size: 750rpx 1108rpx;
+    background-attachment:fixed;
+}
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    color: #fff;
+    height: 54rpx;
+    margin: 23rpx 48rpx 10rpx 48rpx;
+}
+.search input {
+    background-color: #ececec;
+    height: 54rpx;
+    width: 600rpx;
+
+    padding-left: 30rpx;
+    border-radius: 27rpx;
+}
+.placeholder {
+    color: #fff;
+    font-size: 35rpx;
+}
+.search_img {
+    background-color: #ececec;
+    height: 54rpx;
+    width: 54rpx;
+    border-radius: 27rpx;
+}
+.search image {
+    height: 40rpx;
+    width: 40rpx;
+    margin: 7rpx;
+}
+
+.tablist {
+    display: flex;
+    background: #fff;
+    height: 80rpx;
+
+    border-bottom: 4rpx solid #bfbfbf;
+}
+
+.tablist .item {
+    flex: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 30rpx;
+    color: #000;
+}
+
+.tablist .item.select {
+    color: #73a2c3;
+}
+
+.tablist .item.select::after {
+    content: "";
+    height: 4rpx;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -2rpx;
+    right: 0;
+    background:  #73a2c3;
+}
+
+.video_block {
+    display: inline-block;
+    background-color: rgba(245, 245, 245, 0.5);
+    width: 750rpx;
+    height: 100%;
+}
+
+.video_block .item {
+    float: left;
+    background-color: #ead9e4;
+    width: 276rpx;
+    height: 250rpx;
+    margin: 20rpx 10rpx 20rpx 60rpx;
+}
+
+.video_block image {
+    width: 272rpx;
+    height: 154rpx;
+}
+
+.video_name {
+    margin: 3rpx;
+    font-size: 20rpx;
+}
+
+.video_auteur {
+    float: right;
+    font-size: 18rpx;
+}
+
+
+.live_block {
+    display: inline-block;
+    background-color: rgba(245, 245, 245, 0.5);
+    width: 750rpx;
+    height: 100%;
+}
+
+.live_block .item {
+    float: left;
+    background-color: #ead9e4;
+    width: 276rpx;
+    height: 250rpx;
+    margin: 20rpx 10rpx 20rpx 60rpx;
+}
+
+.live_block image {
+    width: 272rpx;
+    height: 154rpx;
+}
+
