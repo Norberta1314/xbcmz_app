@@ -3,30 +3,15 @@
 
 .add_wrap {
     position: fixed;
-    display: block;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    /*width: 100%;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    overflow-scrolling: touch;
-}
+    bottom: 150rpx;
+    right: 150rpx;
 
-.move_wrap {
-    height: 100%;
-    width: 100%;
-}
-
-.move_wrap_view {
-    width: 100rpx;
-    height: 100rpx;
 }
 
 
 .add_button {
-    /*position: fixed;*/
+    position: fixed;
+    z-index: 1000;
     /*bottom: 30rpx;*/
     /*right: 30rpx;*/
     background-color: #d2d2d2;
@@ -34,8 +19,41 @@
     height: 100rpx;
     border-radius: 100rpx;
 
+
     color: #fff;
     line-height: 80rpx;
     font-size: 160rpx;
+}
+
+
+
+.add_menu {
+    position: absolute;
+    left: -25rpx;
+    /*display: flex;*/
+    flex-direction: column;
+    transform: translateX(0);
+    transition:  .5s;
+    visibility: hidden;
+    opacity: 0;
+    /*top: -100%;*/
+
+}
+
+.add_menu .menu_item {
+    height: 50rpx;
+    width: 160rpx;
+    border-radius: 5rpx;
+    text-align: center;
+    background-color: #d2d2d2;
+    margin-bottom: 20rpx;
+
+}
+
+
+.menu_show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-100%);
 }
 

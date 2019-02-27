@@ -1,13 +1,12 @@
-<view class="add_wrap">
-    <movable-area class="move_wrap">
-        <movable-view x="{{x}}" y="{{y}}" direction="all" class="move_wrap_view" bindchange="changeHandle">
-            <view class="add_button">+</view>
-            <view class="add_menu">
-                <view class="menu_item">
+<view class="add_wrap" bindlongpress="longPressHandle" style="transform: {{transform}}" catchtouchmove="touchMoveHandle" bindtouchend="touchEndHandle">
+            <view class="add_button"  bindtap="tapHandle">+</view>
 
+                <view class="add_menu {{menuShow ? 'menu_show' : ''}}">
+                    <view class="menu_item">
+                        创建笔记
+                    </view>
+                    <view class="menu_item">
+                        创建讨论
+                    </view>
                 </view>
-                <view class="menu_item"></view>
-            </view>
-        </movable-view>
-    </movable-area>
 </view>
