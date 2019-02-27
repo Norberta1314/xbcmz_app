@@ -53,5 +53,6 @@
   </view>
 
 
-  <view class='add_button'>+</view>
+  <!--<view class='add_button'>+</view>-->
+  <add></add>
 </view>

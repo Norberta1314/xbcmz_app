@@ -41,19 +41,6 @@ button {
     background:  #73a2c3;
 }
 
-.add_button {
-    position: fixed;
-    bottom: 30rpx;
-    right: 30rpx;
-    background-color: #d2d2d2;
-    width: 100rpx;
-    height: 100rpx;
-    border-radius: 100rpx;
-
-    color: #fff;
-    line-height: 70rpx;
-    font-size: 160rpx;
-}
 
 .recommendList {
     position: relative;
