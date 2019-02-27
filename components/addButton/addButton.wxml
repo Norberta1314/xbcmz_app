@@ -1,0 +1,13 @@
+<view class="add_wrap">
+    <movable-area class="move_wrap">
+        <movable-view x="{{x}}" y="{{y}}" direction="all" class="move_wrap_view" bindchange="changeHandle">
+            <view class="add_button">+</view>
+            <view class="add_menu">
+                <view class="menu_item">
+
+                </view>
+                <view class="menu_item"></view>
+            </view>
+        </movable-view>
+    </movable-area>
+</view>
