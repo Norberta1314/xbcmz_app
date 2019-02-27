@@ -35,7 +35,7 @@ export default function ({$store, isDev}) {
             }
 
             const data = res.data
-            if (data.code < 0) {
+            if (data.code === -1) {
                 console.log(data)
                 object.showError && toast({
                     icon: 'error',

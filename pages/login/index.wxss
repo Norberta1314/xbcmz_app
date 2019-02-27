@@ -1,0 +1,94 @@
+page{
+    min-height: 100%;
+    display: flex;
+}
+.login_wrap {
+    min-height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    background: url("https://s2.ax1x.com/2019/02/27/kTRqK0.png") no-repeat;
+    background-size: cover;
+}
+
+
+.login_wrap .login_icon {
+    display: flex;
+    flex-direction: column-reverse;
+    flex: 1;
+    width: 220rpx;
+    height: 220rpx;
+    margin-bottom: 100rpx;
+
+}
+
+
+.login_wrap .login_icon .icon_image {
+
+    width: 220rpx;
+    height: 220rpx;
+}
+
+
+.login_form {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    align-items: stretch;
+    width: 400rpx;
+    /*box-sizing: content-box;*/
+}
+.login_form .input_item {
+    height: 60rpx;
+    margin-bottom: 30rpx;
+    transition: all .25s ease-in-out;
+    box-sizing: border-box;
+}
+
+.input_item input {
+    background: #fff;
+    color: #bababa;
+    border-radius: 30rpx;
+    padding: 0 30rpx;
+    font-size: 10pt;
+    line-height: 60rpx;
+    min-height: 60rpx;
+}
+
+radio-group {
+    display: flex;
+    flex-direction: row;
+    padding: 0 30rpx;
+
+}
+
+.u_radio_item {
+    flex: 1;
+}
+
+.u_radio_item radio {
+    transform: scale(.6);
+}
+
+.u_radio_item label {
+    color: #fff;
+    font-size: 10pt;
+}
+
+.u_confirm_btn {
+    background: #243446;
+    border-radius: 30rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60rpx;
+}
+
+.u_confirm_btn text {
+    color: #fff;
+    font-size: 10pt;
+    font-weight: bold;
+}
+

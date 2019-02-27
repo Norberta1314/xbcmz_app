@@ -4,7 +4,8 @@ const systemInfo = wx.getSystemInfoSync()
 const isDev = systemInfo.platform === 'devtools'
 
 const apiMap = {
-    autoLogin: 'auth/autologin'
+    autoLogin: 'auth/autologin',
+    login: 'auth/bind/wx'
 
 }
 

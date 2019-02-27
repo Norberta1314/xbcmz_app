@@ -1,0 +1,33 @@
+<view class="login_wrap">
+    <view class="login_icon">
+        <image class="icon_image" src="/images/login/login-icon.png"></image>
+    </view>
+    <form action="" class="login_form">
+        <view class="input_item">
+            <input type="text" data-type="username" bindinput="inputHandle" placeholder="用户账号" value="{{username}}"/>
+        </view>
+        <view class="input_item">
+            <input type="text" password="true" data-type="password" bindinput="inputHandle" placeholder="密码" value="{{password}}"/>
+        </view>
+        <radio-group class="input_item" bindchange="radioChaneHandle">
+            <view class="u_radio_item">
+                <label for="">
+                    <radio value="0" checked="true"></radio>
+                    学生
+                </label>
+            </view>
+            <view class="u_radio_item">
+                <label for="">
+                    <radio value="1"></radio>
+                    教师
+                </label>
+            </view>
+        </radio-group>
+        
+        <view class="confirm_btn input_item" bindtap="login">
+            <view class="u_confirm_btn">
+                <text>登录</text>
+            </view>
+        </view>
+    </form>
+</view>
