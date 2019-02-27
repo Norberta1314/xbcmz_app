@@ -1,0 +1,36 @@
+<view class='m-timetable-box'>
+  <!--左侧课栏-->
+  <view class='lesson-num'>
+    <view class='data'>日</view>
+    <view class='num' wx:for='{{ 12 }}' wx:key='number_{{ index }}'>{{ index + 1 }}</view>
+  </view>
+
+  <scroll-view class='timetable-box' scroll-x='true'>
+    <!--顶部-->
+    <view class='timetable-header'>
+      <view class='weekday' wx:for='{{ 7 }}' wx:key='weekday_{{ index }}'>周{{ weekday[index + 1] }}</view>
+    </view>
+    <!--卡片部分-->
+    <view class='timetable-content'>
+      <!--当天高亮以及时间线-->
+
+      <view class='card-content'>
+        <!--每天的课表-->
+        <view class='day-lessons' wx:for='{{ timeTable }}' wx:key='{{ day_id }}' wx:for-index='day_id' wx:for-item='dayLessons'>
+          <!--每节的课表-->
+          <view class='lesson' >
+            <view
+              class='card'
+              wx:for='{{ dayLessons }}' wx-key='{{ card_id }}' wx:for-index='card_id' wx:for-item='lessonCard'
+              style='height: {{ lessonCard["isLesson"]? lessonCard["lessonNum"] * 100 - 10 : 0 }}rpx; top: {{ (card_id) * 100 }}rpx;'
+            >
+              <!--<text>{{ card_id }}</text>-->
+              <text class='place'>{{ lessonCard["place"] }}</text>
+              <text class='name'>{{ lessonCard["name"] }}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

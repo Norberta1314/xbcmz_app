@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 3,
+			"current": 4,
 			"list": [
 				{
 					"id": -1,
@@ -60,7 +60,13 @@
 				{
 					"id": -1,
 					"name": "library",
-					"pathName": "pages/library/index"
+					"pathName": "pages/library/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "timetable",
+					"pathName": "pages/learning/subPage/timeTable/index"
 				}
 			]
 		}

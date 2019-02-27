@@ -1,7 +1,7 @@
 <view class='background'>
   <view class='button_group'>
     <!-- 课表查询 -->
-    <button class='button_learning'>
+    <button bindtap='bindTimeTable' class='button_learning'>
       <image src='../../images/learning/schedule.png' class='button_learning_img'></image>
     </button>
     <!-- 成绩查询 -->

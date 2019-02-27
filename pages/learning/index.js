@@ -13,4 +13,10 @@ Page({
   scroll: function(e) {
     console.log(e)
   },
+
+  bindTimeTable: function(e) {
+    wx.navigateTo({
+      url: '/pages/learning/subPage/timeTable/index',
+    })
+  }
 })

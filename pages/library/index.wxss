@@ -41,8 +41,17 @@ button ::after {
 .moon {
     position: absolute;
     left: 318rpx;
-    top: 402rpx;
+    top: 380rpx;
 
     width: 100rpx;
     height: 100rpx;
+}
+
+
+.peopleNum {
+    position: absolute;
+    color: #ececec;
+    left: 280rpx;
+    top: 485rpx;
+    font-size: 24rpx;
 }

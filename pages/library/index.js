@@ -3,6 +3,7 @@ const app = getApp();
 Page({
   data: {
     people: 0,
+    peopleNum: 1,
     moonList: ['../../images/library/moon/1.png',
     '../../images/library/moon/2.png',
     '../../images/library/moon/3.png',
@@ -12,6 +13,9 @@ Page({
 
   onShow: function () {
     var num = Math.ceil(Math.random() * 100);
+    this.setData({
+      peopleNum: num
+    })
     console.log(num);
     if (num < 20) {
       this.setData({
