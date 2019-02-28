@@ -21,7 +21,6 @@ button {
   padding-top: 60rpx;
   width: 36rpx;
   border-right: 1rpx solid #ccc;
-  padding-bottom: 100rpx;
   background-color: #eeeeee;
 }
 .lesson-num .data {
@@ -29,20 +28,20 @@ button {
   top: 0;
   left: 0;
   width: 36rpx;
-  height: 60rpx;
+  height: 35rpx;
   color: #333;
   font-size: 24rpx;
   text-align: center;
-  line-height: 60rpx;
+  line-height: 35rpx;
   vertical-align: center;
-  border-bottom: 1rpx solid #eee;
-  border-right: 1rpx solid #eee;
+  border-bottom: 1rpx solid #ccc;
+  border-right: 1rpx solid #ccc;
 }
 .lesson-num .num {
   color: #333;
-  height: 100rpx;
+  height: 120rpx;
   font-size: 24rpx;
-  line-height: 100rpx;
+  line-height: 120rpx;
   text-align: center;
   vertical-align: middle;
 }
@@ -61,6 +60,7 @@ button {
   flex-direction: row;
   width: 946rpx;
   border-bottom: 1rpx solid #ccc;
+  margin-left: 36rpx;
 }
 
 .timetable-header .weekday {
@@ -95,7 +95,7 @@ button {
 }
 .card-content .day-lessons {
   position: relative;
-  height: 100rpx;
+  height: 120rpx;
 }
 
 .day-lessons .card{
@@ -109,10 +109,34 @@ button {
   top: 5rpx;
   /*transform: translateX(-50%);*/
   width: 115rpx;
-  /*padding: 10rpx 10rpx 0;*/
+  margin: 10rpx;
   border-radius: 5rpx;
   overflow: hidden;
 
   font-size: 30rpx;
-  background-color: #ead9e4;
+}
+
+.day-lessons .place {
+  font-size: 40rpx;
+}
+
+.day-lessons .name {
+  font-size: 25rpx;
+}
+
+
+.bg_0 {
+  background-color: #8f82bc;
+}
+.bg_1 {
+  background-color: #a5c5dc;
+}
+.bg_2 {
+  background-color: #78a4c7;
+}
+.bg_3 {
+  background-color: #a5afd3;
+}
+.bg_4 {
+  background-color: #c9b1d6;
 }

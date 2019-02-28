@@ -1,0 +1,19 @@
+<view class='m-backgraund'>
+  <view class='user-info'>
+    <view class='user-block'>
+      <view class='name'></view>
+      <view class='s-id'></view>
+    </view>
+
+    <view class='term'>
+      <view class='term-' bindtap='bindShowMsg'>
+        <text>{{tihuoWay}}</text>
+      </view>
+    </view>
+
+    <view class='select-box'>
+      <view class='select-one'>2017/2018(1)</view>
+    </view>
+
+  </view>
+</view>

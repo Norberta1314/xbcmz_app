@@ -1,0 +1,44 @@
+button {
+  padding: 0;
+}
+
+.searchInfo {
+  position: absolute;
+  background-image: url('https://s2.ax1x.com/2019/02/21/kR3qYT.png');
+  background-size: 100% 100%;
+  width: 750rpx;
+  height: 1210rpx;
+}
+
+.button_edit {
+  position: relative;
+
+  float: right;
+  width: 88rpx;
+  height: 42rpx;
+  margin-top: 27rpx;
+  margin-right: 33rpx;
+  margin-bottom: 23rpx;
+  background: #1b1c38;
+
+  font-size: 24rpx;
+  color: #fdf9f9;
+  line-height: 42rpx;
+  text-align: center;
+}
+
+.searchinfo_item {
+  box-sizing: border-box;
+  width: 695rpx;
+  height: 70rpx;
+  background: #f7f7f7;
+  overflow: hidden;
+
+  margin: auto;
+  margin-bottom: 23rpx;
+  padding-left: 50rpx;
+
+  font-size: 35rpx;
+  line-height: 70rpx;
+  color: #07232d;
+}

@@ -5,27 +5,27 @@
       <image src='../../images/learning/schedule.png' class='button_learning_img'></image>
     </button>
     <!-- 成绩查询 -->
-    <button class='button_learning'>
+    <button bindtap='bindGrade' class='button_learning'>
       <image src='../../images/learning/grade.png' class='button_learning_img'></image>
     </button>
     <!-- 考试安排 -->
-    <button class='button_learning'>
+    <button bindtap='bindTestTable' class='button_learning'>
       <image src='../../images/learning/examination.png' class='button_learning_img'></image>
     </button>
     <!-- 作业管理   -->
-    <button class='button_learning'>
+    <button bindtap='bindTask' class='button_learning'>
       <image src='../../images/learning/task.png' class='button_learning_img'></image>
     </button>
     <!-- 课程资料 -->
-    <button class='button_learning'>
+    <button bindtap='bindMaterial' class='button_learning'>
       <image src='../../images/learning/materials.png' class='button_learning_img'></image>
     </button>
     <!-- 教学考评 -->
-    <button class='button_learning'>
+    <button bindtap='bindEvaluation' class='button_learning'>
       <image src='../../images/learning/evaluation.png' class='button_learning_img'></image>
     </button>
     <!-- 教师查询 -->
-    <button class='button_learning'>
+    <button bindtap='bindTeacher' class='button_learning'>
       <image src='../../images/learning/teacher.png' class='button_learning_img'></image>
     </button>
   </view>

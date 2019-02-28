@@ -1,0 +1,30 @@
+<view class='m-backgraund'>
+  <view class='user-info'>
+    <view class='user-block'>
+      <view class='name'>姓名：{{ name }}</view>
+      <view class='s-id'>学号：{{ sID }}</view>
+    </view>
+
+    <view class='term'>
+      <view class='term-block' bindtap='bindShowMsg'>
+        <text>{{term}}</text>
+        <image src='../../../../images/learning/subPage/down.png'/>
+      </view>
+
+      <view class='select-box' wx:if='{{ select }}'>
+        <view bindtap='bindShowMsg' class='select-one'>2017/2018(1)</view>
+      </view>
+    </view>
+  </view>
+
+  <!--grade-->
+  <view class='grade-block'>
+    <view class='gpa'>GPA: {{ gpa }}</view>
+    <view class='score-block'>
+      <view class='score' wx:for='{{ scores }}' wx:key='{{ index }}' wx:for-index='score_id'>
+        <view>{{ item.name }}</view>
+        <view>{{ item.score }}</view>
+      </view>
+    </view>
+  </view>
+</view>
