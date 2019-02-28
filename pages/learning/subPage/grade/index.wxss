@@ -39,6 +39,10 @@ page {
   width: 64rpx;
   height: 64rpx;
 }
+.select-box {
+  background-color: #363758;
+  color: #111111;
+}
 
 .grade-block {
   display: flex;

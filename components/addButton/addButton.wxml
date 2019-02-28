@@ -1,12 +1,17 @@
-<view class="add_wrap" bindlongpress="longPressHandle" style="transform: {{transform}}" catchtouchmove="touchMoveHandle" bindtouchend="touchEndHandle">
-            <view class="add_button"  bindtap="tapHandle">+</view>
+<view class="add_wrap" bindlongpress="longPressHandle" style="transform: {{transform}}" catchtouchmove="touchMoveHandle"
+      bindtouchend="touchEndHandle">
+  <view class="add_button" bindtap="tapHandle">
+    <view>
+      +
+    </view>
+  </view>
 
-                <view class="add_menu {{menuShow ? 'menu_show' : ''}}">
-                    <view class="menu_item">
-                        创建笔记
-                    </view>
-                    <view class="menu_item">
-                        创建讨论
-                    </view>
-                </view>
+  <view class="add_menu {{menuShow ? 'menu_show' : ''}}">
+    <view style='background-color:#7669a6;' class="menu_item">
+      创建笔记
+    </view>
+    <view style='background-color:#6e93bb;' class="menu_item">
+      创建讨论
+    </view>
+  </view>
 </view>

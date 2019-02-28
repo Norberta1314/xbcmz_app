@@ -1,3 +1,27 @@
-<view >
-  考试安排
+<view class='m-backgraund'>
+  <view class='term'>2018/2019</view>
+  <view class='term-text'>第二学期考试安排</view>
+
+  <view class='test-block'>
+    <!--<view>xxxxxxxxx</view>-->
+    <view class='test-item' wx:for='{{ tests }}' wx:key='{{ test_id }} ' wx:for-index='test_id'>
+      <view class='name'>
+        <text style='font-size: 30rpx;'>{{ item.name }}</text>
+        <view>
+          <text >( 距离考试还有</text>
+          <text style='color: red'>{{ item.day }}</text>
+          <text >天 )</text>
+        </view>
+      </view>
+
+      <view class='time'>
+        <text >考试时间：{{ item.time }}</text>
+      </view>
+      <view class='place' >
+        <text >地点： {{ item.place }}</text>
+        <text > 座位号： {{ item.seat }}</text>
+      </view>
+
+    </view>
+  </view>
 </view>

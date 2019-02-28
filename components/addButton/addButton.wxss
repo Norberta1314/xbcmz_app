@@ -11,25 +11,31 @@
 
 .add_button {
     position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     z-index: 1000;
     /*bottom: 30rpx;*/
     /*right: 30rpx;*/
     background-color: #d2d2d2;
+    /*background-color: #1b1c38;*/
     width: 100rpx;
     height: 100rpx;
     border-radius: 100rpx;
 
-
-    color: #fff;
-    line-height: 80rpx;
-    font-size: 160rpx;
+    font-size: 80rpx;
 }
 
-
+.add_button view {
+    height: 50rpx;
+    line-height: 40rpx;
+    z-index: 2001;
+    color: #fff;
+}
 
 .add_menu {
     position: absolute;
-    left: -25rpx;
     /*display: flex;*/
     flex-direction: column;
     transform: translateX(0);
@@ -42,12 +48,15 @@
 
 .add_menu .menu_item {
     height: 50rpx;
-    width: 160rpx;
-    border-radius: 5rpx;
+    line-height: 50rpx;
+    width: 100rpx;
+    border-radius: 10rpx;
     text-align: center;
     background-color: #d2d2d2;
     margin-bottom: 20rpx;
 
+    font-size: 23rpx;
+    color: #292c55;
 }
 
 
