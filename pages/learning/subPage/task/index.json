@@ -1,6 +1,6 @@
 {
   "usingComponents": {},
-  "navigationBarBackgroundColor": "#eeeeee",
-  "navigationBarTitleText": "成绩查询",
+  "navigationBarBackgroundColor": "#e9e6f2",
+  "navigationBarTitleText": "作业管理",
   "navigationBarTextStyle": "black"
 }

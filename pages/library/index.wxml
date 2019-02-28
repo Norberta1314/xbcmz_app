@@ -13,4 +13,6 @@
   <view class='peopleNum'>图书馆拥挤度： {{ peopleNum }} %</view>
   <image src='{{ moonList[people] }}' class='moon'/>
 
+  <add></add>
+
 </view>

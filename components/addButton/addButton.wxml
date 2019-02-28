@@ -10,7 +10,7 @@
     <view style='background-color:#7669a6;' class="menu_item">
       创建笔记
     </view>
-    <view style='background-color:#6e93bb;' class="menu_item">
+    <view bindtap='tapHandleNew' style='background-color:#6e93bb;' class="menu_item">
       创建讨论
     </view>
   </view>

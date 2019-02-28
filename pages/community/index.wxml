@@ -34,7 +34,6 @@
                    bindtap='likeClick' data-pos="{{ index }}"></image>
             <text>{{item.likeNum}}</text>
           </view>
-
         </view>
 
       </view>

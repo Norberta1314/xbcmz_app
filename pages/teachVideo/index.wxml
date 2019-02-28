@@ -19,7 +19,7 @@
   <!--视频-->
   <view class='video_block' hidden='{{ currentTab !== 0}}'>
     <view wx:for="{{ video }}">
-      <view class='item'>
+      <view class='item' bindtap='tapHandle(index)'>
         <image/>
         <view class='video_name'>{{ item.name }}</view>
         <view class='video_auteur'>{{ item.auteur }}</view>
@@ -37,4 +37,6 @@
       </view>
     </view>
   </view>
+
+  <add></add>
 </view>

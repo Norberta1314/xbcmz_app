@@ -6,7 +6,7 @@ button {
   flex: 1;
   flex-direction: column;
   background-color: #ffffff;
-  height: 1260rpx;
+  height: 1500rpx;
 }
 
 .lesson-num {
@@ -50,7 +50,7 @@ button {
   display: flex;
   flex: 1;
   flex-direction: column;
-  height: 1260rpx;
+  /*height: 1260rpx;*/
 }
 
 .timetable-header {
@@ -78,8 +78,9 @@ button {
   display: flex;
   flex-direction: row;
   flex:1;
+  background-color: #e6ecf2;
   width: 946rpx;
-  height: 1260rpx;
+  height: 1500rpx;
 }
 .card-content {
   display: flex;

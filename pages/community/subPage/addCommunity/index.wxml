@@ -1,12 +1,18 @@
-<view class='searchInfo'>
+<view class='m-backgraund'>
+  <input placeholder-class='placeholder' class='input'placeholder='请输入话题' />
+  <textarea placeholder-class='placeholder' class='input' style='min-height:100rpx;' placeholder='请输入详细说明' />
 
-  <button class='button_edit'>编辑</button>
+  <button>
+    <image src='../../../../images/comunity/subPage/upimg.png' />
+  </button>
+  <button>
+    <image src='../../../../images/comunity/subPage/at.png' />
+  </button>
+  <button>
+    <image src='../../../../images/comunity/subPage/add.png' />
+  </button>
+  <button>
+    <image src='../../../../images/comunity/subPage/permission.png' />
+  </button>
 
-  <view class='searchinfo_item'>姓名： </view>
-  <view class='searchinfo_item'>学号： </view>
-  <view class='searchinfo_item'>学院： </view>
-  <view class='searchinfo_item'>班级： </view>
-  <view class='searchinfo_item'>联系方式： </view>
-  <view class='searchinfo_item'>邮箱： </view>
-  <view class='searchinfo_item'>家庭住址： </view>
 </view>
