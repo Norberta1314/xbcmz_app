@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 5,
+			"current": 6,
 			"list": [
 				{
 					"id": -1,
@@ -74,6 +74,11 @@
 					"name": "grade",
 					"pathName": "pages/community/subPage/addCommunity/index",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "teachVideo",
+					"pathName": "pages/teachVideo/subPage/video/index"
 				}
 			]
 		}

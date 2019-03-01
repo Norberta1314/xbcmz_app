@@ -54,5 +54,11 @@ Page({
     this.setData({
       currentTab: e.currentTarget.dataset.pos
     })
+  },
+  tapHandleVideo: function (e) {
+    const id = e.currentTarget.dataset.id
+    wx.navigateTo({
+      url: `/pages/teachVideo/subPage/video/index?id=${id}`,
+    })
   }
 })

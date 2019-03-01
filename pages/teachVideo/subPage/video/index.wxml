@@ -1,19 +1,61 @@
 <view class='m-backgraund'>
-  <view class='user-info'>
-    <view class='user-block'>
-      <view class='name'></view>
-      <view class='s-id'></view>
-    </view>
-
-    <view class='term'>
-      <view class='term-' bindtap='bindShowMsg'>
-        <text>{{tihuoWay}}</text>
-      </view>
-    </view>
-
-    <view class='select-box'>
-      <view class='select-one'>2017/2018(1)</view>
-    </view>
+  <view class='video'>
 
   </view>
+  <view class='tablist'>
+    <view wx:for="{{ tabList }}" class='item {{currentTab==index?"select":""}}' data-pos='{{ index }}'
+          bindtap='tabItemClick'>
+      <text>{{ item }}</text>
+    </view>
+  </view>
+
+  <view class='info' wx:if='{{ currentTab===0 }}'>
+    <view class='auther-info'>
+      <view class='head'>
+        <image/>
+      </view>
+      <view class='auther'>{{ info.auther }}</view>
+      <button class="follow">+关注</button>
+    </view>
+
+    <view class='name'>
+      {{ info.name }}
+    </view>
+
+    <view class='icon'>
+      <view class='play'>
+        <image src='../../../../images/video/play.png'/>
+        <view>{{ info.play }}.1万</view>
+      </view>
+      <view class='commit'>
+        <image src='../../../../images/video/commit.png'/>
+        <view>{{ info.commit }}</view>
+      </view>
+      <view>{{ info.date }}</view>
+    </view>
+
+    <view class='info-text'>
+      {{ info.info_text }}
+    </view>
+  </view>
+
+  <view class='commit-blocks' wx:if='{{ currentTab===1 }}'>
+    <view class='commit-num'>
+      评论({{ commitNum }})
+    </view>
+    <view class='commits' wx:for='{{ commits }}' wx:key='commit_id' wx:for-index='{{ commit_id }}'>
+      <view class='commit'>
+        <view class='head'>
+          <image/>
+        </view>
+        <view class='auther'>
+          {{ item.auther }}
+        </view>
+      </view>
+      <view class='discuss'>
+        {{ item.info_text }}
+      </view>
+    </view>
+  </view>
+
 </view>
