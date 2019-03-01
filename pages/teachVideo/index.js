@@ -4,6 +4,7 @@ Page({
   data: {
     tabList: ['视频', '直播'],
     video: [ {
+      id: '123',
       imgsrc: '',
       name: '【经济】工程经济与余额宝利息之间的前缘与今世',
       auteur: '小机灵鬼yyd'
