@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4240903-b32a-431b-9d68-d9475598feb8" name="Default Changelist" comment="课程资料和作业管理">
+    <list default="true" id="f4240903-b32a-431b-9d68-d9475598feb8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/community/subPage/addCommunity/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/community/subPage/addCommunity/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learning/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learning/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/learning/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learning/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learning/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learning/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learning/subPage/task/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learning/subPage/task/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learning/subPage/task/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learning/subPage/task/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learning/subPage/timeTable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learning/subPage/timeTable/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,14 +22,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5243129">
+    <splitter split-orientation="horizontal" split-proportion="0.38087386">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pages/learning/index.wxml">
+            <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/index.wxml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="447">
-                  <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+                <state relative-caret-position="60">
+                  <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -31,20 +38,29 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/learning/subPage/materials/index.json">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="1" selection-end-column="1" />
+                <state relative-caret-position="219">
+                  <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pages/learning/index.wxss">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="481">
-                  <caret line="89" column="1" lean-forward="true" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
+                <state relative-caret-position="360">
+                  <caret line="18" column="54" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="54" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/learning/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="241">
+                  <caret line="90" column="4" lean-forward="true" selection-start-line="90" selection-start-column="4" selection-end-line="92" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -78,12 +94,10 @@
         <option value="$PROJECT_DIR$/pages/learning/subPage/timeTable/index.wxml" />
         <option value="$PROJECT_DIR$/pages/learning/subPage/grade/index.json" />
         <option value="$PROJECT_DIR$/pages/library/index.wxss" />
-        <option value="$PROJECT_DIR$/pages/learning/index.js" />
         <option value="$PROJECT_DIR$/pages/learning/subPage/evaluation/index.wxml" />
         <option value="$PROJECT_DIR$/pages/learning/subPage/teacher/index.wxml" />
         <option value="$PROJECT_DIR$/pages/learning/subPage/grade/index.wxml" />
         <option value="$PROJECT_DIR$/pages/learning/subPage/grade/index.js" />
-        <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/pages/learning/subPage/testTable/index.js" />
         <option value="$PROJECT_DIR$/pages/learning/subPage/testTable/index.wxss" />
         <option value="$PROJECT_DIR$/pages/learning/subPage/testTable/index.wxml" />
@@ -97,14 +111,11 @@
         <option value="$PROJECT_DIR$/pages/community/subPage/addCommunity/index.json" />
         <option value="$PROJECT_DIR$/pages/community/index.wxml" />
         <option value="$PROJECT_DIR$/pages/community/subPage/addCommunity/index.wxss" />
-        <option value="$PROJECT_DIR$/pages/community/subPage/addCommunity/index.wxml" />
         <option value="$PROJECT_DIR$/pages/learning/index.json" />
         <option value="$PROJECT_DIR$/pages/library/index.json" />
         <option value="$PROJECT_DIR$/pages/myInformation/index.json" />
         <option value="$PROJECT_DIR$/pages/teachVideo/index.json" />
-        <option value="$PROJECT_DIR$/pages/learning/subPage/task/index.js" />
         <option value="$PROJECT_DIR$/pages/learning/subPage/task/index.wxss" />
-        <option value="$PROJECT_DIR$/pages/learning/subPage/task/index.wxml" />
         <option value="$PROJECT_DIR$/pages/learning/subPage/materials/index.wxml" />
         <option value="$PROJECT_DIR$/pages/learning/subPage/materials/index.js" />
         <option value="$PROJECT_DIR$/pages/learning/subPage/task/index.json" />
@@ -113,14 +124,19 @@
         <option value="$PROJECT_DIR$/pages/community/index.wxss" />
         <option value="$PROJECT_DIR$/pages/learning/subPage/timeTable/index.wxss" />
         <option value="$PROJECT_DIR$/pages/learning/subPage/timeTable/index.js" />
-        <option value="$PROJECT_DIR$/pages/learning/index.wxss" />
+        <option value="$PROJECT_DIR$/pages/community/subPage/addCommunity/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/learning/index.js" />
         <option value="$PROJECT_DIR$/pages/learning/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/learning/index.wxss" />
+        <option value="$PROJECT_DIR$/pages/learning/subPage/task/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/learning/subPage/task/index.js" />
+        <option value="$PROJECT_DIR$/app.json" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1024" />
-    <option name="height" value="768" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -134,6 +150,32 @@
             <path>
               <item name="xbcmz_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="xbcmz_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xbcmz_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xbcmz_app" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xbcmz_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xbcmz_app" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xbcmz_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xbcmz_app" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="subPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xbcmz_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xbcmz_app" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="subPage" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,7 +227,7 @@
       <workItem from="1551097665731" duration="6154000" />
       <workItem from="1551156528829" duration="4617000" />
       <workItem from="1551169009547" duration="12073000" />
-      <workItem from="1551238541425" duration="47443000" />
+      <workItem from="1551238541425" duration="54535000" />
     </task>
     <task id="LOCAL-00001" summary="五个主页部分">
       <created>1551182603640</created>
@@ -236,22 +278,42 @@
       <option name="project" value="LOCAL" />
       <updated>1551401925315</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="课程资料和作业管理">
+      <created>1551403335736</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1551403335736</updated>
+    </task>
+    <task id="LOCAL-00009" summary="测试同时push到两个仓库">
+      <created>1551403490990</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1551403490990</updated>
+    </task>
+    <task id="LOCAL-00010" summary="测试同时push到两个仓库">
+      <created>1551403753604</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1551403753604</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81436000" />
+    <option name="totallyTimeSpent" value="88528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14517266" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16867469" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" visible="true" weight="0.16867469" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -259,18 +321,18 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003524" side_tool="true" weight="0.16867469" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17195208" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14517266" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16867469" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.16867469" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -278,7 +340,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003524" side_tool="true" weight="0.16867469" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -333,7 +395,8 @@
     <MESSAGE value="grade search" />
     <MESSAGE value="add_button style grade&amp;testTable" />
     <MESSAGE value="课程资料和作业管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="课程资料和作业管理" />
+    <MESSAGE value="测试同时push到两个仓库" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试同时push到两个仓库" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pages/myInformation/index.js">
@@ -412,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/learning/subPage/grade/index.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/teachVideo/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-531">
@@ -474,13 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/learning/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="34" column="6" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="34" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/addButton/addButton.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -490,13 +539,6 @@
             <element signature="n#style#0;n#view#0;n#view#1;n#view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#view#1;n#view#1;n#view#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -511,13 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/learning/subPage/grade/index.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -549,16 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/community/subPage/addCommunity/index.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#text#0;n#view#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/teachVideo/index.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -577,13 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/learning/index.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -608,13 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/index.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="9" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/index.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -629,13 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="20" lean-forward="true" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/learning/subPage/materials/index.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -647,13 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="99" column="29" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/learning/subPage/timeTable/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="123" column="33" selection-start-line="123" selection-start-column="33" selection-end-line="123" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -678,6 +675,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/learning/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/learning/subPage/materials/index.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -685,17 +689,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/learning/index.wxss">
+    <entry file="file://$PROJECT_DIR$/pages/learning/subPage/timeTable/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="89" column="1" lean-forward="true" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
+        <state relative-caret-position="363">
+          <caret line="123" column="47" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/community/subPage/addCommunity/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/learning/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        <state relative-caret-position="520">
+          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/learning/subPage/grade/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/learning/subPage/grade/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/learning/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="125" column="42" selection-start-line="125" selection-start-column="42" selection-end-line="125" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/learning/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="90" column="4" lean-forward="true" selection-start-line="90" selection-start-column="4" selection-end-line="92" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
         </state>
       </provider>
     </entry>

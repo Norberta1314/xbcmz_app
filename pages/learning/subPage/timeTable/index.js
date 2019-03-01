@@ -128,7 +128,7 @@ Page({
       }
     }
 
-    console.log(this.data.bg_num)
+    // console.log(this.data.bg_num)
     // Do something when page show.
   },
 })

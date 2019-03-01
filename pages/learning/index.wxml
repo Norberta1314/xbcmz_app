@@ -39,21 +39,38 @@
   <swiper class='canlendar'
           indicator-dots='true' autoplay='true' interval='4000' duration='500' circular='true'>
     <swiper-item>
-      <view class='attendance_calendar'>
+      <view bindtap='bindAttTap'class='attendance_calendar cc'>
         <view class='month'>
           <view class='day' wx:for='{{ 5 }}' wx:key='{{ day_id }}' wx:for-index='day_id' wx:for-item='day'>
-            <view class='week' wx:for='{{ 7 }}' ex:key='{{ week_id }}' wx:for-index='week_id' wx:for-item='week'>
-              <vire></vire>
+            <view class='week bgAtt_{{ attendance[day_id][week_id] }}' wx:for='{{ 7 }}' ex:key='{{ week_id }}' wx:for-index='week_id' wx:for-item='week'>
+
             </view>
           </view>
         </view>
       </view>
     </swiper-item>
+    <swiper-item>
+      <view bindtap='bindReadTap' class='read_calendar cc'>
+        <view class='month'>
+          <view class='day' wx:for='{{ 5 }}' wx:key='{{ day_id }}' wx:for-index='day_id' wx:for-item='day'>
+            <view class='week bgRead_{{ read[day_id][week_id] }}' wx:for='{{ 7 }}' ex:key='{{ week_id }}' wx:for-index='week_id' wx:for-item='week'>
 
-    <!--<swiper-item>-->
-      <!--<view class='read_calendar'></view>-->
-    <!--</swiper-item>-->
+            </view>
+          </view>
+        </view>
+      </view>
+    </swiper-item>
   </swiper>
+
+  <view wx:if='{{ showAtt }}'class='swiper-box att-box'>
+    <view class='name'>考勤</view>
+
+  </view>
+
+  <view wx:if='{{ showRead }}'class='swiper-box read-box'>
+    <view class='name'>阅读</view>
+
+  </view>
 
   <!--今日课表-->
   <view class='today_course'>

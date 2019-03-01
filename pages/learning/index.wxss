@@ -56,14 +56,16 @@ button {
   height: 310rpx;
 }
 
-.attendance_calendar {
-  background-image: url('https://s2.ax1x.com/2019/02/24/k4aLef.png');
+.cc {
   display: flex;
-  flex-direction: column;
   /*align-items: center;*/
   background-size:cover;
   width: 680rpx;
   height: 310rpx;
+}
+
+.attendance_calendar {
+  background-image: url('https://s2.ax1x.com/2019/03/01/kHaFQe.png');
 }
 .canlendar .month {
   display: flex;
@@ -86,16 +88,10 @@ button {
   width: 26rpx;
   height: 26rpx;
   margin: 8rpx;
-  background-color: #ead9e4;
+  /*background-color: #ead9e4;*/
 }
-
 .read_calendar {
-  background-image: url('https://s2.ax1x.com/2019/02/24/k5SNjS.png');
-  display: flex;
-  align-items: center;
-  background-size:cover;
-  min-width: 680rpx;
-  height: 310rpx;
+  background-image: url('https://s2.ax1x.com/2019/03/01/kHaZdI.png');
 }
 
 .today_course {
@@ -114,3 +110,77 @@ button {
   margin: 15rpx;
   border-radius: 5rpx;
 }
+
+.swiper-box {
+  min-height: 300rpx;
+  width: 680rpx;
+  margin: 35rpx;
+  margin-top: 0rpx;
+  border-radius: 15rpx;
+}
+
+.att-box {
+  background-color: rgba(165, 182, 200, .8);
+}
+.read-box {
+  background-color: rgba(227, 217, 235, .8);
+}
+
+.swiper-box .name {
+  display: inline-block;
+
+  background-color: #dbdbdb;
+  width: 50rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  font-size: 25rpx;
+  margin: 15rpx;
+  padding: 10rpx;
+  border-radius: 5rpx;
+}
+
+.bgAtt_0 {
+  background-color: #ffffff;
+}
+.bgAtt_1 {
+  background-color: #ffffff;
+}
+.bgAtt_2 {
+  background-color: #a5c5dc;
+}
+.bgAtt_3 {
+  background-color: #78a4c7;
+}
+.bgAtt_4 {
+  background-color: #005389;
+}
+.bgAtt_5 {
+  background-color: #00405c;
+}
+.bgAtt_-1 {
+  background-color: #bfbfbf;
+}
+
+.bgRead_0 {
+  background-color: #ffffff;
+}
+.bgRead_1 {
+  background-color: #ffffff;
+}
+.bgRead_2 {
+  background-color: #ebd2e7;
+}
+.bgRead_3 {
+  background-color: #d4a6cb;
+}
+.bgRead_4 {
+  background-color: #ab85c0;
+}
+.bgRead_5 {
+  background-color: #946baf;
+}
+.bgRead_-1 {
+  background-color: #d2d2d2;
+}
+
+

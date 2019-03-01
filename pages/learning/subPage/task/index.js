@@ -13,6 +13,11 @@ Page({
       {name:'计算机原理'},
       {name:'计算机网络'}
     ]
+  },
+  bindTaskTap: function (e) {
+    wx.navigateTo({
+      url: '/pages/learning/subPage/task/subPage/index',
+    })
   }
   
 })
