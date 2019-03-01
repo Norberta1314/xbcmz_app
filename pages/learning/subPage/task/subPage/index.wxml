@@ -1,3 +1,16 @@
-<view>
-  教师查询
+<!--pages/learning/subPage/task/subPage/index.wxml-->
+<view class='m-backgraund'>
+  <text class='choose'>数据结构: </text>
+  <view class='choose-block'>
+    <view class="task1">
+      <view>
+        <text>作业一</text>
+      </view>
+    </view>
+    <view class="task2">
+      <view>
+        <text>作业二</text>
+      </view>
+    </view>
+  </view>
 </view>

@@ -77,8 +77,8 @@
 				},
 				{
 					"id": -1,
-					"name": "teachVideo",
-					"pathName": "pages/teachVideo/subPage/video/index"
+					"name": "evaluation",
+					"pathName": "pages/learning/subPage/evaluation/index"
 				}
 			]
 		}
