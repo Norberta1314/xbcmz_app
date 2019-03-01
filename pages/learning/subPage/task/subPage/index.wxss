@@ -1,0 +1,39 @@
+page {
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+    width: 750rpx;
+}
+.m-backgraund {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 750rpx;
+}
+.m-backgraund .choose {
+    background-color: white;
+    margin: 40rpx 500rpx 30rpx 10rpx;
+
+}
+
+.choose-block .task1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 655rpx;
+    height:94rpx;
+    margin: 10rpx;
+    background-color: rgba(143, 130, 188, .1);
+}
+.choose-block .task2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 655rpx;
+    height:94rpx;
+    margin: 10rpx;
+    background-color: rgba(143, 130, 188, .2);
+}
+

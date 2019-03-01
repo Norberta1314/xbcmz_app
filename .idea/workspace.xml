@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4240903-b32a-431b-9d68-d9475598feb8" name="Default Changelist" comment="课程资料和作业管理">
+    <list default="true" id="f4240903-b32a-431b-9d68-d9475598feb8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learning/subPage/task/subPage/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learning/subPage/task/subPage/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learning/subPage/task/subPage/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learning/subPage/task/subPage/index.wxss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,35 +16,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/subPage/index.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/index.wxss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="3" selection-end-line="5" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/index.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.43951613">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/subPage/index.wxss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="152">
+                  <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/subPage/index.wxml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/index.wxml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="171">
+                  <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/index.wxss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="98">
+                  <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -106,15 +124,15 @@
         <option value="$PROJECT_DIR$/pages/learning/subPage/timeTable/index.js" />
         <option value="$PROJECT_DIR$/pages/learning/index.wxss" />
         <option value="$PROJECT_DIR$/pages/learning/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/learning/subPage/task/index.wxss" />
         <option value="$PROJECT_DIR$/pages/learning/subPage/task/subPage/index.wxml" />
         <option value="$PROJECT_DIR$/pages/learning/subPage/task/subPage/index.wxss" />
-        <option value="$PROJECT_DIR$/pages/learning/subPage/task/index.wxss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="163" />
-    <option name="y" value="112" />
+    <option name="x" value="197" />
+    <option name="y" value="57" />
     <option name="width" value="1697" />
     <option name="height" value="900" />
   </component>
@@ -135,6 +153,19 @@
               <item name="xbcmz_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="xbcmz_app" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xbcmz_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xbcmz_app" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xbcmz_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xbcmz_app" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="subPage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -187,7 +218,7 @@
       <workItem from="1551156528829" duration="4617000" />
       <workItem from="1551169009547" duration="12073000" />
       <workItem from="1551238541425" duration="47443000" />
-      <workItem from="1551432873715" duration="6463000" />
+      <workItem from="1551432873715" duration="8110000" />
     </task>
     <task id="LOCAL-00001" summary="五个主页部分">
       <created>1551182603640</created>
@@ -238,17 +269,23 @@
       <option name="project" value="LOCAL" />
       <updated>1551401925315</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="课程资料和作业管理">
+      <created>1551442658003</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1551442658003</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87899000" />
+    <option name="totallyTimeSpent" value="89546000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="131" y="90" width="1357" height="720" extended-state="0" />
-    <editor active="true" />
+    <frame x="158" y="46" width="1357" height="720" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20741862" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18092354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -259,20 +296,20 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3282313" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19533333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18097754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16867469" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16867469" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -673,27 +710,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/index.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/index.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="3" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="98">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/subPage/index.wxss">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/learning/subPage/task/subPage/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="285">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
