@@ -121,7 +121,7 @@ Page({
     for ( var i = 0; i < 8; i++ ) {
       for (var j = 0; j < 12; j++) {
         var up = 'bg_num[' + i + '][' + j + ']'
-        var ram = Math.ceil(Math.random() * 4)
+        var ram = Math.ceil(Math.random() * 10)
         this.setData({
           [up]: ram
         })

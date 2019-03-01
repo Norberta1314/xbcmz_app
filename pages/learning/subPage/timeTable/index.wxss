@@ -127,17 +127,35 @@ button {
 
 
 .bg_0 {
-  background-color: #8f82bc;
+  background-color: #f3e9c9;
 }
 .bg_1 {
-  background-color: #a5c5dc;
+  background-color: #f3e9c9;
 }
 .bg_2 {
-  background-color: #78a4c7;
+  background-color: #c6d1b8;
 }
 .bg_3 {
-  background-color: #a5afd3;
+  background-color: #90b099;
 }
 .bg_4 {
-  background-color: #c9b1d6;
+  background-color: #9ab9bf;
+}
+.bg_5 {
+  background-color: #81a3b8;
+}
+.bg_6 {
+  background-color: #a5a0b8;
+}
+.bg_7 {
+  background-color: #d5c2d0;
+}
+.bg_8 {
+  background-color: #e6c6d2;
+}
+.bg_9 {
+  background-color: #f7d087;
+}
+.bg_10 {
+  background-color: #fce67e;
 }

@@ -59,10 +59,34 @@ button {
 .attendance_calendar {
   background-image: url('https://s2.ax1x.com/2019/02/24/k4aLef.png');
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  /*align-items: center;*/
   background-size:cover;
-  min-width: 680rpx;
+  width: 680rpx;
   height: 310rpx;
+}
+.canlendar .month {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 300rpx;
+  margin-top: 44rpx;
+}
+
+.canlendar .day {
+  display: flex;
+  flex-direction: row;
+  width: 290rpx;
+  height: 26rpx;
+  margin-bottom: 14rpx;
+}
+
+.canlendar .week {
+
+  width: 26rpx;
+  height: 26rpx;
+  margin: 8rpx;
+  background-color: #ead9e4;
 }
 
 .read_calendar {

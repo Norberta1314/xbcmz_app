@@ -67,37 +67,37 @@ button {
 }
 
 .bg_0 {
-    background-color: #ead9e4;
-}
-.bg_1 {
     background-color: #cddde8;
 }
-.bg_2 {
+.bg_1 {
     background-color: #c0c6e0;
 }
-.bg_3 {
+.bg_2 {
     background-color: #d7d0ef;
 }
+.bg_3 {
+    background-color: #cddde8;
+}
 .bg_4 {
-    background-color: #ead9e4;
+    background-color: #f3d9e4;
 }
 .bg_5 {
-    background-color: #dcdcdc;
+    background-color: #faeec9;
 }
 .bg_6 {
-    background-color: #b7dbbd;
+    background-color: #99b5c9;
 }
 .bg_7 {
-    background-color: #f5f6ba;
+    background-color: #959ec4;
 }
 .bg_8 {
-    background-color: #f5d1a3;
+    background-color: #aba2cc;
 }
 .bg_9 {
-    background-color: #b1d6d4;
+    background-color: #e2b2c6;
 }
 .bg_10 {
-    background-color: #c9b1d6;
+    background-color: #f5dd95;
 }
 
 .comment_block {
