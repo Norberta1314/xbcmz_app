@@ -1,0 +1,10 @@
+<!--pages/learning/subPage/task/subPage/index.wxml-->
+<view class='m-backgraund'>
+  <text class='choose'>数据结构: </text>
+  <view class='choose-block'>
+    <view>
+      <text>作业一</text>
+    </view>
+      <text>作业二</text>
+  </view>
+</view>
