@@ -43,9 +43,6 @@
         <view class='month'>
           <view class='day' wx:for='{{ 5 }}' wx:key='{{ day_id }}' wx:for-index='day_id' wx:for-item='day'>
             <view class='week' wx:for='{{ 7 }}' ex:key='{{ week_id }}' wx:for-index='week_id' wx:for-item='week'>
-              <view>
-
-              </view>
             </view>
           </view>
         </view>
