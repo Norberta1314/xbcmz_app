@@ -44,5 +44,10 @@ Page({
     wx.navigateTo({
       url: '/pages/library/subPage/advice/index',
     })
+  },
+  bindTapSearch: function (e) {
+    wx.navigateTo({
+      url: '/pages/library/subPage/search/index',
+    })
   }
 })

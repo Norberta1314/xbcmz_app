@@ -19,6 +19,7 @@
     "pages/learning/subPage/timeTable/index",
     "pages/library/subPage/advice/index",
     "pages/library/subPage/search/index",
+    "pages/library/subPage/search/subPage/index",
     "pages/library/subPage/together/index",
     "pages/myInformation/subPage/certificate/index",
     "pages/myInformation/subPage/community/index",
