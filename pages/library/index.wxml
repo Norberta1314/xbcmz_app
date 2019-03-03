@@ -1,6 +1,6 @@
 <view class='body_block'>
 
-  <button class='search_book'>
+  <button bindtap='bindTapSearch' class='search_book'>
     <image src='../../images/library/search_book.png'/>
   </button>
   <button bindtap='bindTapAdvice' class='advice_book'>
