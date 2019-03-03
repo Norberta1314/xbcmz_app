@@ -2,7 +2,7 @@
   <image src='../../../../images/library/search/search_icon.png'/>
   <view class='search'>
     <input bindinput='getSearch'/>
-    <view class='button' bindSearch=''>搜索</view>
+    <view class='button' bindtap='bindTapSearch'>搜索</view>
   </view>
 
 </view>
