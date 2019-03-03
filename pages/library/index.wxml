@@ -3,7 +3,7 @@
   <button class='search_book'>
     <image src='../../images/library/search_book.png'/>
   </button>
-  <button class='advice_book'>
+  <button bindtap='bindTapAdvice' class='advice_book'>
     <image src='../../images/library/advice_book.png'/>
   </button>
   <button class='together_book'>

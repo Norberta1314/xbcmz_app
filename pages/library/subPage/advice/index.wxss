@@ -1,44 +1,89 @@
-button {
-  padding: 0;
+page {
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
-.searchInfo {
-  position: absolute;
-  background-image: url('https://s2.ax1x.com/2019/02/21/kR3qYT.png');
-  background-size: 100% 100%;
-  width: 750rpx;
-  height: 1210rpx;
+.m-backgraund {
+  background-image: url('https://s2.ax1x.com/2019/03/03/kL7sXT.png');
+  background-size: cover;
+  background-attachment:fixed;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
-.button_edit {
-  position: relative;
-
-  float: right;
-  width: 88rpx;
-  height: 42rpx;
-  margin-top: 27rpx;
-  margin-right: 33rpx;
-  margin-bottom: 23rpx;
-  background: #1b1c38;
-
-  font-size: 24rpx;
-  color: #fdf9f9;
-  line-height: 42rpx;
-  text-align: center;
+.popular {
+  display: flex;
+  flex-direction: column;
+  /*max-height: 400rpx;*/
 }
 
-.searchinfo_item {
-  box-sizing: border-box;
-  width: 695rpx;
-  height: 70rpx;
-  background: #f7f7f7;
-  overflow: hidden;
-
-  margin: auto;
-  margin-bottom: 23rpx;
-  padding-left: 50rpx;
-
-  font-size: 35rpx;
-  line-height: 70rpx;
-  color: #07232d;
+.title-img{
+  width: 198rpx;
+  height: 55rpx;
+  margin: 26rpx;
+  margin-bottom: 0rpx;
 }
+
+.book-txt {
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  max-height: 350rpx;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+  border-bottom: 30rpx solid #0d0e25;
+}
+
+.popular .book {
+  color: #eee;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin: 10rpx 10rpx 10rpx 50rpx ;
+  /*border-left: 2rpx solid #eee;*/
+}
+
+.advice {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.advice-book {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.advice-book .book {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 200rpx;
+  height: 278rpx;
+  border-radius: 10rpx;
+  margin: 25rpx;
+}
+
+.advice-book .book image{
+  width: 143rpx;
+  height: 204rpx;
+}
+
+.advice-book .book .name {
+  font-size: 30rpx;
+}
+
+.advice-book .book .auther {
+  font-size: 20rpx;
+}
+
+
+
