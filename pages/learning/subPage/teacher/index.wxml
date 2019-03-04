@@ -3,6 +3,7 @@
     <view class='search'>
         <input bindinput='getSearch'/>
         <view class='button' bindtap='bindTapSearch'>搜索</view>
+
     </view>
 
 </view>
