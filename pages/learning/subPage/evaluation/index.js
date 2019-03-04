@@ -10,8 +10,22 @@ Page({
             {"state":"未评","course_name":"绘画基础","course_type":"专业限选","teacher":"程荣"}
         ]
     },
-    onLoad: function () {
-        console.log('onLoad')
+    onLoad: function (options) {
+        var that = this
+        wx.showModal({
+            title: '提示',
+            content: '当前不是评教时间',
+            cancelText: '返回',
+            success:function(res){
+                if(res.confirm){
+                    console.log('用户点击确定')
+                }else if(res.cancel){
+                    console.log('用户点击取消')
+                     wx.navigateBack({
+                        delta: 1
+                    })
+                }
+            }
+        })
     }
-
 })
