@@ -1,12 +1,22 @@
-<view class='searchInfo'>
+<view class='m-backgraund'>
+  <view class='new-book'>
+    <view class='choose-button choose-book'>选择书籍</view>
+    <view class='choose-button choose-cap'>选择章节</view>
+    <view class='choose-button choose-friend'>选择好友</view>
+    <view class='start'>发起</view>
+  </view>
 
-  <button class='button_edit'>编辑</button>
+  <view class='my-book'>
+    <view class='my-title'>我的读书</view>
+    <view class='book-block'>
+      <view class='book'wx:for='{{ mybook }}' wx:key='{{ index }}'>
+        <image src='{{ item.img }}'/>
+        <view class='book-name'>{{ item.name }}</view>
+      </view>
+    </view>
+  </view>
 
-  <view class='searchinfo_item'>姓名： </view>
-  <view class='searchinfo_item'>学号： </view>
-  <view class='searchinfo_item'>学院： </view>
-  <view class='searchinfo_item'>班级： </view>
-  <view class='searchinfo_item'>联系方式： </view>
-  <view class='searchinfo_item'>邮箱： </view>
-  <view class='searchinfo_item'>家庭住址： </view>
+  <view class='new-title'>
+    新建读书
+ </view>
 </view>

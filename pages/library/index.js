@@ -39,5 +39,20 @@ Page({
       })
     }
     console.log(this.data.people)
+  },
+  bindTapAdvice: function (e) {
+    wx.navigateTo({
+      url: '/pages/library/subPage/advice/index',
+    })
+  },
+  bindTapSearch: function (e) {
+    wx.navigateTo({
+      url: '/pages/library/subPage/search/index',
+    })
+  },
+  bindTapTogether: function (e) {
+    wx.navigateTo({
+      url: '/pages/library/subPage/together/index',
+    })
   }
 })

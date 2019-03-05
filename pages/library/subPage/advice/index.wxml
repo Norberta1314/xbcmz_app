@@ -1,12 +1,20 @@
-<view class='searchInfo'>
+<view class='m-backgraund'>
+  <view class='popular'>
+    <image class='title-img'src='../../../../images/library/advice/pppular.png'/>
 
-  <button class='button_edit'>编辑</button>
+    <view class='book-txt'>
+      <view class='book'wx:for='{{ pupular }}'>{{ item }}</view>
+    </view>
+  </view>
 
-  <view class='searchinfo_item'>姓名： </view>
-  <view class='searchinfo_item'>学号： </view>
-  <view class='searchinfo_item'>学院： </view>
-  <view class='searchinfo_item'>班级： </view>
-  <view class='searchinfo_item'>联系方式： </view>
-  <view class='searchinfo_item'>邮箱： </view>
-  <view class='searchinfo_item'>家庭住址： </view>
+  <view class='advice'>
+    <image class='title-img'src='../../../../images/library/advice/book.png'/>
+    <view class='advice-book'>
+      <view class='book' wx:for='{{ adviceBook }}'>
+        <image src='{{ item.img }}'/>
+        <view class='name'>{{ item.name }}</view>
+        <view class='auther'>作者：{{ item.auther }}</view>
+      </view>
+    </view>
+  </view>
 </view>

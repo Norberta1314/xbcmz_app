@@ -64,9 +64,26 @@ button {
   height: 310rpx;
 }
 
-.attendance_calendar {
-  background-image: url('https://s2.ax1x.com/2019/03/01/kHaFQe.png');
+.attendance_calendar_3 {
+  background-image: url('https://s2.ax1x.com/2019/03/01/kbEC40.png');
 }
+.attendance_calendar_4 {
+  background-image: url('https://s2.ax1x.com/2019/03/01/kbEAvF.png');
+}
+.attendance_calendar_5 {
+  background-image: url('https://s2.ax1x.com/2019/03/01/kbEK4x.png');
+}
+
+.read_calendar_3 {
+  background-image: url('https://s2.ax1x.com/2019/03/01/kbEwPP.png');
+}
+.read_calendar_4 {
+  background-image: url('https://s2.ax1x.com/2019/03/01/kbVgyD.png');
+}
+.read_calendar_5 {
+  background-image: url('https://s2.ax1x.com/2019/03/01/kbVfwd.png');
+}
+
 .canlendar .month {
   display: flex;
   flex-direction: column;
@@ -89,9 +106,6 @@ button {
   height: 26rpx;
   margin: 8rpx;
   /*background-color: #ead9e4;*/
-}
-.read_calendar {
-  background-image: url('https://s2.ax1x.com/2019/03/01/kHaZdI.png');
 }
 
 .today_course {

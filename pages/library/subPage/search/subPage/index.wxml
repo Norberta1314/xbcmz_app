@@ -1,0 +1,29 @@
+<view class='m-backgraund'>
+  <view class='title'>
+    <image src='{{ book.img }}'/>
+    <view class='book-info'>
+      <view class='name'>{{ book.name }}</view>
+      <view class='auther'>作者：{{ book.auther }}</view>
+      <view class='publish'>出版社：{{ book.publish }}</view>
+      <view class='publish-time'>出版时间：{{ book.publish_time }}</view>
+    </view>
+    <view class='doubanScore'>
+      <view class='douban-title'>豆瓣评分</view>
+      <view class='douban-score'>{{ book.douban_score }}</view>
+    </view>
+  </view>
+  <view class='resource'>
+    <view class='readNow'>立即阅读</view>
+    <view class='school'>
+      <view> 图书馆有书<text>{{ book.own }}</text>本，借出<text>{{ book.lend }}</text>本</view>
+      <view>索书编号：<text>{{ book.id }}</text></view>
+    </view>
+  </view>
+  <view class='info'>
+    <view class='info-name'>内容简介</view>
+    <view class='info-detail'>{{ book.detail }}</view>
+    <view class='info-name'>作者简介</view>
+    <view class='info-detail'>{{ book.name_detail }}</view>
+
+  </view>
+</view>

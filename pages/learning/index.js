@@ -15,12 +15,17 @@ Page({
       [-1, -1, -1, -1, -1, -1, -1]
     ],
     showAtt: false,
-    showRead:false
+    showRead:false,
+    beginMonth: 3
   },
   onShow: function(e) {
     var newDate = new Date();
-    var beginMonth = newDate.getMonth();
-    var beginDay=new Date(2019, beginMonth, 1).getDay();
+    var month = newDate.getMonth()
+    this.setData({
+      beginMonth: month + 1
+    })
+
+    var beginDay=new Date(2019, month, 1).getDay();
 
     // var currentDate = newDate.getDate();
     var currentDate = 23
