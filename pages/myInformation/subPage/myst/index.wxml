@@ -1,10 +1,10 @@
 <view class='m-backgraund'>
   <!--黑洞-->
-  <button class='heidong'>
+  <button bindtap='bindHeidong'class='heidong'>
     <image src='../../../../images/myInformation/subPage/myst/heidong.png'/>
   </button>
   <!--比邻星-->
-  <button class='bilinxing'>
+  <button bindtap='bindBilinxing'class='bilinxing'>
     <image src='../../../../images/myInformation/subPage/myst/bilinxing.png'/>
   </button>
 
