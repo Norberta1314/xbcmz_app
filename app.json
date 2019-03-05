@@ -12,6 +12,7 @@
     "pages/learning/subPage/evaluation/index",
     "pages/learning/subPage/grade/index",
     "pages/learning/subPage/materials/index",
+    "pages/learning/subPage/materials/subPage/index",
     "pages/learning/subPage/task/index",
     "pages/learning/subPage/task/subPage/index",
     "pages/learning/subPage/teacher/index",

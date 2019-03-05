@@ -1,0 +1,12 @@
+<!--pages/learning/subPage/task/subPage/index.wxml-->
+<view class='m-backgraund'>
+  <text class='choose'>数据结构: </text>
+  <view class='choose-block'>
+    <view class="task">
+      <view class="text-name" wx:for="{{listData}}" wx:key="{{code}}">
+        <text>{{item.text}}</text>
+      </view>
+    </view>
+  </view>
+
+</view>
