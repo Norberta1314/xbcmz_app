@@ -6,7 +6,7 @@
   <button bindtap='bindTapAdvice' class='advice_book'>
     <image src='../../images/library/advice_book.png'/>
   </button>
-  <button class='together_book'>
+  <button bindtap='bindTapTogether' class='together_book'>
     <image src='../../images/library/together_book.png'/>
   </button>
 

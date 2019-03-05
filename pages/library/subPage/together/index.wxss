@@ -1,44 +1,88 @@
-button {
-  padding: 0;
+page {
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
-.searchInfo {
-  position: absolute;
-  background-image: url('https://s2.ax1x.com/2019/02/21/kR3qYT.png');
-  background-size: 100% 100%;
-  width: 750rpx;
-  height: 1210rpx;
+.m-backgraund {
+  background-image: url('https://s2.ax1x.com/2019/03/05/kXoUbD.png');
+  background-size: cover;
+  background-attachment:fixed;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
 }
 
-.button_edit {
-  position: relative;
+.new-book {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 636rpx;
+  height: 520rpx;
+  margin: 82rpx 57rpx 70rpx 57rpx;
+  border: 4rpx solid #eee;
+  border-radius: 5rpx;
+}
 
-  float: right;
-  width: 88rpx;
-  height: 42rpx;
-  margin-top: 27rpx;
-  margin-right: 33rpx;
-  margin-bottom: 23rpx;
-  background: #1b1c38;
-
-  font-size: 24rpx;
-  color: #fdf9f9;
-  line-height: 42rpx;
+.choose-button {
+  background-color: rgba(191,191,191,0.35);
   text-align: center;
+  width: 560rpx;
+  height: 66rpx;
+  line-height: 66rpx;
+  margin: 10rpx;
+  border-radius: 5rpx;
+  font-size: 35rpx;
+}
+.start {
+  background-color: #a4b7c9;
+  text-align: center;
+  width: 255rpx;
+  height: 67rpx;
+  line-height: 67rpx;
+  margin-top: 40rpx;
+  border-radius: 5rpx;
 }
 
-.searchinfo_item {
-  box-sizing: border-box;
-  width: 695rpx;
-  height: 70rpx;
-  background: #f7f7f7;
-  overflow: hidden;
+.my-book {
+  border-top: 30rpx solid #0d0e25;
+  padding: 32rpx;
+}
 
-  margin: auto;
-  margin-bottom: 23rpx;
-  padding-left: 50rpx;
+.book-block {
+  display: flex;
+  flex-direction: row;
+}
 
+.book {
+  background-color: #a4b7c9;
+  color: #111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 200rpx;
+  height: 278rpx;
+  border-radius: 10rpx;
+  margin: 25rpx;
+  font-size: 25rpx;
+}
+.book image{
+  width: 143rpx;
+  height: 204rpx;
+}
+.book view{
+  margin-top: 10rpx;
+}
+
+.new-title {
+  background-color: #10112a;
+  position: absolute;
+  top: 60rpx;
+  left: 75rpx;
   font-size: 35rpx;
-  line-height: 70rpx;
-  color: #07232d;
 }

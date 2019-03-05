@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 8,
+			"current": 4,
 			"list": [
 				{
 					"id": -1,
@@ -64,33 +64,11 @@
 					"query": ""
 				},
 				{
-					"id": 4,
-					"name": "grade",
-					"pathName": "pages/learning/subPage/testTable/index",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "grade",
-					"pathName": "pages/community/subPage/addCommunity/index",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "evaluation",
-					"pathName": "pages/learning/subPage/evaluation/index",
-					"query": ""
-				},
-				{
 					"id": -1,
 					"name": "library-advice",
-					"pathName": "pages/library/subPage/advice/index",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "library-advice",
-					"pathName": "pages/library/subPage/search/subPage/index"
+					"pathName": "pages/library/subPage/together/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

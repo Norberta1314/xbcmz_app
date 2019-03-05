@@ -49,5 +49,10 @@ Page({
     wx.navigateTo({
       url: '/pages/library/subPage/search/index',
     })
+  },
+  bindTapTogether: function (e) {
+    wx.navigateTo({
+      url: '/pages/library/subPage/together/index',
+    })
   }
 })
