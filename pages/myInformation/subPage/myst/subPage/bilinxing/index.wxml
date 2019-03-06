@@ -1,3 +1,19 @@
-<view class='m-backgraund'>
+<view  class='m-backgraund'>
+  <image bindtap='tapShowFriend' class='match' src='/images/myInformation/subPage/myst/match.png'/>
+  <image bindtap='tapShowFriend' class='random' src='/images/myInformation/subPage/myst/random.png'/>
 
+  <view bindtap='tapUnshowFriend' class='friend' wx:if='{{ showFriend }}'>
+    <view class='friend-block'>
+      <view class='auther-info'>
+        <view class='head'>
+          <image/>
+        </view>
+        <view class='auther'>{{ friend.name }}</view>
+        <button class="follow">关注</button>
+      </view>
+      <view class='friend-info'>
+        {{ friend.info }}
+      </view>
+    </view>
+  </view>
 </view>
