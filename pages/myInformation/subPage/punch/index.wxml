@@ -7,4 +7,8 @@
     </view>
     <image src='{{ item.status?"/images/myInformation/subPage/punch/1.png":"/images/myInformation/subPage/punch/0.png" }} '/>
   </view>
+
+  <view class='customize'>
+    +自定义打卡
+  </view>
 </view>

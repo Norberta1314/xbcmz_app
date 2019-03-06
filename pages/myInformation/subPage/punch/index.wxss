@@ -47,7 +47,7 @@ page {
 .check-item .check-title{
   height: 60rpx;
   line-height: 60rpx;
-  padding-left: 20rpx;
+  padding-left: 40rpx;
   font-size: 30rpx;
 }
 
@@ -55,4 +55,12 @@ page {
   width: 84rpx;
   height: 84rpx;
   padding-right: 20rpx;
+}
+
+.customize {
+  height: 106rpx;
+  line-height: 106rpx;
+  padding-left: 60rpx;
+  border-bottom: 2rpx solid #cacaca;
+  font-size: 35rpx;
 }
