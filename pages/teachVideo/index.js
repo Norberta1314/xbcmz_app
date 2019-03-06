@@ -116,5 +116,11 @@ Page({
       url: `/pages/teachVideo/subPage/video/index?id=${id}`,
     })
   },
-
+  tapHandleLive: function (e) {
+    const id = e.currentTarget.dataset.id
+    console.log(e.currentTarget.dataset)
+    wx.navigateTo({
+      url: `/pages/teachVideo/subPage/live/index?id=${id}`,
+    })
+  }
 })

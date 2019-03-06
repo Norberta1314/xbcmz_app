@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 7,
+			"current": 4,
 			"list": [
 				{
 					"id": -1,
@@ -65,29 +65,8 @@
 				},
 				{
 					"id": -1,
-					"name": "library-advice",
-					"pathName": "pages/library/subPage/together/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "library-advice",
-					"pathName": "pages/myInformation/subPage/myst/subPage/bilinxing/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "library-advice",
-					"pathName": "pages/myInformation/subPage/myst/subPage/heidong/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "library-advice",
-					"pathName": "pages/login/index",
+					"name": "s",
+					"pathName": "pages/myInformation/subPage/punch/index",
 					"query": "",
 					"scene": null
 				}

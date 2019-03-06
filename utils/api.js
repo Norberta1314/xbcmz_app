@@ -9,7 +9,9 @@ const apiMap = {
     myInfo: 'user/stu/info/detail',
     timeTable: 'user/stu/class/schedule',
     videoON: 'video/on/demand/videos',
-    live: 'video/live/videos'
+    live: 'video/live/videos',
+    videoDetail: 'video/on/demand/',
+    liveDetail: '/video/live/video/'
 }
 
 /**

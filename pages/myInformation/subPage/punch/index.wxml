@@ -1,2 +1,10 @@
 <view class='m-backgraund'>
+  <view class='title'>今日打卡</view>
+  <view class='check-item' wx:for='{{ checks }}' wx:key='index'>
+    <view>
+      <view class='color-block'></view>
+      <view class='check-title'>{{ item.title }}</view>
+    </view>
+    <image src='{{ item.status?"/images/myInformation/subPage/punch/1.png":"/images/myInformation/subPage/punch/0.png" }} '/>
+  </view>
 </view>
