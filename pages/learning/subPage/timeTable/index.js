@@ -117,6 +117,11 @@ Page({
       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
   },
+  onLoad: function(e) {
+    let _this = this
+    app.$store.setWxCtx(this, 'timeTable')
+    _this.getTimeTable()
+  },
   onShow: function() {
     for ( var i = 0; i < 8; i++ ) {
       for (var j = 0; j < 12; j++) {
@@ -127,8 +132,18 @@ Page({
         })
       }
     }
-
-    // console.log(this.data.bg_num)
-    // Do something when page show.
   },
+  getTimeTable: function () {
+    let _this = this
+    app.fetch({
+      url: app.API('timeTable'),
+      method: 'GET',
+      success: (res) => {
+        const resule = res.data.data
+      },
+      fail: (res) => {
+
+      }
+    })
+  }
 })

@@ -2,11 +2,11 @@
 
   <button class='button_edit'>编辑</button>
 
-  <view class='searchinfo_item'>姓名： </view>
-  <view class='searchinfo_item'>学号： </view>
-  <view class='searchinfo_item'>学院： </view>
-  <view class='searchinfo_item'>班级： </view>
-  <view class='searchinfo_item'>联系方式： </view>
-  <view class='searchinfo_item'>邮箱： </view>
-  <view class='searchinfo_item'>家庭住址： </view>
+  <view class='searchinfo_item'>姓名： {{ name }}</view>
+  <view class='searchinfo_item'>学号： {{ sid }}</view>
+  <view class='searchinfo_item'>学院： {{ academy }}</view>
+  <view class='searchinfo_item'>班级： {{ class }}</view>
+  <view class='searchinfo_item'>联系方式： {{ contact_type }}</view>
+  <view class='searchinfo_item'>邮箱： {{ email }}</view>
+  <view class='searchinfo_item'>家庭住址： {{ home_address }}</view>
 </view>

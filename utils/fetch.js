@@ -6,6 +6,7 @@ export default function ({$store, isDev}) {
         const appState = $store.getAppState()
         const token = appState.token || ''
 
+        // console.log(appState)
         if (token) {
             object.header = Object.assign({}, object.header, {
                 Authorization: 'Bearer ' + token
@@ -55,7 +56,6 @@ export default function ({$store, isDev}) {
                     })
                 }
                 return fail(res)
-
             }
 
             success(res)

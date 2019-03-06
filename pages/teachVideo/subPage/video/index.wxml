@@ -1,7 +1,7 @@
 <view class='m-backgraund'>
-  <view class='video'>
+  <video src='https://xbcmz.zhutianyu.top/video/video/17'class='video'>
 
-  </view>
+  </video>
   <view class='tablist'>
     <view wx:for="{{ tabList }}" class='item {{currentTab==index?"select":""}}' data-pos='{{ index }}'
           bindtap='tabItemClick'>

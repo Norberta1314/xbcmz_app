@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 6,
+			"current": 7,
 			"list": [
 				{
 					"id": -1,
@@ -81,6 +81,13 @@
 					"id": -1,
 					"name": "library-advice",
 					"pathName": "pages/myInformation/subPage/myst/subPage/heidong/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "library-advice",
+					"pathName": "pages/login/index",
 					"query": "",
 					"scene": null
 				}

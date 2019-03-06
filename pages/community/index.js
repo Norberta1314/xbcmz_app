@@ -6,7 +6,6 @@ Page({
     recommentItem: ['热门', 'java', '高等数学', '概率论与数理统计', 'python', '微观经济学', '大学物理'],
     currentTab: 0,
     currentRecomment: 0,
-    backgroundColor: ['bg_0', 'bg_1', 'bg_2', 'bg_3', 'bg_4', 'bg_5',],
     backgroundItem: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     comments: [{
       name: 'zxz',
