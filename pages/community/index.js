@@ -39,6 +39,12 @@ Page({
       like_I: 1
     }]
   },
+  tapHandleComment: function(e) {
+    const id = e.currentTarget.dataset.id
+    wx.navigateTo({
+      url: `/pages/community/subPage/communityDetail/index?id=${id}`,
+    })
+  },
   tabItemClick: function (e) {
     for ( var i = 0; i < 10; i++ ) {
       var up = 'backgroundItem[' + i + ']'

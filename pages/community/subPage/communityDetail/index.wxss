@@ -1,44 +1,42 @@
-button {
-  padding: 0;
-}
-
-.searchInfo {
-  position: absolute;
-  background-image: url('https://s2.ax1x.com/2019/02/21/kR3qYT.png');
-  background-size: 100% 100%;
+page {
+  min-height: 100%;
   width: 750rpx;
-  height: 1210rpx;
+  display: flex;
+  flex-direction: row;
 }
 
-.button_edit {
-  position: relative;
+.m-backgraund {
+  background-image: url('https://s2.ax1x.com/2019/03/01/kbeF8P.png');
+  background-size: cover;
+  background-attachment:fixed;
 
-  float: right;
-  width: 88rpx;
-  height: 42rpx;
-  margin-top: 27rpx;
-  margin-right: 33rpx;
-  margin-bottom: 23rpx;
-  background: #1b1c38;
-
-  font-size: 24rpx;
-  color: #fdf9f9;
-  line-height: 42rpx;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
-.searchinfo_item {
-  box-sizing: border-box;
-  width: 695rpx;
-  height: 70rpx;
-  background: #f7f7f7;
-  overflow: hidden;
+.title-block .title {
+  color: #111;
+  font-size: 50rpx;
+}
+.title-block .author {
+  color: #aaa;
+  font-size: 20rpx;
 
-  margin: auto;
-  margin-bottom: 23rpx;
-  padding-left: 50rpx;
+}
 
-  font-size: 35rpx;
-  line-height: 70rpx;
-  color: #07232d;
+.comment-block .head{
+  background: transparent;
+
+  width: 46rpx;
+  height: 46rpx;
+  margin: 0;
+  border-radius: 46rpx;
+}
+.comment-block image {
+  background-color: #6e93bb;
+
+  width: 46rpx;
+  height: 46rpx;
+  border-radius: 46rpx;
 }

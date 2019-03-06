@@ -1,8 +1,15 @@
 page {
+    min-height: 100%;
+    width: 750rpx;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    background-color: #f5f5f5;
+}
+
+.m-backgraund {
+    background-image: url('https://s2.ax1x.com/2019/03/06/kv0QVf.png');
+    background-size: cover;
+    background-attachment:fixed;
+    width: 750rpx;
 }
 button {
     padding: 0;

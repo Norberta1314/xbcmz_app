@@ -1,7 +1,12 @@
 <view class='m-backgraund'>
-  <video src='{{ info.video_url }}' autoplay="{{ true }}" class='video'>
+  <live-player src='rtmp://xbcmz.zhutianyu.top:1935/live/movie'
+               autoplay="{{ true }}"
+               mode='live'
+               bindstatechange="stateHandle"
+               binderror="errorHandle"
+               class='video'>
 
-  </video>
+  </live-player>
   <view class='tablist'>
     <view wx:for="{{ tabList }}" class='item {{currentTab==index?"select":""}}' data-pos='{{ index }}'
           bindtap='tabItemClick'>
