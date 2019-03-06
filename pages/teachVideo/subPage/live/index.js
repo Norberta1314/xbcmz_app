@@ -6,7 +6,7 @@ Page({
     currentTab: 0,
     info:{
       id:'xxx',
-      video_url:'',
+      video_url:'rtmp://xbcmz.zhutianyu.top:1935/live/movie',
       author: 'zxz',
       title: '如何一学期重修两门视听说课程',
       des: '   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur deserunt doloremque nihil quam sequi. Architecto enim impedit laborum quibusdam quos similique tenetur totam unde vel veritatis? Est porro repellendus tenetur.',
@@ -25,6 +25,14 @@ Page({
     let _this = this
     app.$store.setWxCtx(this, 'liveDetail')
     _this.getLiveDeatil(option.id)
+  },
+  onShow() {
+    setTimeout(() => {
+      const temp = this.data.info
+      this.setData({
+        info:temp
+      })
+    }, 1000)
   },
   getLiveDeatil:function(id) {
     let _this = this
@@ -46,5 +54,12 @@ Page({
     this.setData({
       currentTab: e.currentTarget.dataset.pos
     })
+  },
+  stateHandle(e) {
+    console.log('live-plaver code: ', e.detail.code)
+  },
+  errorHandle(e) {
+    console.log('live-plaver code: ', e.detail)
+
   }
 })

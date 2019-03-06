@@ -1,5 +1,9 @@
 <view class='m-backgraund'>
-  <video src='{{ info.video_url }}' autoplay="{{ true }}" class='video'>
+  <video
+          src='{{ info.video_url }}'
+          autoplay="{{ true }}"
+
+          class='video'>
 
   </video>
   <view class='tablist'>

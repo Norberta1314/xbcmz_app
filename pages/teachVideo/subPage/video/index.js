@@ -39,9 +39,6 @@ Page({
           info:result,
           'info.create_time' : date,
         })
-
-
-        console.log(date)
       }
     })
   },

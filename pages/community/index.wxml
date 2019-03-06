@@ -1,4 +1,4 @@
-<view>
+<view class='m-backgraund'>
   <!--顶部tab-->
   <view class='tablist'>
     <view wx:for="{{ tabList }}" class='item {{currentTab==index?"select":""}}' data-pos='{{ index }}'
@@ -9,7 +9,7 @@
 
   <!--讨论-->
   <view hidden='{{ currentTab !== 0}}'>
-    <view wx:for="{{ comments }}" data-pos="{{ index }}">
+    <view bindtap='tapHandleComment' wx:for="{{ comments }}" data-id="{{ index }}">
       <view class="comment_block">
 
         <!--用户名-->
