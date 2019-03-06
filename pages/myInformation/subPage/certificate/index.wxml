@@ -1,12 +1,57 @@
-<view class='searchInfo'>
-
-  <button class='button_edit'>编辑</button>
-
-  <view class='searchinfo_item'>姓名： </view>
-  <view class='searchinfo_item'>学号： </view>
-  <view class='searchinfo_item'>学院： </view>
-  <view class='searchinfo_item'>班级： </view>
-  <view class='searchinfo_item'>联系方式： </view>
-  <view class='searchinfo_item'>邮箱： </view>
-  <view class='searchinfo_item'>家庭住址： </view>
+<view class='certificate'>
+  <view class="certificate-pic-box">
+    <view class="pic-text">我的徽章</view>
+    <view class="certificate-pic">
+      <view class="certificate-pic1">
+        <image src='/images/myInformation/subPage/certificate/read.png' class='read-img img-wh'>
+        </image>
+      </view>
+      <view class="certificate-pic2">
+        <image src='/images/myInformation/subPage/certificate/word.png' class='word-img img-wh'>
+        </image>
+      </view>
+      <view class="certificate-pic3">
+        <image src='/images/myInformation/subPage/certificate/discuss.png' class='discuss-img img-wh'>
+        </image>
+      </view>
+      <view class="certificate-pic4">
+        <image src='/images/myInformation/subPage/certificate/homework.png' class='homework-img img-wh'>
+        </image>
+      </view>
+      <view class="certificate-pic5">
+        <image src='/images/myInformation/subPage/certificate/check.png' class='check-img img-wh'>
+        </image>
+      </view>
+    </view>
+  </view>
+  <view class="certificate-get-box">
+    <view class="get-text">获得徽章</view>
+    <view class="certificate-get">
+      <view class="certificate-get1">
+        <view class="certificate-get1-text1">阅读LV1</view>
+        <view class="certificate-get1-text2">总积分： 10/10</view>
+        <view class="certificate-get1-text3 small-font">可获取</view>
+      </view>
+      <view class="certificate-get2">
+        <view class="certificate-get2-text1">单词LV1</view>
+        <view class="certificate-get2-text2">总积分： 3/10</view>
+        <view class="certificate-get2-text3 small-font">去完成</view>
+      </view>
+      <view class="certificate-get3">
+        <view class="certificate-get3-text1">讨论LV1</view>
+        <view class="certificate-get3-text2">总积分： 0/10</view>
+        <view class="certificate-get3-text3 small-font">去完成</view>
+      </view>
+      <view class="certificate-get4">
+        <view class="certificate-get4-text1">作业LV1</view>
+        <view class="certificate-get4-text2">总积分： 0/10</view>
+        <view class="certificate-get4-text3 small-font">去完成</view>
+      </view>
+      <view class="certificate-get5">
+        <view class="certificate-get5-text1">打卡LV2</view>
+        <view class="certificate-get5-text2">总积分： 10/50</view>
+        <view class="certificate-get5-text3 small-font">去完成</view>
+      </view>
+    </view>
+  </view>
 </view>
