@@ -5,7 +5,7 @@
   </view>
   <view class='content'>{{ info.content }}</view>
   <view class='contont-detail'>
-    {{ info.createTime }} {{ info.author.name }} 创建了讨论 {{ info.title }}
+    {{ info.create_time }} {{ info.author.name }} 创建了讨论 {{ info.title }}
   </view>
 
   <view class='comment-block'>
@@ -14,7 +14,7 @@
         <view class='head'>
           <image/>
         </view>
-        <view class='auther'>{{ item.auther.name }}</view>
+        <view class='author'>{{ item.author.name }}</view>
         <view class='comment-date'>{{ item.create_time }}</view>
       </view>
       <view class='discuss'>

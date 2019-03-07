@@ -10,9 +10,14 @@ page {
   background-size: cover;
   background-attachment:fixed;
 
+  width: 750rpx;
   display: flex;
   flex-direction: column;
   flex: 1;
+}
+
+.title-block {
+  margin: 20rpx;
 }
 
 .title-block .title {
@@ -22,21 +27,59 @@ page {
 .title-block .author {
   color: #aaa;
   font-size: 20rpx;
-
+  padding-left: 10rpx;
+}
+.content {
+  font-size: 40rpx;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #aaa;
+}
+.contont-detail {
+  color: #aaa;
+  font-size: 20rpx;
+  margin: 5rpx 40rpx 5rpx 40rpx;
 }
 
 .comment-block .head{
   background: transparent;
-
   width: 46rpx;
   height: 46rpx;
-  margin: 0;
+  margin-top: 10rpx;
   border-radius: 46rpx;
 }
 .comment-block image {
   background-color: #6e93bb;
-
   width: 46rpx;
   height: 46rpx;
   border-radius: 46rpx;
+}
+
+.commits {
+  display: flex;
+  flex-direction:column;
+  margin: 20rpx;
+}
+
+.commit {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-bottom: 5rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.commit .author {
+  font-size: 30rpx;
+  padding-left: 20rpx;
+}
+
+.commit .comment-date {
+  color: #aaa;
+  font-size: 20rpx;
+  padding-left: 10rpx;
+}
+
+.commits .discuss {
+  padding: 0 50rpx 10rpx 50rpx;
 }

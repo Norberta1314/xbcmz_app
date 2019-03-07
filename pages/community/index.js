@@ -39,6 +39,26 @@ Page({
       like_I: 1
     }]
   },
+  onLoad(){
+    let _this = this
+    app.$store.setWxCtx(this, 'teachVideo')
+    this.gettopics()
+  },
+  gettopics(){
+    let _this = this
+    app.fetch({
+      url:app.API('topics'),
+      method: 'GET',
+      success: (res) => {
+        const result = res.data.data
+        _this.setData({
+          comments: result
+        })
+      }
+    })
+
+    console.log(this.data.comments)
+  },
   tapHandleComment: function(e) {
     const id = e.currentTarget.dataset.id
     wx.navigateTo({
@@ -65,12 +85,12 @@ Page({
   likeClick: function (e) {
     console.log('click like')
     var index = e.currentTarget.dataset.pos
-    var like = 'comments[' + index + '].like_I'
-    var likeNum = 'comments[' + index + '].likeNum'
-    var likeNums = this.data.comments[index].likeNum;
+    var like = 'comments[' + index + '].stared'
+    var likeNum = 'comments[' + index + '].star_num'
+    var likeNums = this.data.comments[index].star_num;
     console.log()
 
-    if ( this.data.comments[index].like_I === 0 ) {
+    if ( this.data.comments[index].stared === 0 ) {
       this.setData({
         [like]: 1,
         [likeNum]: likeNums + 1

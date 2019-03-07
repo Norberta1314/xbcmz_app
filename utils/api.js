@@ -12,7 +12,9 @@ const apiMap = {
   live: 'video/live/videos',
   videoDetail: 'video/on/demand/',
   liveDetail: 'video/live/',
-  commentDetail: 'community/topic/'
+  commentDetail: 'community/topic/',
+  addCommunity: 'community/topic/create',
+  topics: 'community/topics'
 }
 
 /**

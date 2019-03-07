@@ -1,44 +1,177 @@
+page {
+  min-height: 100%;
+  width: 750rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.m-backgraund {
+  background-image: url('https://s2.ax1x.com/2019/03/06/kv0QVf.png');
+  background-size: cover;
+  background-attachment:fixed;
+  width: 750rpx;
+}
 button {
   padding: 0;
 }
 
-.searchInfo {
-  position: absolute;
-  background-image: url('https://s2.ax1x.com/2019/02/21/kR3qYT.png');
-  background-size: 100% 100%;
-  width: 750rpx;
-  height: 1210rpx;
+.tablist {
+  display: flex;
+  background: #fff;
+  height: 80rpx;
+  border-bottom: 4rpx solid #bfbfbf;
 }
 
-.button_edit {
+.tablist .item {
+  flex: auto;
+  display: flex;
   position: relative;
-
-  float: right;
-  width: 88rpx;
-  height: 42rpx;
-  margin-top: 27rpx;
-  margin-right: 33rpx;
-  margin-bottom: 23rpx;
-  background: #1b1c38;
-
-  font-size: 24rpx;
-  color: #fdf9f9;
-  line-height: 42rpx;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+  color: #000;
 }
 
-.searchinfo_item {
-  box-sizing: border-box;
-  width: 695rpx;
+.tablist .item.select {
+  color: #73a2c3;
+}
+
+.tablist .item.select::after {
+  content: "";
+  height: 4rpx;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -2rpx;
+  right: 0;
+  background:  #73a2c3;
+}
+
+.recommendList {
+  position: relative;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
   height: 70rpx;
-  background: #f7f7f7;
-  overflow: hidden;
+  width: 100%;
+  font-size: 28rpx;
+}
 
-  margin: auto;
-  margin-bottom: 23rpx;
-  padding-left: 50rpx;
+.recommendList .item {
+  display:inline-block;
+  align-items: center;
+  margin: 10rpx;
+  margin-bottom: 0;
+  padding: 10rpx 20rpx 10rpx 20rpx;
+  min-width: 20rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  border-radius: 8rpx;
+}
 
+.bg_0 {
+  background-color: #cddde8;
+}
+.bg_1 {
+  background-color: #c0c6e0;
+}
+.bg_2 {
+  background-color: #d7d0ef;
+}
+.bg_3 {
+  background-color: #cddde8;
+}
+.bg_4 {
+  background-color: #f3d9e4;
+}
+.bg_5 {
+  background-color: #faeec9;
+}
+.bg_6 {
+  background-color: #99b5c9;
+}
+.bg_7 {
+  background-color: #959ec4;
+}
+.bg_8 {
+  background-color: #aba2cc;
+}
+.bg_9 {
+  background-color: #e2b2c6;
+}
+.bg_10 {
+  background-color: #f5dd95;
+}
+
+.comment_block {
+  position: relative;
+  min-height: 300rpx;
+  background-color: #fff;
+  margin: 20rpx 50rpx 10rpx 50rpx;
+  border: 5rpx solid #dcdcdc;
+  border-radius: 4rpx;
+}
+
+.comment_info {
+  position: relative;
+}
+
+.comment_name {
+  display:inline-block;
+  margin-top: 15rpx;
+  margin-left: 28rpx;
+
+  height: 45rpx;
+  line-height: 45rpx;
+  font-size: 40rpx;
+}
+
+.follow {
+  display:inline-block;
+  float: right;
+  margin-top: 15rpx;
+  margin-right: 28rpx;
+  background-color: #6f98a8;
+  color: #fff;
+  width: 90rpx;
+  height: 45rpx;
+  line-height: 45rpx;
+  font-size: 24rpx;
+}
+
+.comment_question {
   font-size: 35rpx;
-  line-height: 70rpx;
-  color: #07232d;
+  line-height: 45rpx;
+  min-height: 45rpx;
+  margin: 20rpx 30rpx 40rpx 40rpx;
+}
+
+.like_block {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  color: #646464;
+  bottom: 20rpx;
+  right:50rpx;
+}
+
+.like_block text {
+  display: inline-block;
+  font-size: 24rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  /*margin-bottom: 5rpx;*/
+}
+
+.like_img {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 30rpx;
+}
+
+
+.icon_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
