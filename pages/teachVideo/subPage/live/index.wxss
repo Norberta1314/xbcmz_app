@@ -3,9 +3,194 @@ page {
   display: flex;
   flex-direction: row;
 }
+button {
+  padding: 0;
+}
 .m-backgraund {
-  background-image: url('https://s2.ax1x.com/2019/02/27/kT4VaT.png');
+  background-image: url('https://s2.ax1x.com/2019/03/01/kbeF8P.png');
   background-size: cover;
   background-attachment:fixed;
   flex: 1;
 }
+
+.video {
+  background-color: #333;
+  height: 400rpx;
+  width: 750rpx;
+}
+
+.tablist {
+  display: flex;
+  background: #fff;
+  height: 80rpx;
+
+  border-bottom: 4rpx solid #bfbfbf;
+}
+
+.tablist .item {
+  flex: auto;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+  color: #000;
+}
+
+.tablist .item.select {
+  color: #73a2c3;
+}
+
+.tablist .item.select::after {
+  content: "";
+  height: 4rpx;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -2rpx;
+  right: 0;
+  background:  #73a2c3;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 700rpx;
+  min-height: 400rpx;
+  margin: 25rpx;
+}
+
+.auther-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 40rpx;
+  margin-bottom: 0;
+}
+.auther-info .head{
+  background: transparent;
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0;
+  border-radius: 50rpx;
+}
+
+.auther-info image {
+  background-color: #6e93bb;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+}
+.auther-info .auther {
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 50rpx;
+  padding-left: 30rpx;
+}
+
+.info .name {
+  padding: 10rpx 100rpx 10rpx 100rpx;
+  font-size: 35rpx;
+}
+.follow {
+  margin-top: 15rpx;
+  margin-right: 28rpx;
+  background-color: #e6ecf2;
+  color: #474849;
+  width: 90rpx;
+  height: 45rpx;
+  line-height: 45rpx;
+  font-size: 28rpx;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50rpx;
+  width: 600rpx;
+  padding: 0 ;
+  margin: 50rpx;
+  margin-bottom: 10rpx;
+  color: #9597b8;
+  font-size: 28rpx;
+}
+
+.play {
+  display: flex;
+  flex-direction: row;
+}
+
+.commit {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.info-text {
+  color: #b6b6b6;
+  margin: 50rpx;
+  margin-top: 10rpx;
+  font-size: 32rpx;
+}
+
+.commit-blocks {
+  display: flex;
+  flex-direction: column;
+  width: 700rpx;
+  min-height: 400rpx;
+  margin: 25rpx;
+
+}
+
+.commit-blocks .commit-num {
+  color: #3d2c6b;
+  font-size: 28rpx;
+}
+
+.commits {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 4rpx solid #aaa;
+  margin-top: 30rpx;
+  /*margin-bottom: 20rpx;*/
+}
+.commit {
+  display: flex;
+  flex-direction: row;
+}
+
+.commit-blocks .head{
+  background: transparent;
+
+  width: 46rpx;
+  height: 46rpx;
+  margin: 0;
+  border-radius: 46rpx;
+}
+
+.commit-blocks image {
+  background-color: #6e93bb;
+
+  width: 46rpx;
+  height: 46rpx;
+  border-radius: 46rpx;
+}
+
+.commit-blocks .auther {
+  color: #838383;
+  height: 46rpx;
+  line-height: 46rpx;
+  font-size: 40rpx;
+  padding-left: 10rpx;
+}
+
+.commit-blocks .discuss {
+  margin: 10rpx 50rpx 5rpx 50rpx;
+  font-size: 38rpx;
+}
+

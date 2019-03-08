@@ -1,4 +1,4 @@
-<view>
+<view class='m-backgraund'>
   <!--顶部tab-->
   <view class='tablist'>
     <view wx:for="{{ tabList }}" class='item {{currentTab==index?"select":""}}' data-pos='{{ index }}'
@@ -9,7 +9,7 @@
 
   <!--讨论-->
   <view hidden='{{ currentTab !== 0}}'>
-    <view wx:for="{{ comments }}" data-pos="{{ index }}">
+    <view  wx:for="{{ comments }}" data-id="{{ index }}">
       <view class="comment_block">
 
         <!--用户名-->
@@ -18,21 +18,21 @@
           <button class="follow">+关注</button>
         </view>
         <!--问题-->
-        <view class="comment_question">
-          {{ item.question }}
+        <view bindtap='tapHandleComment' data-id="{{ index }}" class="comment_question">
+          {{ item.title }}
         </view>
         <!--点赞回复-->
         <view class='like_block'>
           <view class="icon_item">
             <image class='like_img' src='../../images/comunity/comment.png'></image>
-            <text>{{item.commentNum}}</text>
+            <text>{{item.comment_num}}</text>
           </view>
 
           <view class="icon_item">
             <image class='like_img'
-                   src='{{ item.like_I?"../../images/comunity/like_selected.png":"../../images/comunity/like_unselected.png"}}'
+                   src='{{ item.stared?"../../images/comunity/like_selected.png":"../../images/comunity/like_unselected.png"}}'
                    bindtap='likeClick' data-pos="{{ index }}"></image>
-            <text>{{item.likeNum}}</text>
+            <text>{{item.star_num}}</text>
           </view>
         </view>
 

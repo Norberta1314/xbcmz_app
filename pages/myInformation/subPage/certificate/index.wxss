@@ -1,44 +1,79 @@
-button {
-  padding: 0;
+page {
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.pic-text{
+  margin-left:50rpx;
+  margin-bottom: 30rpx;
+}
+.certificate {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-attachment:fixed;
+  flex: 1;
+}
+.certificate-pic-box{
+  display: flex;
+  flex-direction:column;
+  border-bottom: 30rpx solid #dde4ec;
+}
+.certificate-pic{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height:400rpx;
+  width:750rpx;
+
 }
 
-.searchInfo {
-  position: absolute;
-  background-image: url('https://s2.ax1x.com/2019/02/21/kR3qYT.png');
-  background-size: 100% 100%;
-  width: 750rpx;
-  height: 1210rpx;
+.img-wh{
+  width: 150rpx;
+  height: 150rpx;
+  margin:40rpx;
+  margin-top: 0rpx;
+}
+.certificate-get-box{
+  display: flex;
+  flex-direction:column;
+
+}
+.get-text{
+  margin-left:50rpx;
+  margin-top: 30rpx;
+}
+.certificate-get{
+  font-size :32rpx;
+  display: flex;
+  flex-direction:column;
+  height:500rpx;
+  width:750rpx;
+  margin-top:30rpx;
+}
+.certificate-block{
+  display: flex;
+  flex-direction:row;
+  height:80rpx;
+  line-height: 80rpx;
+  border-bottom: 5rpx solid #dde4ec;
+  justify-content:space-around;
+}
+.certificate-get1-text3{
+  height:45rpx;
+  line-height: 45rpx;
+  padding: 10rpx;
+  background-color: #d0c6e3;
+  font-size: 28rpx;
+}
+.small-font{
+  height:45rpx;
+  line-height: 45rpx;
+  padding: 10rpx;
+  background-color: #e5e5e5;
+  font-size: 28rpx;
 }
 
-.button_edit {
-  position: relative;
-
-  float: right;
-  width: 88rpx;
-  height: 42rpx;
-  margin-top: 27rpx;
-  margin-right: 33rpx;
-  margin-bottom: 23rpx;
-  background: #1b1c38;
-
-  font-size: 24rpx;
-  color: #fdf9f9;
-  line-height: 42rpx;
-  text-align: center;
-}
-
-.searchinfo_item {
-  box-sizing: border-box;
-  width: 695rpx;
-  height: 70rpx;
-  background: #f7f7f7;
-  overflow: hidden;
-
-  margin: auto;
-  margin-bottom: 23rpx;
-  padding-left: 50rpx;
-
-  font-size: 35rpx;
-  line-height: 70rpx;
-  color: #07232d;
-}

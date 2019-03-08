@@ -1,0 +1,12 @@
+<view class='m-backgraund'>
+  <view class='secret'wx:for='{{ secret }}' wx:key='{{ index }}'>
+    <view class='secret-text'><text>{{ item.text }}</text></view>
+    <view class='icon'>
+      <image class='like_img'
+             src='{{ item.like_I?"../../../../../../images/comunity/like_selected.png":"../../../../../../images/comunity/like_unselected.png"}}'
+             bindtap='likeClick' data-pos="{{ index }}"/>
+      <text>{{ item.like }}</text>
+    </view>
+
+  </view>
+</view>

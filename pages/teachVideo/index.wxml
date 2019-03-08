@@ -16,24 +16,33 @@
     </view>
   </view>
 
+  <scroll-view scroll-x="true" class='recommendList'>
+    <view wx:for="{{ recommentItem }}"
+          class='item {{currentRecomment==index?"select":""}} {{ "bg_" + backgroundItem[index] }}'
+          data-pos='{{ index }}' bindtap='recommentItemClick'>
+      <text>{{ item }}</text>
+    </view>
+  </scroll-view>
+
   <!--视频-->
   <view class='video_block' hidden='{{ currentTab !== 0}}'>
+
     <view wx:for="{{ video }}">
-      <view class='item' bindtap='tapHandleVideo' data-id='{{ index }}'>
+      <view class='item' bindtap='tapHandleVideo' data-id='{{ item.id }}'>
         <image/>
         <view class='video_name'>{{ item.name }}</view>
-        <view class='video_auteur'>{{ item.auteur }}</view>
+        <view class='video_auteur'>{{ item.author }}</view>
       </view>
     </view>
   </view>
 
   <!--直播-->
   <view class='live_block'hidden='{{ currentTab !== 1}}'>
-    <view wx:for="{{ video }}">
-      <view class='item'>
+    <view wx:for="{{ live }}">
+      <view class='item'  bindtap='tapHandleLive' data-id='{{ item.id }}'>
         <image/>
         <view class='video_name'>{{ item.name }}</view>
-        <view class='video_auteur'>{{ item.auteur }}</view>
+        <view class='video_auteur'>{{ item.author }}</view>
       </view>
     </view>
   </view>

@@ -1,20 +1,20 @@
 <view class='m-backgraund'>
-  <input placeholder-class='placeholder' class='input'placeholder='请输入话题' />
-  <textarea placeholder-class='placeholder' class='input' style='min-height:100rpx;' placeholder='请输入详细说明' />
+  <input bindinput='getTitle'placeholder-class='placeholder' class='input'placeholder='请输入话题' />
+  <textarea bindinput='getContent' placeholder-class='placeholder' class='input' style='min-height:100rpx;' placeholder='请输入详细说明' />
 
-  <button>
-    <image src='../../../../images/comunity/subPage/upimg.png' />
+  <button bindtap="chooseImage">
+    <image  src='../../../../images/comunity/subPage/upimg.png' />
   </button>
-  <button>
+  <button bindtap="chooseFriend">
     <image src='../../../../images/comunity/subPage/at.png' />
   </button>
-  <button>
+  <button bindtap="chooseAdd">
     <image src='../../../../images/comunity/subPage/add.png' />
   </button>
-  <button>
+  <button bindtap="choosePermission">
     <image src='../../../../images/comunity/subPage/permission.png' />
   </button>
-  <button>
+  <button bindtap="submit">
     <image src='../../../../images/comunity/subPage/submit.png' />
   </button>
 

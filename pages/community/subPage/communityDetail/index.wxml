@@ -1,12 +1,25 @@
-<view class='searchInfo'>
+<view class='m-backgraund'>
+  <view class='title-block'>
+    <view class='title'>{{ info.title }}</view>
+    <view class='author'>{{ info.author.name }}于{{ info.update_time }}保存</view>
+  </view>
+  <view class='content'>{{ info.content }}</view>
+  <view class='contont-detail'>
+    {{ info.create_time }} {{ info.author.name }} 创建了讨论 {{ info.title }}
+  </view>
 
-  <button class='button_edit'>编辑</button>
-
-  <view class='searchinfo_item'>姓名： </view>
-  <view class='searchinfo_item'>学号： </view>
-  <view class='searchinfo_item'>学院： </view>
-  <view class='searchinfo_item'>班级： </view>
-  <view class='searchinfo_item'>联系方式： </view>
-  <view class='searchinfo_item'>邮箱： </view>
-  <view class='searchinfo_item'>家庭住址： </view>
+  <view class='comment-block'>
+    <view class='commits' wx:for='{{ info.comments }}' wx:key='commit_id' wx:for-index='{{ commit_id }}'>
+      <view class='commit'>
+        <view class='head'>
+          <image/>
+        </view>
+        <view class='author'>{{ item.author.name }}</view>
+        <view class='comment-date'>{{ item.create_time }}</view>
+      </view>
+      <view class='discuss'>
+        {{ item.content }}
+      </view>
+    </view>
+  </view>
 </view>

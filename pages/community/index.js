@@ -6,7 +6,6 @@ Page({
     recommentItem: ['热门', 'java', '高等数学', '概率论与数理统计', 'python', '微观经济学', '大学物理'],
     currentTab: 0,
     currentRecomment: 0,
-    backgroundColor: ['bg_0', 'bg_1', 'bg_2', 'bg_3', 'bg_4', 'bg_5',],
     backgroundItem: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     comments: [{
       name: 'zxz',
@@ -40,6 +39,32 @@ Page({
       like_I: 1
     }]
   },
+  onLoad(){
+    let _this = this
+    app.$store.setWxCtx(this, 'teachVideo')
+    this.gettopics()
+  },
+  gettopics(){
+    let _this = this
+    app.fetch({
+      url:app.API('topics'),
+      method: 'GET',
+      success: (res) => {
+        const result = res.data.data
+        _this.setData({
+          comments: result
+        })
+      }
+    })
+
+    console.log(this.data.comments)
+  },
+  tapHandleComment: function(e) {
+    const id = e.currentTarget.dataset.id
+    wx.navigateTo({
+      url: `/pages/community/subPage/communityDetail/index?id=${id}`,
+    })
+  },
   tabItemClick: function (e) {
     for ( var i = 0; i < 10; i++ ) {
       var up = 'backgroundItem[' + i + ']'
@@ -60,12 +85,12 @@ Page({
   likeClick: function (e) {
     console.log('click like')
     var index = e.currentTarget.dataset.pos
-    var like = 'comments[' + index + '].like_I'
-    var likeNum = 'comments[' + index + '].likeNum'
-    var likeNums = this.data.comments[index].likeNum;
+    var like = 'comments[' + index + '].stared'
+    var likeNum = 'comments[' + index + '].star_num'
+    var likeNums = this.data.comments[index].star_num;
     console.log()
 
-    if ( this.data.comments[index].like_I === 0 ) {
+    if ( this.data.comments[index].stared === 0 ) {
       this.setData({
         [like]: 1,
         [likeNum]: likeNums + 1

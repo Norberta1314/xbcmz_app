@@ -1,9 +1,7 @@
 {
   "usingComponents": {},
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#eeeeee",
-    "navigationBarTitleText": "个人信息查询",
-    "navigationBarTextStyle": "black"
-  }
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#eeeeee",
+  "navigationBarTitleText": "神秘世界探险",
+  "navigationBarTextStyle": "black"
 }

@@ -5,6 +5,10 @@ page {
   min-height: 100%;
 }
 
+button {
+  padding: 0;
+}
+
 .m-backgraund {
   background-image: url('https://s2.ax1x.com/2019/02/28/k7Ub9S.png');
   background-size: cover;
@@ -36,3 +40,52 @@ image {
   height: 78rpx;
 }
 
+.at {
+  position: absolute;
+  background-color: #ebf4fb;
+  width: 600rpx;
+  height: 700rpx;
+  top: 100rpx;
+  left: 75rpx;
+}
+
+.friend {
+  display: flex;
+  flex-direction: row;
+  margin: 10rpx;
+  border-radius: 10rpx;
+}
+
+.friend::after{
+  border: none;
+}
+
+.click {
+  position: relative;
+  width: 30rpx;
+  height: 30rpx;
+  margin: 20rpx;
+  border: 1rpx solid #aaa;
+}
+
+.click .icon{
+  position: absolute;
+  top: -30%;
+  left: -30%;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.head {
+  background-color: #ead9e4;
+  width: 60rpx;
+  height: 60rpx;
+  margin: 10rpx;
+  border-radius: 60rpx;
+}
+
+.name {
+  height: 60rpx;
+  line-height: 60rpx;
+  margin: 10rpx;
+}

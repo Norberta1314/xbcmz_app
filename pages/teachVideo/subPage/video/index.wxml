@@ -1,7 +1,11 @@
 <view class='m-backgraund'>
-  <view class='video'>
+  <video
+          src='{{ info.video_url }}'
+          autoplay="{{ true }}"
 
-  </view>
+          class='video'>
+
+  </video>
   <view class='tablist'>
     <view wx:for="{{ tabList }}" class='item {{currentTab==index?"select":""}}' data-pos='{{ index }}'
           bindtap='tabItemClick'>
@@ -14,46 +18,46 @@
       <view class='head'>
         <image/>
       </view>
-      <view class='auther'>{{ info.auther }}</view>
+      <view class='auther'>{{ info.author}}</view>
       <button class="follow">+关注</button>
     </view>
 
     <view class='name'>
-      {{ info.name }}
+      {{ info.title }}
     </view>
 
     <view class='icon'>
       <view class='play'>
         <image src='../../../../images/video/play.png'/>
-        <view>{{ info.play }}.1万</view>
+        <view>{{ info.play_size }}.1万</view>
       </view>
       <view class='commit'>
         <image src='../../../../images/video/commit.png'/>
-        <view>{{ info.commit }}</view>
+        <view>{{ info.comment_size }}</view>
       </view>
-      <view>{{ info.date }}</view>
+      <view>{{ info.create_time }}</view>
     </view>
 
     <view class='info-text'>
-      {{ info.info_text }}
+      {{ info.des }}
     </view>
   </view>
 
   <view class='commit-blocks' wx:if='{{ currentTab===1 }}'>
     <view class='commit-num'>
-      评论({{ commitNum }})
+      评论({{ info.comment_size }})
     </view>
-    <view class='commits' wx:for='{{ commits }}' wx:key='commit_id' wx:for-index='{{ commit_id }}'>
+    <view class='commits' wx:for='{{ info.comments }}' wx:key='commit_id' wx:for-index='{{ commit_id }}'>
       <view class='commit'>
         <view class='head'>
           <image/>
         </view>
         <view class='auther'>
-          {{ item.auther }}
+          {{ item.name }}
         </view>
       </view>
       <view class='discuss'>
-        {{ item.info_text }}
+        {{ item.content }}
       </view>
     </view>
   </view>
