@@ -1,17 +1,27 @@
-<view class="add_wrap" bindlongpress="longPressHandle" style="transform: {{transform}}" catchtouchmove="touchMoveHandle"
-      bindtouchend="touchEndHandle">
-  <view class="add_button" bindtap="tapHandle">
-    <view>
-      +
-    </view>
-  </view>
+<view class='m-backgraund'>
+  <view wx:if='{{ noteShow }}'class='note'>
+    <icon  bindtap='tapHandleNote' type='success_no_circle' class='noteIcon'></icon>
+    <textarea bindinput="inputHandle" class='noteText'
+      type='text'
+    />
 
-  <view class="add_menu {{menuShow ? 'menu_show' : ''}}">
-    <view style='background-color:#7669a6;' class="menu_item">
-      创建笔记
+  </view>
+  <view class="add_wrap" bindlongpress="longPressHandle" style="transform: {{transform}}" catchtouchmove="touchMoveHandle"
+        bindtouchend="touchEndHandle">
+    <view class="add_button" bindtap="tapHandle">
+      <view>
+        +
+      </view>
     </view>
-    <view bindtap='tapHandleNew' style='background-color:#6e93bb;' class="menu_item">
-      创建讨论
+
+    <view class="add_menu {{menuShow ? 'menu_show' : ''}}">
+      <view bindtap='tapHandleNote'style='background-color:#7669a6;' class="menu_item">
+        创建笔记
+      </view>
+      <view bindtap='tapHandleNew' style='background-color:#6e93bb;' class="menu_item">
+        创建讨论
+      </view>
     </view>
+
   </view>
 </view>

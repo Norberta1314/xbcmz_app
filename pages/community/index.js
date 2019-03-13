@@ -7,37 +7,7 @@ Page({
     currentTab: 0,
     currentRecomment: 0,
     backgroundItem: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    comments: [{
-      name: 'zxz',
-      question: '我为什么还没有女朋友？',
-      commentNum: 10,
-      likeNum: 3,
-      like_I: 0
-    }, {
-      name: 'Lyren',
-      question: 'zxz为什么还没有女朋友？',
-      commentNum: 20,
-      likeNum: 3,
-      like_I: 1
-    }, {
-      name: 'hky',
-      question: 'zxz为什么还没有女朋友？',
-      commentNum: 20,
-      likeNum: 3,
-      like_I: 1
-    }, {
-      name: 'yyd',
-      question: 'zxz为什么还没有女朋友？',
-      commentNum: 20,
-      likeNum: 3,
-      like_I: 1
-    }, {
-      name: 'norberta',
-      question: 'zxz为什么还没有女朋友？',
-      commentNum: 20,
-      likeNum: 3,
-      like_I: 1
-    }]
+    comments: []
   },
   onLoad(){
     let _this = this
@@ -51,6 +21,7 @@ Page({
       method: 'GET',
       success: (res) => {
         const result = res.data.data
+        // console.log(result)
         _this.setData({
           comments: result
         })
@@ -90,14 +61,16 @@ Page({
     var likeNums = this.data.comments[index].star_num;
     console.log()
 
-    if ( this.data.comments[index].stared === 0 ) {
+    if ( this.data.comments[index].stared === false ) {
+      console.log("点赞")
       this.setData({
-        [like]: 1,
+        [like]: true,
         [likeNum]: likeNums + 1
       })
     } else {
+      console.log("取消点赞")
       this.setData({
-        [like]: 0,
+        [like]: false,
         [likeNum]: likeNums - 1
       })
     }

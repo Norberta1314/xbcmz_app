@@ -17,5 +17,23 @@ Page({
         auther:'雷蒙德钱德勒'
       }
     ]
+  },
+  chooseBook(){
+    wx.navigateTo({
+      url: './subPage/chooseBook/index'
+    })
+  },
+  chooseCap(){
+    wx.navigateTo({
+      url: './subPage/chooseCaptor/index'
+    })
+  },
+  chooseFriend(){
+    wx.navigateTo({
+      url: './subPage/chooseFriend/index'
+    })
+  },
+  submit(){
+
   }
 })

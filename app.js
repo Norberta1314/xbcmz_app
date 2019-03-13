@@ -7,7 +7,7 @@ import envConfig from 'env'
 
 
 //config
-const localStorageKey = "localStorageKey"
+const localStorageKey = 'localStorageKey'
 
 const store = new Wxstore({
   app: {
@@ -32,10 +32,6 @@ App({
 
 
     this.login()
-
-
-
-
 
 
     // // 展示本地存储能力
@@ -89,7 +85,7 @@ App({
     wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
-        if (!res.code) {
+        if ( !res.code ) {
           return toast({
             icon: 'error',
             title: '获取用户登录态失败！' + res.errMsg
@@ -97,19 +93,19 @@ App({
         }
         fetch({
           url: API('autoLogin'),
-          method: "POST",
+          method: 'POST',
           data: {
             code: res.code
           },
           success: (res) => {
             const response = res.data
-            if (response.code < 0) {
-              if (response.code == -201) {
-                  console.log('test')
+            if ( response.code < 0 ) {
+              if ( response.code == -201 ) {
+                console.log('test')
                 // todo 切换绑定页面
-                  wx.navigateTo({
-                      url: '/pages/login/index'
-                  })
+                wx.navigateTo({
+                  url: '/pages/login/index'
+                })
 
                 return toast({
                   icon: 'error',
@@ -123,7 +119,7 @@ App({
               token: response.data.token
             })
             toast({
-              title: "自动登录成功"
+              title: '自动登录成功'
             })
           }
         })
@@ -137,7 +133,6 @@ App({
   afterLogin() {
 
   },
-
 
 
   //本地储存
