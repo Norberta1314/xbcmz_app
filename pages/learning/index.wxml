@@ -28,6 +28,10 @@
     <button bindtap='bindTeacher' class='button_learning'>
       <image src='../../images/learning/teacher.png' class='button_learning_img'></image>
     </button>
+    <!--闯关-->
+    <button bindtap='bindPass' class='button_learning'>
+      <image src='../../images/learning/pass.png' class='button_learning_img'></image>
+    </button>
   </view>
 
   <!--通知-->

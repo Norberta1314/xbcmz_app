@@ -10,6 +10,9 @@ Page({
     comments: []
   },
   onLoad(){
+
+  },
+  onShow(){
     let _this = this
     app.$store.setWxCtx(this, 'teachVideo')
     this.gettopics()

@@ -14,7 +14,8 @@ const apiMap = {
   liveDetail: 'video/live/',
   commentDetail: 'community/topic/',
   addCommunity: 'community/topic/create',
-  topics: 'community/topics'
+  topics: 'community/topics',
+  attendence:'user/stu/attendence'
 }
 
 /**
