@@ -67,9 +67,6 @@ Page({
       }
     }
   },
-  onShow: function (e) {
-
-  },
 
   bindTimeTable: function (e) {
     wx.navigateTo({
