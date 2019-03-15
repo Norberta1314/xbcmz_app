@@ -41,7 +41,9 @@
     "pages/myInformation/subPage/walk/index",
     "pages/teachVideo/subPage/live/index",
     "pages/teachVideo/subPage/video/index",
-    "pages/login/index"
+    "pages/login/index",
+
+    "pages/learning/subPage"
   ],
   "window":{
     "backgroundTextStyle":"light",

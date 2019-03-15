@@ -30,5 +30,14 @@ Page({
       name:'岛上书店',
       auther:'（美）加泽文'
     }]
+  },
+  onLoad: function () {
+    wx.showLoading({
+      title: '加载中',
+    })
+
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 800)
   }
 })

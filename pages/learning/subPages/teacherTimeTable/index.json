@@ -1,7 +1,6 @@
 {
   "usingComponents": {},
-  "backgroundTextStyle": "light",
   "navigationBarBackgroundColor": "#eeeeee",
-  "navigationBarTitleText": "选择章节",
+  "navigationBarTitleText": "教师查询",
   "navigationBarTextStyle": "black"
 }

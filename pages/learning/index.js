@@ -16,12 +16,21 @@ Page({
     ],
     showAtt: false,
     showRead: false,
-    beginMonth: 3
+    beginMonth: 3,
+    type: ''
   },
   onLoad: function(e) {
     let _this = this
     app.$store.setWxCtx(this, 'teachVideo')
+    this.getPeople()
     this.getAttendence()
+  },
+
+  getPeople:function() {
+    let type = app.$store.getAppState('type')
+    this.setData({
+      type: type
+    })
   },
 
   getAttendence() {

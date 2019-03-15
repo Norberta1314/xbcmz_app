@@ -59,9 +59,10 @@ Page({
           },
           success: (res) => {
             const response = res.data
-            const token = response.data.token
+            const {token, User } = response.data
             app.$store.setAppState({
-              token: token
+              token: token,
+              type: User.type
             })
             wx.showToast({
               duration: 2000,

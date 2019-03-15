@@ -18,6 +18,15 @@ Page({
       }
     ]
   },
+  onLoad:function(e) {
+    wx.showLoading({
+      title: '加载中',
+    })
+
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 800)
+  },
   chooseBook(){
     wx.navigateTo({
       url: './subPage/chooseBook/index'

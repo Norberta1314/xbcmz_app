@@ -60,7 +60,7 @@ page {
 }
 
 .advice-book .book {
-  background-color: #eee;
+  background-color: #a4b7c9;
   display: flex;
   flex-direction: column;
   justify-content: center;
