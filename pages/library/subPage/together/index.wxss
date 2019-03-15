@@ -37,6 +37,10 @@ page {
   border-radius: 5rpx;
   font-size: 35rpx;
 }
+
+.choose-button:hover {
+  background-color: rgba(230, 230, 230, 0.8);
+}
 .start {
   background-color: #a4b7c9;
   text-align: center;

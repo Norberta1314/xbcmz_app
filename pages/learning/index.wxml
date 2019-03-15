@@ -88,8 +88,8 @@
 </view>
 
 <view wx:if='{{ type===1 }}' class='teacher-background'>
-  <view class='item'>选择教学班级</view>
-  <view class='item'>课程信息查询</view>
-  <view class='item'>教务通知查询</view>
-  <view class='item'>点名</view>
+  <view bindtap='bindTeacherClass' class='item'>课程信息管理</view>
+  <view bindtap='bindTeacherTimeTable' class='item'>课程表查询</view>
+  <view bindtap='bindTeacherSearchNotify'class='item'>教务通知查询</view>
+  <view bindtap='bindTeacherAttendamce'class='item'>点名</view>
 </view>

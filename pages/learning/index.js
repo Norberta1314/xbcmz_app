@@ -23,7 +23,9 @@ Page({
     let _this = this
     app.$store.setWxCtx(this, 'teachVideo')
     this.getPeople()
-    this.getAttendence()
+    if (this.data.type === 0) {
+      this.getAttendence()
+    }
   },
 
   getPeople:function() {
@@ -110,6 +112,26 @@ Page({
   bindTeacher: function (e) {
     wx.navigateTo({
       url: '/pages/learning/subPage/teacher/index',
+    })
+  },
+  bindTeacherClass() {
+    wx.navigateTo({
+      url: '/pages/learning/subPages/teacherChooseClass/index',
+    })
+  },
+   bindTeacherTimeTable() {
+    wx.navigateTo({
+      url: '/pages/learning/subPages/teacherChooseClass/index'
+    })
+   },
+  bindTeacherSearchNotify() {
+    wx.navigateTo({
+      url: '/pages/learning/subPages/teacherSearchNotify/index'
+    })
+  },
+  bindTeacherAttendamce() {
+    wx.navigateTo({
+      url: '/pages/learning/subPages/teacherAttendamce/index'
     })
   },
   bindAttTap: function (e) {

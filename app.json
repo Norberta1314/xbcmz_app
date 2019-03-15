@@ -43,7 +43,10 @@
     "pages/teachVideo/subPage/video/index",
     "pages/login/index",
 
-    "pages/learning/subPage"
+    "pages/learning/subPages/teacherAttendamce/index",
+    "pages/learning/subPages/teacherChooseClass/index",
+    "pages/learning/subPages/teacherSearchNotify/index",
+    "pages/learning/subPages/teacherTimeTable/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -2,21 +2,25 @@ const app = getApp();
 
 Page({
   data: {
-    name: ''
+    classList:['树莓1602','计科1101'],
+    showClass: true
   },
-  onLoad: function () {
-    let _this = this
-    app.$store.setWxCtx(this, 'searchTeacher')
+  onLoad() {
+    this.loadding()
+
   },
-  getSearch: function (e) {
-    var val = e.detail.value
-    this.setData({
-      name: val
+  loadding() {
+    wx.showLoading({
+      title: '加载中',
     })
+
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 800)
   },
-  bindTapSearch: function (e) {
-    wx.navigateTo({
-      url: `/pages/learning/subPage/teacher/subPage/index?name=${ this.data.name }`,
+  chooseClass() {
+    this.setData({
+      showClass: false
     })
   }
 })

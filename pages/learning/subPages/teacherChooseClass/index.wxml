@@ -1,9 +1,9 @@
 <view class='m-backgraund'>
-    <image src='../../../../images/learning/subPage/teacher.png'/>
-    <view class='search'>
-        <input bindinput='getSearch'/>
-        <view class='button' bindtap='bindTapSearch'>搜索</view>
-
+    <view class='class-block'>
+        <view bindtap='chooseClass' wx:if='{{ showClass }}'class='classList' wx:for='{{ classList }}' wx:key='index'>
+            {{ item }}
+        </view>
     </view>
+
 
 </view>
