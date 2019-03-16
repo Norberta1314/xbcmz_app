@@ -121,7 +121,7 @@ Page({
   },
    bindTeacherTimeTable() {
     wx.navigateTo({
-      url: '/pages/learning/subPages/teacherChooseClass/index'
+      url: '/pages/learning/subPages/teatherTimeTable/index'
     })
    },
   bindTeacherSearchNotify() {

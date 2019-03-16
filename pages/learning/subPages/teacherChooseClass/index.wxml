@@ -1,7 +1,22 @@
 <view class='m-backgraund'>
-    <view class='class-block'>
-        <view bindtap='chooseClass' wx:if='{{ showClass }}'class='classList' wx:for='{{ classList }}' wx:key='index'>
+    <view wx:if='{{ showClass }}'class='class-block {{ activeClass?"activeClass":"" }}'>
+        <view class='classList'bindtap='chooseClass'  wx:for='{{ classList }}' wx:key='index'>
             {{ item }}
+        </view>
+    </view>
+
+    <view wx:if='{{ !showClass }}'class='button_group'>
+        <view class='button_icon' >
+            <image src= '/images/learning/subPages/studentNames.png'/>
+        </view>
+        <view class='button_icon' >
+            <image src= '/images/learning/subPages/studentGrade.png'/>
+        </view>
+        <view class='button_icon' >
+            <image src= '/images/learning/subPages/studentTask.png'/>
+        </view>
+        <view class='button_icon' >
+            <image src= '/images/learning/subPages/studentMaterial.png'/>
         </view>
     </view>
 
