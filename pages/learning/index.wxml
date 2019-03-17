@@ -46,7 +46,7 @@
       <view bindtap='bindAttTap'class='attendance_calendar_{{ beginMonth }} cc'>
         <view class='month'>
           <view class='day' wx:for='{{ 5 }}' wx:key='{{ day_id }}' wx:for-index='day_id' wx:for-item='day'>
-            <view class='week bgAtt_{{ attendance[day_id][week_id] }}' wx:for='{{ 7 }}' ex:key='{{ week_id }}' wx:for-index='week_id' wx:for-item='week'>
+            <view class='week bgAtt_{{ attendance[day_id][week_id] }}' wx:for='{{ 7 }}' wx:key='{{ week_id }}' wx:for-index='week_id' wx:for-item='week'>
 
             </view>
           </view>
@@ -57,7 +57,7 @@
       <view bindtap='bindReadTap' class='read_calendar_{{ beginMonth }} cc'>
         <view class='month'>
           <view class='day' wx:for='{{ 5 }}' wx:key='{{ day_id }}' wx:for-index='day_id' wx:for-item='day'>
-            <view class='week bgRead_{{ read[day_id][week_id] }}' wx:for='{{ 7 }}' ex:key='{{ week_id }}' wx:for-index='week_id' wx:for-item='week'>
+            <view class='week bgRead_{{ read[day_id][week_id] }}' wx:for='{{ 7 }}' wx:key='{{ week_id }}' wx:for-index='week_id' wx:for-item='week'>
 
             </view>
           </view>

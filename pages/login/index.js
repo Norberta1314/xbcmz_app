@@ -83,7 +83,8 @@ Page({
             const {token, User } = response.data
             app.$store.setAppState({
               token: token,
-              type: User.type
+              type: User.type,
+              username: form.username
             })
             wx.showToast({
               duration: 2000,
