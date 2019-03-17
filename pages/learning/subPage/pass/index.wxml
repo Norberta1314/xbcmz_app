@@ -1,0 +1,35 @@
+<view class='m-backgraund'>
+
+  <view class='title'>
+    <view class='questionNum'>
+      Q{{ currentQuestion  + 1}}:
+    </view>
+
+    <view class='question'>
+      {{ question[currentQuestion] }}
+    </view>
+  </view>
+
+  <view class='answer-clock'>
+    <view bindtap='chooseAnswer'class='answer' wx:for='{{ answers[currentQuestion] }}' wx:key='index' data-pos='{{ index }}'>
+      <view >{{ item }}</view>
+    </view>
+  </view>
+  <view class='icon'>
+    <view wx:for='{{ iconimg }}' wx:key='index'>
+      <image class='iconImg'src='/images/learning/subPage/pass/{{ item[list[index]] }}'/>
+    </view>
+  </view>
+
+  <view wx:if='{{ showScore }}' class='score'>
+    <view class='score-text'>
+      完成闯关!
+    </view>
+    <view class='score-text'>
+      恭喜你获得:
+    </view>
+    <view class='score-text' style='font-size: 70rpx'>
+      {{ grade }}分
+    </view>
+  </view>
+</view>

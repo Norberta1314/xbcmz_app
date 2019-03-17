@@ -1,4 +1,4 @@
-<view class='background'>
+<view wx:if='{{ type===0 }}'class='background'>
   <view class='button_group'>
     <!-- 课表查询 -->
     <button bindtap='bindTimeTable' class='button_learning'>
@@ -27,6 +27,10 @@
     <!-- 教师查询 -->
     <button bindtap='bindTeacher' class='button_learning'>
       <image src='../../images/learning/teacher.png' class='button_learning_img'></image>
+    </button>
+    <!--闯关-->
+    <button bindtap='bindPass' style='margin-top: 6rpx' class='button_learning'>
+      <image src='../../images/learning/pass.png' class='button_learning_img'></image>
     </button>
   </view>
 
@@ -81,4 +85,11 @@
   </view>
 
   <add></add>
+</view>
+
+<view wx:if='{{ type===1 }}' class='teacher-background'>
+  <view bindtap='bindTeacherClass' class='item'>课程信息管理</view>
+  <view bindtap='bindTeacherTimeTable' class='item'>课程表查询</view>
+  <view bindtap='bindTeacherSearchNotify'class='item'>教务通知查询</view>
+  <view bindtap='bindTeacherAttendamce'class='item'>点名</view>
 </view>

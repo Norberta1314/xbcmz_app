@@ -8,12 +8,13 @@ Component({
     y: 0,
     isMove: false,
     menuShow: false,
+    noteShow: false,
     initalTouchX: 0,
     initalTouchY: 0,
     currentTouchX: 0,
     currentTouchY: 0,
-    transform: ''
-
+    transform: '',
+    noteVal:''
   },
   methods: {
     changeHandle(e) {
@@ -61,6 +62,17 @@ Component({
       wx.navigateTo({
         url: '/pages/community/subPage/addCommunity/index',
       })
+    },
+    tapHandleNote: function (e) {
+      this.setData({
+        noteShow: !this.data.noteShow
+      })
+    },
+    inputHandle: function (e) {
+      this.setData({
+        noteVal: e.detail.value
+      })
+      console.log(this.data.noteVal)
     }
 
   },

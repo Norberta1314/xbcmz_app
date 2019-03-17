@@ -15,51 +15,68 @@ Page({
       [-1, -1, -1, -1, -1, -1, -1]
     ],
     showAtt: false,
-    showRead:false,
-    beginMonth: 3
+    showRead: false,
+    beginMonth: 3,
+    type: ''
   },
-  onShow: function(e) {
+  onLoad: function(e) {
+    let _this = this
+    app.$store.setWxCtx(this, 'teachVideo')
+    this.getPeople()
+    if (this.data.type === 0) {
+      this.getAttendence()
+    }
+  },
+
+  getPeople:function() {
+    let type = app.$store.getAppState('type')
+    this.setData({
+      type: type
+    })
+  },
+
+  getAttendence() {
+    let _this = this
+    app.fetch({
+      url:app.API('attendence'),
+      method: 'GET',
+      success: (res) => {
+        const result = res.data.data
+        console.log(result)
+      }
+    })
+
     var newDate = new Date();
     var month = newDate.getMonth()
     this.setData({
       beginMonth: month + 1
     })
 
-    var beginDay=new Date(2019, month, 1).getDay();
+    var beginDay = new Date(2019, month, 1).getDay();
 
-    // var currentDate = newDate.getDate();
-    var currentDate = 23
+    var currentDate = newDate.getDate();
+    // var currentDate = 23
     var currentDay = beginDay;
     var week = 0;
-    for (var i = 1; i <= currentDate; i++) {
+    for ( var i = 1; i <= currentDate; i++ ) {
       // console.log(i)
       var up = 'attendance[' + week + '][' + currentDay + ']'
       var down = 'read[' + week + '][' + currentDay + ']'
       var random = Math.ceil(Math.random() * 3)
-      this.setData( {
+      this.setData({
         [up]: random
       })
       random = Math.ceil(Math.random() * 5)
       this.setData({
         [down]: random
       })
-      if (currentDay === 6) {
+      if ( currentDay === 6 ) {
         currentDay = 0;
         week++;
       } else {
         currentDay++;
       }
     }
-    console.log(this.data.attendance);
-  },
-  upper: function (e) {
-    console.log(e)
-  },
-  lower: function (e) {
-    console.log(e)
-  },
-  scroll: function (e) {
-    console.log(e)
   },
 
   bindTimeTable: function (e) {
@@ -97,16 +114,41 @@ Page({
       url: '/pages/learning/subPage/teacher/index',
     })
   },
-  bindAttTap:function (e) {
+  bindTeacherClass() {
+    wx.navigateTo({
+      url: '/pages/learning/subPages/teacherChooseClass/index',
+    })
+  },
+   bindTeacherTimeTable() {
+    wx.navigateTo({
+      url: '/pages/learning/subPages/teatherTimeTable/index'
+    })
+   },
+  bindTeacherSearchNotify() {
+    wx.navigateTo({
+      url: '/pages/learning/subPages/teacherSearchNotify/index'
+    })
+  },
+  bindTeacherAttendamce() {
+    wx.navigateTo({
+      url: '/pages/learning/subPages/teacherAttendamce/index'
+    })
+  },
+  bindAttTap: function (e) {
     this.setData({
       showAtt: !this.data.showAtt,
       showRead: false
     })
   },
-  bindReadTap:function (e) {
+  bindReadTap: function (e) {
     this.setData({
       showRead: !this.data.showRead,
       showAtt: false
     })
   },
+  bindPass: function (e) {
+    wx.navigateTo({
+      url: '/pages/learning/subPage/pass/index',
+    })
+  }
 })

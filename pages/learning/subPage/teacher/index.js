@@ -1,19 +1,29 @@
 const app = getApp();
 
 Page({
-    data:{
-        name:''
-    },
-    getSearch:function (e) {
-        var val = e.detail.value
-        this.setData({
-            name:val
-        })
-    },
-    bindTapSearch: function (e) {
-        var name = this.data.name
-        wx.navigateTo({
-            url: `/pages/learning/subPage/teacher/subPage/index?name=${name}`,
-        })
-    }
+  data: {
+    name: ''
+  },
+  onLoad: function () {
+    let _this = this
+    app.$store.setWxCtx(this, 'searchTeacher')
+    wx.showLoading({
+      title: '加载中',
+    })
+
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 800)
+  },
+  getSearch: function (e) {
+    var val = e.detail.value
+    this.setData({
+      name: val
+    })
+  },
+  bindTapSearch: function (e) {
+    wx.navigateTo({
+      url: `/pages/learning/subPage/teacher/subPage/index?name=${ this.data.name }`,
+    })
+  }
 })

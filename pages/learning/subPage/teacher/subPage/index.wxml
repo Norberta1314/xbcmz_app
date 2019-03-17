@@ -1,9 +1,9 @@
 <view class="teacher-table">
-    <view>相关教师（1）人</view>
+    <view class='about-num'>相关教师（1）人</view>
     <view class="max-box">
-        <view class="=teacher-name">杨过</view>
-        <view class="teacher-email">邮箱  yangguo@163.com</view>
-        <view class="teacher-tel">电话  0571-88888888</view>
+        <view class="teacher-name">{{name}}</view>
+        <view class="teacher-tel">邮箱  {{email}}</view>
+        <view class="teacher-tel">电话  {{ tel }}</view>
     </view>
 
 </view>

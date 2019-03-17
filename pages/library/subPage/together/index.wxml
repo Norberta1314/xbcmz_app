@@ -1,9 +1,9 @@
 <view class='m-backgraund'>
   <view class='new-book'>
-    <view class='choose-button choose-book'>选择书籍</view>
-    <view class='choose-button choose-cap'>选择章节</view>
-    <view class='choose-button choose-friend'>选择好友</view>
-    <view class='start'>发起</view>
+    <view bindtap='chooseBook' class='choose-button choose-book'>选择书籍</view>
+    <view bindtap='chooseCap' class='choose-button choose-cap'>选择章节</view>
+    <view bindtap='chooseFriend' class='choose-button choose-friend'>选择好友</view>
+    <view bindtap='submit' class='start'>发起</view>
   </view>
 
   <view class='my-book'>

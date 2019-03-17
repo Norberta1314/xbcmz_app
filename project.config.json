@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 5,
+			"current": 8,
 			"list": [
 				{
 					"id": -1,
@@ -74,6 +74,27 @@
 					"id": -1,
 					"name": "s",
 					"pathName": "pages/community/subPage/communityDetail/subPage/chooseFriend/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pass",
+					"pathName": "pages/learning/subPage/pass/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "teacherDetail",
+					"pathName": "pages/learning/subPage/teacher/subPage/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 8,
+					"name": "login",
+					"pathName": "pages/login/index",
 					"query": "",
 					"scene": null
 				}

@@ -1,0 +1,68 @@
+page {
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.m-backgraund {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  background-image: url('https://s2.ax1x.com/2019/03/14/AAMqgJ.png');
+  background-size: cover;
+  background-attachment:fixed;
+  flex: 1;
+
+}
+
+.icon {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  bottom: 30rpx;
+  width: 80%;
+  height: 60rpx;
+}
+
+.iconImg {
+  width: 56rpx;
+  height: 56rpx;
+}
+.title {
+  margin:100rpx 50rpx 150rpx 50rpx
+}
+.title .questionNum {
+  margin-bottom: 50rpx;
+}
+.title .question {
+  padding-left: 30rpx;
+}
+
+.answer-clock {
+  display: flex;
+  flex-direction: column;
+}
+
+.answer {
+  background-color: #dde4ec;
+  width: 550rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin: 10rpx;
+  padding-left: 40rpx;
+}
+
+.score {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 350rpx;
+  left: 85rpx;
+  width: 580rpx;
+  height: 540rpx;
+  background-color: #eee;
+  font-size: 50rpx;
+}
+

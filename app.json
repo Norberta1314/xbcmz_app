@@ -22,10 +22,14 @@
     "pages/learning/subPage/teacher/subPage/index",
     "pages/learning/subPage/testTable/index",
     "pages/learning/subPage/timeTable/index",
+    "pages/learning/subPage/pass/index",
     "pages/library/subPage/advice/index",
     "pages/library/subPage/search/index",
     "pages/library/subPage/search/subPage/index",
     "pages/library/subPage/together/index",
+    "pages/library/subPage/together/subPage/chooseBook/index",
+    "pages/library/subPage/together/subPage/chooseCaptor/index",
+    "pages/library/subPage/together/subPage/chooseFriend/index",
     "pages/myInformation/subPage/certificate/index",
     "pages/myInformation/subPage/community/index",
     "pages/myInformation/subPage/myInfoDetail/index",
@@ -37,7 +41,12 @@
     "pages/myInformation/subPage/walk/index",
     "pages/teachVideo/subPage/live/index",
     "pages/teachVideo/subPage/video/index",
-    "pages/login/index"
+    "pages/login/index",
+
+    "pages/learning/subPages/teacherAttendamce/index",
+    "pages/learning/subPages/teacherChooseClass/index",
+    "pages/learning/subPages/teacherSearchNotify/index",
+    "pages/learning/subPages/teacherTimeTable/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

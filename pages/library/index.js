@@ -10,6 +10,15 @@ Page({
     '../../images/library/moon/4.png',
     '../../images/library/moon/5.png']
   },
+  onLoad:function(){
+    wx.showLoading({
+      title: '加载中',
+    })
+
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 800)
+  },
 
   onShow: function () {
     var num = Math.ceil(Math.random() * 100);
