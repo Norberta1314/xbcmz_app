@@ -21,7 +21,7 @@ page {
     height: 88rpx;
     line-height: 88rpx;
     text-align: center;
-    background-color: #333;
+    background-color: #7897ba;
     margin: 20rpx;
 
 
