@@ -6,7 +6,7 @@
     <!--<view>xxxxxxxxx</view>-->
     <view class='test-item' wx:for='{{ tests }}' wx:key='{{ test_id }} ' wx:for-index='test_id'>
       <view class='name'>
-        <text style='font-size: 30rpx;'>{{ item.name }}</text>
+        <text style='font-size: 30rpx;'>{{ item.course_name }}</text>
         <view>
           <text >( 距离考试还有</text>
           <text style='color: red'>{{ item.day }}</text>

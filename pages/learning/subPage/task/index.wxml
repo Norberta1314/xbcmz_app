@@ -1,9 +1,15 @@
 <view class='m-backgraund'>
-  <text class='choose'>科目选择: </text>
+  <text class='choose'>科目选择:</text>
   <view class='choose-block'>
-    <view bindtap='bindTaskTap'class='course'wx:for='{{ courses }}' wx:key='{{ course_id }}' wx:for-index='course_id'>
+    <view bindtap='bindTaskTap'
+          class='course'
+          wx:for='{{ courses }}'
+          wx:key='{{ course_id }}'
+          wx:for-index='course_id'
+          data-pos='{{ course_id }}'
+    >
       <view>
-        {{ item.name }}
+        {{ item.course_name }}
       </view>
     </view>
   </view>

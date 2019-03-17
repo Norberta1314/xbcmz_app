@@ -2,21 +2,30 @@ const app = getApp();
 
 Page({
   data:{
-    courses:[
-      {name:'数据结构'},
-      {name:'离散数学'},
-      {name:'高等数学'},
-      {name:'概率论'},
-      {name:'角色造型'},
-      {name:'数据库'},
-      {name:'操作系统'},
-      {name:'计算机原理'},
-      {name:'计算机网络'}
-    ]
+    courses:''
+  },
+  onLoad() {
+    let _this = this
+    app.$store.setWxCtx(this, 'exams')
+    _this.getTaskList()
+  },
+  getTaskList() {
+    let _this = this
+    app.fetch({
+      url: app.API('taskList'),
+      method: 'GET',
+      success: (res) => {
+        const result = res.data.data
+        _this.setData({
+          courses: result
+        })
+      }
+    })
   },
   bindTaskTap: function (e) {
+    let course_name = this.data.courses[e.currentTarget.dataset.pos].course_name
     wx.navigateTo({
-      url: '/pages/learning/subPage/task/subPage/index',
+      url: `/pages/learning/subPage/task/subPage/index?course_name=${course_name}`,
     })
   }
   

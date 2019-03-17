@@ -22,7 +22,8 @@ const apiMap = {
   attendence:'user/stu/attendence',
   teacherSearch: 'user/teacher/search/',
   grade:'user/stu/grade',
-  examTable:'user/stu/exams'
+  examTable:'user/stu/exams',
+  taskList:'user/stu/exams'
 }
 
 /**
