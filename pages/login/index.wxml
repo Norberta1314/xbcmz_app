@@ -23,8 +23,16 @@
                 </label>
             </view>
         </radio-group>
-        
-        <view class="confirm_btn input_item" bindtap="login">
+
+
+        <button
+        wx:if="{{canIUse}}"
+        open-type="getUserInfo"
+        bindgetuserinfo="bindGetUserInfo"
+        >
+        授权登录
+        </button>
+        <view wx:if="{{!canIUse}}" class="confirm_btn input_item" bindtap="login">
             <view class="u_confirm_btn">
                 <text>登录</text>
             </view>

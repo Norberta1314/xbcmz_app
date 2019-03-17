@@ -64,9 +64,8 @@ App({
           },
           success: (res) => {
             const response = res.data
-            const {token, User } = response.data
             if ( response.code < 0 ) {
-              if ( response.code == -201 ) {
+              if ( response.code === -201 ) {
                 console.log('test')
                 // todo 切换绑定页面
                 wx.navigateTo({
@@ -80,6 +79,7 @@ App({
               }
               return
             }
+            const {token, User } = response.data
             store.setAppState({
               token: token,
               type: User.type

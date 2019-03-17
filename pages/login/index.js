@@ -8,11 +8,27 @@ const form = {
 }
 Page({
   data: {
-    debouce: false
+    debouce: false,
+    canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   onLoad() {
     let _this = this
     app.$store.setWxCtx(this, 'login')
+    wx.getSetting({
+      success(res) {
+        if (res.authSetting['scope.userInfo']) {
+          // 已经授权，可以直接调用 getUserInfo 获取头像昵称
+          _this.setData({
+            canIUse: false
+          })
+          wx.getUserInfo({
+            success(res) {
+
+            }
+          })
+        }
+      }
+    })
 
   },
   radioChaneHandle(e) {
@@ -22,6 +38,11 @@ Page({
   inputHandle(e) {
     const type = e.target.dataset.type
     form[type] = e.detail.value
+  },
+  bindGetUserInfo(e) {
+    this.setData({
+      canIUse: false
+    })
   },
   login() {
     if ( this.data.debouce ) {
