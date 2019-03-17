@@ -21,6 +21,24 @@ Page({
       seat: '1',
       day: 30
     }]
+  },
+  onLoad() {
+    let _this = this
+    app.$store.setWxCtx('exam')
+  },
+  getExamTable(){
+    let _this = this
+    app.fetch({
+      url: app.API('examTable'),
+      method: 'GET',
+      success: (res) => {
+        const result = res.data.data
+        _this.setData({
+          tests: result.name
+        })
+
+      }
+    })
   }
 
 })
