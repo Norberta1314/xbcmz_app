@@ -2,8 +2,8 @@ const app = getApp();
 
 Page({
   data: {
-    name: 'zxz',
-    sID: '201600001111',
+    name: '',
+    sID: '',
     select: false,
     term: '2017/2018(1)',
     gpa: 0.00,
@@ -14,6 +14,7 @@ Page({
     app.$store.setWxCtx(_this, 'grade')
     _this.setName()
     _this.getGrade()
+    _this.setGPA()
   },
   setName() {
     let _this = this
@@ -28,7 +29,7 @@ Page({
       }
     })
     this.setState({
-      sID:app.$store.getAppState('username')
+      sID: app.$store.getAppState('username')
     })
 
   },
@@ -42,8 +43,36 @@ Page({
         this.setState({
           scores: result
         })
+        let courses = result
+        let xuefen = 0
+        let chengji = 0
+
+        for ( let i = 0; i < courses.length; i++ ) {
+          let course = courses[i]
+          xuefen += course.credit
+          if ( course.score >= 60 ) {
+            chengji += (course.score - 50) * course.credit
+          }
+        }
+        this.setData({
+          gpa: (parseFloat(chengji / 10 / xuefen)).toFixed(2)
+        })
       }
     })
+
+  },
+  setGPA() {
+    let courses = this.data.scores
+    let xuefen = 0
+    let chengji = 0
+    console.log(this.data.scores)
+    for ( let i = 0; i < courses.length; i++ ) {
+      let course = courses[i]
+      xuefen += course.credit
+      if ( course.score >= 60 ) {
+        chengji += (course.score - 50) * course.credit
+      }
+    }
   },
   bindShowMsg: function () {
     this.setData({

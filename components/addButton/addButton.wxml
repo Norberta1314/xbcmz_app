@@ -15,9 +15,9 @@
     </view>
 
     <view class="add_menu {{menuShow ? 'menu_show' : ''}}">
-      <view bindtap='tapHandleNote'style='background-color:#7669a6;' class="menu_item">
-        创建笔记
-      </view>
+      <!--<view bindtap='tapHandleNote'style='background-color:#7669a6;' class="menu_item">-->
+        <!--创建笔记-->
+      <!--</view>-->
       <view bindtap='tapHandleNew' style='background-color:#6e93bb;' class="menu_item">
         创建讨论
       </view>

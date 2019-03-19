@@ -11,7 +11,7 @@
   </view>
 
   <view class='answer-clock'>
-    <view bindtap='chooseAnswer'class='answer' wx:for='{{ answers[currentQuestion] }}' wx:key='index' data-pos='{{ index }}'>
+    <view bindtap='chooseAnswer'class='answer {{ showColor[currentQuestion][index]?"answer-color":"" }}' wx:for='{{ answers[currentQuestion] }}' wx:key='index' data-pos='{{ index }}'>
       <view >{{ item }}</view>
     </view>
   </view>

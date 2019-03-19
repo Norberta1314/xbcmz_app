@@ -51,6 +51,7 @@ Page({
       method: 'GET',
       success: (res) => {
         const result = res.data.data
+        console.log(res)
         for(var i = 0; i < result.length; i++) {
           let up='live['+i+']'
           _this.setData({

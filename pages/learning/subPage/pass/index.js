@@ -29,8 +29,8 @@ Page({
     ],
     answers: [
       ['A.肌肤', 'B.皮肤', 'C.肝脏', 'D.腮'],
-      ['A.肌肤', 'B.皮肤', 'C.肝脏', 'D.腮'],
-      ['A.肌肤', 'B.皮肤', 'C.肝脏', 'D.腮'],
+      ['A.xx', 'B.vb', 'C.df', 'D.sad'],
+      ['A.asdf', 'B.gewef', 'C.nkh', 'D.dsfg'],
       ['A.肌肤', 'B.皮肤', 'C.肝脏', 'D.腮'],
       ['A.肌肤', 'B.皮肤', 'C.肝脏', 'D.腮'],
       ['A.肌肤', 'B.皮肤', 'C.肝脏', 'D.腮'],
@@ -41,10 +41,21 @@ Page({
     ],
     list: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     grade: 0,
-    showScore: false
+    showScore: false,
+    showColor: [[false, false, false, false],
+      [false, false, false, false],
+      [false, false, false, false],
+      [false, false, false, false],
+      [false, false, false, false],
+      [false, false, false, false],
+      [false, false, false, false],
+      [false, false, false, false],
+      [false, false, false, false],
+      [false, false, false, false],]
   },
 
   chooseAnswer: function (e) {
+    let _this = this
     let currentQuestion = this.data.currentQuestion
 
     let chooseAnswer = e.currentTarget.dataset.pos
@@ -65,9 +76,17 @@ Page({
         showScore: true
       })
     } else {
+      let up = 'showColor[' + currentQuestion+'][' + chooseAnswer + ']'
       this.setData({
-        currentQuestion: currentQuestion + 1
+        [up]: true,
       })
+
+      setTimeout(function () {
+        _this.setData({
+          currentQuestion: currentQuestion + 1
+        })
+      }, 1000)
+
     }
   }
 })
