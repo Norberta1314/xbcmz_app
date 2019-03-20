@@ -86,6 +86,7 @@ page {
 }
 
 .commits .discuss {
+  display: flex;
   padding: 0 50rpx 10rpx 50rpx;
-  word-break:break-all；
+  word-break:break-all
 }

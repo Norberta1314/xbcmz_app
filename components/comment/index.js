@@ -26,50 +26,55 @@ Component({
     addComment(e) {
       let id = this.properties.commentID
       let commentType = this.properties.commentType
-      if (commentType === 'community') {
-        app.fetch({
-          url: app.API('addCommunityComment') + id,
-          method:'POST',
-          data:{
-            content: this.data.inputData
-          },
-          success:(res) => {
-            let result = res.data.data
-            this.setData({
-              inputData:''
-            })
-          }
-        })
-      } else if (commentType === 'video') {
-        app.fetch({
-          url: app.API('addVideoComment') + id,
-          method:'POST',
-          data:{
-            content: this.data.inputData
-          },
-          success:(res) => {
-            let result = res.data.data
-            this.setData({
-              inputData:''
-            })
-          }
-        })
+      if (this.data.inputData==='') {
 
-      } else if (commentType === 'live') {
-        app.fetch({
-          url: app.API('addLiveComment') + id,
-          method:'POST',
-          data:{
-            content: this.data.inputData
-          },
-          success:(res) => {
-            let result = res.data.data
-            this.setData({
-              inputData:''
-            })
-          }
-        })
+      } else{
+        if (commentType === 'community') {
+          app.fetch({
+            url: app.API('addCommunityComment') + id,
+            method:'POST',
+            data:{
+              content: this.data.inputData
+            },
+            success:(res) => {
+              let result = res.data.data
+              this.setData({
+                inputData:''
+              })
+            }
+          })
+        } else if (commentType === 'video') {
+          app.fetch({
+            url: app.API('addVideoComment') + id,
+            method:'POST',
+            data:{
+              content: this.data.inputData
+            },
+            success:(res) => {
+              let result = res.data.data
+              this.setData({
+                inputData:''
+              })
+            }
+          })
+
+        } else if (commentType === 'live') {
+          app.fetch({
+            url: app.API('addLiveComment') + id,
+            method:'POST',
+            data:{
+              content: this.data.inputData
+            },
+            success:(res) => {
+              let result = res.data.data
+              this.setData({
+                inputData:''
+              })
+            }
+          })
+        }
       }
+
     }
   }
 })

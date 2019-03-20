@@ -66,15 +66,15 @@
     </swiper-item>
   </swiper>
 
-  <view wx:if='{{ showAtt }}'class='swiper-box att-box'>
-    <view class='name'>考勤</view>
+  <!--<view wx:if='{{ showAtt }}'class='swiper-box att-box'>-->
+    <!--<view class='name'>考勤</view>-->
 
-  </view>
+  <!--</view>-->
 
-  <view wx:if='{{ showRead }}'class='swiper-box read-box'>
-    <view class='name'>阅读</view>
+  <!--<view wx:if='{{ showRead }}'class='swiper-box read-box'>-->
+    <!--<view class='name'>阅读</view>-->
 
-  </view>
+  <!--</view>-->
 
   <!--今日课表-->
   <view class='today_course'>

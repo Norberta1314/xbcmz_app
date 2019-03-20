@@ -43,7 +43,7 @@ Page({
         }
         results = results.reverse()
         _this.setData({
-          comments: result
+          comments: results
         })
       }
     })

@@ -8,7 +8,7 @@
         <button class="follow">+关注</button>
       </view>
       <!--问题-->
-      <view bindtap='tapHandleComment' data-id="{{ index }}" class="comment_question">
+      <view bindtap='tapHandleComment' data-id="{{ item.id }}" class="comment_question">
         {{ item.title }}
       </view>
       <!--点赞回复-->
@@ -20,7 +20,7 @@
 
         <view class="icon_item" bindtap='likeClick' data-pos="{{ index }}">
           <image class='like_img'
-                 src='{{ item.stared?"../../images/comunity/like_selected.png":"../../images/comunity/like_unselected.png"}}'
+                 src='{{ item.stared?"/images/comunity/like_selected.png":"/images/comunity/like_unselected.png"}}'
           ></image>
           <text>{{item.star_num}}</text>
         </view>

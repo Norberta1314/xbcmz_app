@@ -3,10 +3,16 @@ const app = getApp();
 Page({
   data:{
     week:'',
-    weeks:['日','一','二','三','四','五','六']
+    weeks:['日','一','二','三','四','五','六'],
+    sID:''
   },
   onLoad(){
+    let _this = this
+    app.$store.setWxCtx(_this, 'grade')
     this.getNowTime()
+    this.setState({
+      sID: app.$store.getAppState('username')
+    })
   },
   getNowTime() {
     let date = new Date()

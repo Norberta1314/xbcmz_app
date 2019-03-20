@@ -192,5 +192,6 @@ button {
 .commit-blocks .discuss {
   margin: 10rpx 50rpx 5rpx 50rpx;
   font-size: 38rpx;
+  /*word-break:break-all*/
 }
 
