@@ -4,7 +4,7 @@
     <view class='author'>{{ info.author.name }}于{{ info.update_time }}保存</view>
   </view>
   <view class='content'>{{ info.content }}</view>
-  <view class='contont-detail'>
+  <view class='content-detail'>
     {{ info.create_time }} {{ info.author.name }} 创建了讨论 {{ info.title }}
   </view>
 
@@ -22,4 +22,6 @@
       </view>
     </view>
   </view>
+
+  <comment bindtap='addComment'commentType='community' commentID='{{ info.id }}'></comment>
 </view>

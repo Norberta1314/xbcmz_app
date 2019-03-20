@@ -30,8 +30,6 @@ Page({
         })
       }
     })
-
-    console.log(this.data.comments)
   },
   tapHandleComment: function(e) {
     const id = e.currentTarget.dataset.id

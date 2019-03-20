@@ -13,10 +13,12 @@ const apiMap = {
   live: 'video/live/videos',
   videoDetail: 'video/on/demand/',
   liveDetail: 'video/live/',
+  communityTag:'community/tags',
 
   topics: 'community/topics',
   commentDetail: 'community/topic/',
   addCommunity: 'community/topic/create',
+  addCommunityComment: 'community/topic/reply/',
 
   timeTable: 'user/stu/class/schedule',
   attendence:'user/stu/attendence',

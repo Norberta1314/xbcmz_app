@@ -1,0 +1,9 @@
+<view class='m-backgraund'>
+  <input
+          bindinput = 'bindInputTap'
+          placeholder='请输入你的观点' placeholder-class='placeHolder'
+          class='add-comment-input'
+          value='{{ inputData }}'
+  />
+  <button bindtap='addComment' class='add-comment-button'>发送</button>
+</view>

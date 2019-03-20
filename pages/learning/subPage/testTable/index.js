@@ -16,6 +16,17 @@ Page({
       method: 'GET',
       success: (res) => {
         const result = res.data.data
+        let dateNOW = new Date()
+
+        for (let i = 0; i < result.length; i++) {
+          let dateTest = result[i].time
+          let date = new Date(dateTest)
+          let date2 = date.getTime() - dateNOW.getTime()
+          let days = Math.floor(date2/(24*3600*1000))
+          result[i].day = days
+        }
+        console.log(result)
+
         _this.setData({
           tests: result
         })

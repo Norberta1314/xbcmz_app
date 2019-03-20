@@ -20,7 +20,7 @@
     <view wx:for="{{ recommentItem }}"
           class='item {{currentRecomment==index?"select":""}} {{ "bg_" + backgroundItem[index] }}'
           data-pos='{{ index }}' bindtap='recommentItemClick'>
-      <text>{{ item }}</text>
+      <text>{{ item.name }}</text>
     </view>
   </scroll-view>
 

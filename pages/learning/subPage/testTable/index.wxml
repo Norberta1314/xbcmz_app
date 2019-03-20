@@ -19,7 +19,7 @@
       </view>
       <view class='place' >
         <text >地点： {{ item.place }}</text>
-        <text > 座位号： {{ item.seat }}</text>
+        <text > 座位号： {{ item.seat_num }}</text>
       </view>
 
     </view>

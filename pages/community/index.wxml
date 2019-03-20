@@ -1,7 +1,10 @@
 <view class='m-backgraund'>
   <!--顶部tab-->
   <view class='tablist'>
-    <view wx:for="{{ tabList }}" class='item {{currentTab==index?"select":""}}' data-pos='{{ index }}'
+    <view wx:for="{{ tabList }}"
+          class='item {{currentTab==index?"select":""}}'
+          data-pos='{{ index }}'
+          wx:key = 'index'
           bindtap='tabItemClick'>
       <text>{{ item }}</text>
     </view>
@@ -9,7 +12,7 @@
 
   <!--讨论-->
   <view hidden='{{ currentTab !== 0}}'>
-    <view  wx:for="{{ comments }}" data-id="{{ index }}">
+    <view  wx:for="{{ comments }}" data-id="{{ index }}" wx:key='index'>
       <view class="comment_block">
 
         <!--用户名-->
@@ -45,7 +48,9 @@
     <scroll-view scroll-x="true" class='recommendList'>
       <view wx:for="{{ recommentItem }}"
             class='item {{currentRecomment==index?"select":""}} {{ "bg_" + backgroundItem[index] }}'
-            data-pos='{{ index }}' bindtap='recommentItemClick'>
+            data-pos='{{ index }}' bindtap='recommentItemClick'
+            wx:key='index'
+      >
         <text>{{ item }}</text>
       </view>
     </scroll-view>

@@ -2,32 +2,18 @@ const app = getApp();
 
 Page({
   data: {
-    info: {
-      id: 'xxxx',
-      title: 'xxxxx',
-      content: 'xxxx',
-      author: {
-        id: 'xx',
-        name: 'xxxx'
-      },
-      createTime: 'xxxx',
-      updateTime: 'xxxx',
-      comments: [{
-        content: 'xxx',
-        author: {
-          id: 'xxx',
-          name: 'xxx'
-        },
-        createTime: 'xxx',
-        updateTime: 'xxxx'
-      }
-      ]
-    }
+    info: '',
+    id: ''
   },
   onLoad(option) {
     let _this = this
     app.$store.setWxCtx(this, 'commentDetail')
-    _this.getCommentDetail(option.id)
+    this.setData({
+      id: option.id
+    })
+  },
+  onShow(option) {
+    this.getCommentDetail(this.data.id)
   },
   getCommentDetail:function (id) {
     let _this = this
@@ -42,6 +28,9 @@ Page({
         console.log(this.data.info)
       }
     })
+  },
+  addComment() {
+    this.onShow()
   }
 
 })

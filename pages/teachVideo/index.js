@@ -15,6 +15,8 @@ Page({
     app.$store.setWxCtx(this, 'teachVideo')
     _this.getVideo()
     _this.getLive()
+    _this.getTag()
+
 
     for ( var i = 0; i < 10; i++ ) {
       var up = 'backgroundItem[' + i + ']'
@@ -51,13 +53,25 @@ Page({
       method: 'GET',
       success: (res) => {
         const result = res.data.data
-        console.log(res)
         for(var i = 0; i < result.length; i++) {
           let up='live['+i+']'
           _this.setData({
             [up]: result[i]
           })
         }
+      }
+    })
+  },
+  getTag: function() {
+    let _this = this
+    app.fetch({
+      url:app.API('communityTag'),
+      method:'GET',
+      success:(res) => {
+        const result = res.data.data
+        this.setData({
+          recommentItem: result
+        })
       }
     })
   },
