@@ -64,7 +64,7 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin: 40rpx;
+  margin: 30rpx;
   margin-bottom: 0;
 }
 .auther-info .head{
@@ -84,7 +84,7 @@ button {
 .auther-info .auther {
   height: 50rpx;
   line-height: 50rpx;
-  font-size: 50rpx;
+  font-size: 35rpx;
   padding-left: 30rpx;
 }
 
@@ -94,13 +94,22 @@ button {
 }
 .follow {
   margin-top: 15rpx;
-  margin-right: 28rpx;
+  margin-left: 28rpx;
   background-color: #e6ecf2;
   color: #474849;
   width: 90rpx;
   height: 45rpx;
   line-height: 45rpx;
   font-size: 28rpx;
+}
+
+.autotranlate {
+  margin-left: 80rpx;
+  width: 200rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #474849;
+  color: #e6ecf2;
 }
 
 .icon {

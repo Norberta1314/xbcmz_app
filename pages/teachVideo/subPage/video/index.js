@@ -4,22 +4,8 @@ Page({
   data:{
     tabList: ['简介', '评价'],
     currentTab: 0,
-    info:{
-      id:'xxx',
-      video_url:'',
-      author: 'zxz',
-      title: '如何一学期重修两门视听说课程',
-      des: '   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur deserunt doloremque nihil quam sequi. Architecto enim impedit laborum quibusdam quos similique tenetur totam unde vel veritatis? Est porro repellendus tenetur.',
-      play_size: 4,
-      comment_size: 30,
-      create_time: '2019/3/1',
-      comments:[{
-        id:'xxx',
-        name:'xxx',
-        content:'xxx',
-        createTime:'xxx'
-      }]
-    },
+    info:'',
+    autoTranlate:'自动翻译'
   },
   onLoad(option) {
     let _this = this
@@ -34,6 +20,7 @@ Page({
       method: 'GET',
       success: (res) => {
         const result = res.data.data
+        console.log(result)
         let date = result.create_time.slice(0, 10)
         _this.setData({
           info:result,
@@ -46,5 +33,19 @@ Page({
     this.setData({
       currentTab: e.currentTarget.dataset.pos
     })
+  },
+  autoTranlate: function (e) {
+    if (this.data.autoTranlate === '自动翻译') {
+      this.setData({
+        autoTranlate:'取消翻译'
+      })
+    } else {
+      this.setData({
+        autoTranlate:'自动翻译'
+      })
+    }
+  },
+  addComment() {
+    this.onShow()
   }
 })

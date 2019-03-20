@@ -35,7 +35,7 @@
 
     <view wx:for="{{ video }}" wx:key='{{ index }}'>
       <view class='item' bindtap='tapHandleVideo' data-id='{{ item.id }}'>
-        <image/>
+        <image src='/images/video/1.png'/>
         <view class='video_name'>{{ item.name }}</view>
         <view class='video_auteur'>{{ item.author }}</view>
       </view>
@@ -46,7 +46,7 @@
   <view class='live_block'hidden='{{ currentTab !== 1}}'>
     <view wx:for="{{ live }}" wx:key='{{ index }}'>
       <view class='item'  bindtap='tapHandleLive' data-id='{{ item.id }}'>
-        <image/>
+        <image src='/images/video/2.png'/>
         <view class='video_name'>{{ item.name }}</view>
         <view class='video_auteur'>{{ item.author }}</view>
       </view>

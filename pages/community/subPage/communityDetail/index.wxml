@@ -23,5 +23,5 @@
     </view>
   </view>
 
-  <comment bindtap='addComment'commentType='community' commentID='{{ info.id }}'></comment>
+  <comment bindtap='addComment' commentType='community' commentID='{{ info.id }}'></comment>
 </view>

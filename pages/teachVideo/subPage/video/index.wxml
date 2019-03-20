@@ -1,7 +1,7 @@
 <view class='m-backgraund'>
   <video
           src='{{ info.video_url }}'
-          autoplay="{{ true }}"
+          autoplay="{{ false }}"
 
           class='video'>
 
@@ -20,6 +20,8 @@
       </view>
       <view class='auther'>{{ info.author}}</view>
       <button class="follow">+关注</button>
+
+      <button bindtap='autoTranlate'class='autotranlate'>{{ autoTranlate }}</button>
     </view>
 
     <view class='name'>
@@ -62,6 +64,7 @@
     </view>
   </view>
 
-  <comment></comment>
+  <!--<comment bindtap='addComment'commentType='video' commentID='{{ info.id }'></comment>-->
+  <comment bindtap='addComment' commentType='video' commentID='{{ info.id }}'></comment>
 
 </view>

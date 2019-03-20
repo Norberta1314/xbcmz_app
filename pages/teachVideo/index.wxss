@@ -78,7 +78,7 @@
 
 .video_block .item {
     float: left;
-    background-color: #ead9e4;
+    background-color: #eee;
     width: 276rpx;
     height: 250rpx;
     margin: 20rpx 10rpx 20rpx 60rpx;
@@ -113,7 +113,7 @@
 
 .live_block .item {
     float: left;
-    background-color: #ead9e4;
+    background-color: #eee;
     width: 276rpx;
     height: 250rpx;
     margin: 20rpx 10rpx 20rpx 60rpx;

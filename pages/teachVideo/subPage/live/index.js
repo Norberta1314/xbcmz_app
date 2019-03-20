@@ -60,6 +60,8 @@ Page({
   },
   errorHandle(e) {
     console.log('live-plaver code: ', e.detail)
-
+  },
+  addComment() {
+    this.onShow()
   }
 })

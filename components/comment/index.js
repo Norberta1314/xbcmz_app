@@ -40,6 +40,35 @@ Component({
             })
           }
         })
+      } else if (commentType === 'video') {
+        app.fetch({
+          url: app.API('addVideoComment') + id,
+          method:'POST',
+          data:{
+            content: this.data.inputData
+          },
+          success:(res) => {
+            let result = res.data.data
+            this.setData({
+              inputData:''
+            })
+          }
+        })
+
+      } else if (commentType === 'live') {
+        app.fetch({
+          url: app.API('addLiveComment') + id,
+          method:'POST',
+          data:{
+            content: this.data.inputData
+          },
+          success:(res) => {
+            let result = res.data.data
+            this.setData({
+              inputData:''
+            })
+          }
+        })
       }
     }
   }

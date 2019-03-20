@@ -23,6 +23,7 @@ page {
 .title-block .title {
   color: #111;
   font-size: 50rpx;
+  word-break:break-all
 }
 .title-block .author {
   color: #aaa;
@@ -33,11 +34,13 @@ page {
   font-size: 40rpx;
   padding: 20rpx;
   border-bottom: 1rpx solid #aaa;
+  word-break:break-all；
 }
 .content-detail {
   color: #aaa;
   font-size: 20rpx;
   margin: 5rpx 40rpx 5rpx 40rpx;
+  word-break:break-all；
 }
 .comment-block {
   margin-bottom: 100rpx;
@@ -84,4 +87,5 @@ page {
 
 .commits .discuss {
   padding: 0 50rpx 10rpx 50rpx;
+  word-break:break-all；
 }

@@ -105,7 +105,8 @@ button {
 }
 
 .comment_block {
-    position: relative;
+    display: flex;
+    flex-direction: column;
     min-height: 300rpx;
     background-color: #fff;
     margin: 20rpx 50rpx 10rpx 50rpx;
@@ -114,11 +115,13 @@ button {
 }
 
 .comment_info {
-    position: relative;
+    display: flex;
+    flex-direction: row;
+  margin-top: 10rpx;
 }
 
 .comment_name {
-    display:inline-block;
+    display:block;
     margin-top: 15rpx;
     margin-left: 28rpx;
 
@@ -128,10 +131,10 @@ button {
 }
 
 .follow {
-    display:inline-block;
+    display:block;
     float: right;
-    margin-top: 15rpx;
-    margin-right: 28rpx;
+    margin: 15rpx 28rpx 10rpx 350rpx;
+
     background-color: #6f98a8;
     color: #fff;
     width: 90rpx;
@@ -141,19 +144,20 @@ button {
 }
 
 .comment_question {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
     font-size: 35rpx;
-    line-height: 45rpx;
-    min-height: 100rpx;
     padding: 20rpx 30rpx 40rpx 40rpx;
+
+  word-break:break-all
 }
 
 .like_block {
-    position: absolute;
     display: flex;
     flex-direction: row;
     color: #646464;
-    bottom: 20rpx;
-    right:50rpx;
+    margin: 0rpx 20rpx 20rpx  400rpx;
 }
 
 .like_block text {
