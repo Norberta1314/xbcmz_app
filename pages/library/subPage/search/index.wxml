@@ -5,4 +5,9 @@
     <view class='button' bindtap='bindTapSearch'>搜索</view>
   </view>
 
+  <view class='hint'>
+    <view>暂时只提供白夜行数据</view>
+    <view>实际应用请导入图书馆图书信息</view>
+  </view>
+
 </view>

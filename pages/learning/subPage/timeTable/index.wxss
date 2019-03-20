@@ -118,7 +118,7 @@ button {
 }
 
 .day-lessons .place {
-  font-size: 40rpx;
+  font-size: 35rpx;
 }
 
 .day-lessons .name {

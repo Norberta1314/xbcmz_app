@@ -56,9 +56,22 @@ button {
 }
 .bar-img {
   position: absolute;
-  top: -80rpx;
-  width: 740rpx;
-  height: 160rpx;
+  background: url('https://s2.ax1x.com/2019/03/20/AM1OhQ.png');
+  top: -40rpx;
+  width: 720rpx;
+  margin: 15rpx;
+  height: 85rpx;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.time-term {
+  height: 85rpx;
+  line-height: 85rpx;
+  font-size: 40rpx;
+  margin-left: 20rpx;
+  color: #eee;
 }
 
 .button-group {

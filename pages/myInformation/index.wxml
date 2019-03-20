@@ -21,7 +21,10 @@
 </view>
 
 <view class='bar-time'>
-  <image src='../../images/myInformation/bar-time.png' class='bar-img'></image>
+  <view  class='bar-img'>
+    <view class='time-term'>2018/2019(1)</view>
+    <view class='time-term'>第8周 周{{ week }}</view>
+  </view>
 </view>
 
 <view class='button-group'>
@@ -60,5 +63,5 @@
     </button>
   </view>
 
-  <add></add>
+  <!--<add></add>-->
 </view>

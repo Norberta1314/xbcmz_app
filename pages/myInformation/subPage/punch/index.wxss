@@ -64,3 +64,13 @@ page {
   border-bottom: 2rpx solid #cacaca;
   font-size: 35rpx;
 }
+
+.punch-card {
+  position: absolute;
+  top: 200rpx;
+  left: 125rpx;
+  width: 500rpx;
+  height: 500rpx;
+  border-radius: 20rpx;
+  background-color: #ead9e4;
+}

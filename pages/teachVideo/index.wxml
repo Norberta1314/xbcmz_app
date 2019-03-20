@@ -10,24 +10,30 @@
 
   <!--直播点播标题-->
   <view class='tablist'>
-    <view wx:for="{{ tabList }}" class='item {{currentTab==index?"select":""}}' data-pos='{{ index }}'
+    <view wx:for="{{ tabList }}"
+          class='item {{currentTab==index?"select":""}}'
+          data-pos='{{ index }}'
+          wx:key='{{ index }}'
           bindtap='tabItemClick'>
       <text>{{ item }}</text>
     </view>
   </view>
 
-  <scroll-view scroll-x="true" class='recommendList'>
-    <view wx:for="{{ recommentItem }}"
-          class='item {{currentRecomment==index?"select":""}} {{ "bg_" + backgroundItem[index] }}'
-          data-pos='{{ index }}' bindtap='recommentItemClick'>
-      <text>{{ item.name }}</text>
-    </view>
-  </scroll-view>
+  <!--<scroll-view scroll-x="true" class='recommendList'>-->
+    <!--<view wx:for="{{ recommentItem }}"-->
+          <!--wx:key='{{ index }}'-->
+          <!--class='item {{currentRecomment==index?"select":""}} {{ "bg_" + backgroundItem[index] }}'-->
+          <!--data-pos='{{ index }}' bindtap='recommentItemClick'-->
+          <!--bindtap='bindChooseTagTap'-->
+    <!--&gt;-->
+      <!--<text>{{ item.name }}</text>-->
+    <!--</view>-->
+  <!--</scroll-view>-->
 
   <!--视频-->
   <view class='video_block' hidden='{{ currentTab !== 0}}'>
 
-    <view wx:for="{{ video }}">
+    <view wx:for="{{ video }}" wx:key='{{ index }}'>
       <view class='item' bindtap='tapHandleVideo' data-id='{{ item.id }}'>
         <image/>
         <view class='video_name'>{{ item.name }}</view>
@@ -38,7 +44,7 @@
 
   <!--直播-->
   <view class='live_block'hidden='{{ currentTab !== 1}}'>
-    <view wx:for="{{ live }}">
+    <view wx:for="{{ live }}" wx:key='{{ index }}'>
       <view class='item'  bindtap='tapHandleLive' data-id='{{ item.id }}'>
         <image/>
         <view class='video_name'>{{ item.name }}</view>
@@ -47,5 +53,5 @@
     </view>
   </view>
 
-  <add></add>
+  <!--<add></add>-->
 </view>

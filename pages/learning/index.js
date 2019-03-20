@@ -17,17 +17,273 @@ Page({
     showAtt: false,
     showRead: false,
     beginMonth: 3,
-    type: ''
+    type: '',
+    timeTable:[[
+      {
+        isLesson: 1,
+        lessonNum: 2,
+        place: '第一教学楼220',
+        name: '操作系统'
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 1,
+        lessonNum: 2,
+        place: '第二教学楼302',
+        name: '高等数学'
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 1,
+        lessonNum: 2,
+        place: '第一教学楼203',
+        name: '离散数学'
+      }
+    ], [
+      {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 1,
+        lessonNum: 2,
+        place: '第三教学楼330',
+        name: '高等数学'
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 1,
+        lessonNum: 2,
+        place: '第二教学楼304',
+        name: '数据结构'
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      },{
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      },{
+        isLesson: 1,
+        lessonNum: 2,
+        place: '第三教学楼223',
+        name: '数据结构'
+      },
+    ], [
+      {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 1,
+        lessonNum: 2,
+        place: '第四教学楼114',
+        name: '离散数学'
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }
+    ], [
+      {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 1,
+        lessonNum: 2,
+        place: '第二教学楼333',
+        name: '离散数学'
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }
+    ], [
+      {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 1,
+        lessonNum: 2,
+        place: '第一教学楼220',
+        name: '离散数学'
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      },{
+        isLesson: 1,
+        lessonNum: 2,
+        place: '第二教学楼208',
+        name: '离散数学'
+      }
+    ], [
+      {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }
+    ], [
+      {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }, {
+        isLesson: 0,
+        lessonNum: 1,
+        place: '',
+        name: ''
+      }
+    ]],
+    today:''
   },
   onLoad: function(e) {
+    wx.showLoading({
+      title: '加载中',
+    })
+
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 800)
+
     let _this = this
     app.$store.setWxCtx(this, 'teachVideo')
     this.getPeople()
     if (this.data.type === 0) {
       this.getAttendence()
     }
+    _this.getTodayTimeTable()
   },
+  getTodayTimeTable(){
+    let today = new Date().getDay();
+    this.setData({
+      today: today
+    })
 
+  },
   getPeople:function() {
     let type = app.$store.getAppState('type')
     this.setData({

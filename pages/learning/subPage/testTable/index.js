@@ -6,8 +6,18 @@ Page({
   },
   onLoad() {
     let _this = this
+    _this.loadding()
     app.$store.setWxCtx(this,'exams')
     _this.getExamTable()
+  },
+  loadding() {
+    wx.showLoading({
+      title: '加载中',
+    })
+
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 800)
   },
   getExamTable(){
     let _this = this

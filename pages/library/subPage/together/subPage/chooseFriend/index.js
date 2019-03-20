@@ -7,7 +7,7 @@ Page({
       choose:false
     },{
       name:'456',
-      choose:true
+      choose:false
     },{
       name:'789',
       choose:false
@@ -16,7 +16,7 @@ Page({
       choose:false
     },{
       name:'444',
-      choose:true
+      choose:false
     }]
   },
   chooseFriend:function (e) {

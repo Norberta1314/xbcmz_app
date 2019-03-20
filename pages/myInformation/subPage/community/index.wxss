@@ -16,6 +16,6 @@ image {
   position: absolute;
   top: 200rpx;
   left: 100rpx;
-  width: 504rpx;
-  height: 504rpx;
+  width: 550rpx;
+  height: 550rpx;
 }

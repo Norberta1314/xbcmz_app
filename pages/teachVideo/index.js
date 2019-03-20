@@ -3,11 +3,13 @@ const app = getApp();
 Page({
   data: {
     tabList: ['视频', '直播'],
-    recommentItem: ['热门', 'java', '高等数学', '概率论与数理统计', 'python', '微观经济学', '大学物理'],
+    recommentItem: [],
     currentRecomment: 0,
     backgroundItem: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    live:[{}],
+    live:'',
+    liveAll:'',
     video: '',
+    videoAll:'',
     currentTab: 0
   },
   onLoad: function() {
@@ -34,11 +36,14 @@ Page({
       success: (res) => {
         const result = res.data.data
         for(var i = 0; i < result.length; i++) {
-          let up='video['+i+']'
+          let up='videoAll['+i+']'
           _this.setData({
             [up]: result[i]
           })
         }
+        this.setData({
+          video: this.data.videoAll
+        })
       },
       fail: (res) => {
 
@@ -54,11 +59,14 @@ Page({
       success: (res) => {
         const result = res.data.data
         for(var i = 0; i < result.length; i++) {
-          let up='live['+i+']'
+          let up='liveAll['+i+']'
           _this.setData({
             [up]: result[i]
           })
         }
+        this.setData({
+          live: this.data.liveAll
+        })
       }
     })
   },
@@ -92,5 +100,29 @@ Page({
     wx.navigateTo({
       url: `/pages/teachVideo/subPage/live/index?id=${id}`,
     })
+  },
+  bindChooseTagTap(e) {
+    const id = e.currentTarget.dataset.pos
+    this.setData({
+      live:'',
+      video:''
+    })
+    let liveAll = this.data.liveAll
+    for (let i = 0; i < liveAll.length; i++) {
+      if (liveAll[i].type === this.data.recommentItem[id].name) {
+        this.setData({
+          live:[...this.data.live, liveAll[i]]
+        })
+      }
+    }
+
+    let videoAll = this.data.videoAll
+    for(let i = 0; i < videoAll.length; i++) {
+      if(videoAll[i].type === this.data.recommentItem[id].name) {
+        this.setData({
+          video:[...this.data.video, videoAll[i]]
+        })
+      }
+    }
   }
 })

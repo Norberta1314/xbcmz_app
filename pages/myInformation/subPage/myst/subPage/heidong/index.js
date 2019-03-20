@@ -17,6 +17,18 @@ Page({
       like_I: 0
     }]
   },
+  onLoad(){
+    this.onLoadding()
+  },
+  onLoadding() {
+    wx.showLoading({
+      title: '加载中',
+    })
+
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 800)
+  },
   likeClick: function (e) {
     var index = e.currentTarget.dataset.pos
 

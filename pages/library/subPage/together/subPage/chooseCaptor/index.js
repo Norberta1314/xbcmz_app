@@ -7,7 +7,7 @@ Page({
       choose:false
     },{
       name:'第一章',
-      choose:true
+      choose:false
     },{
       name:'第二章',
       choose:false
@@ -16,7 +16,7 @@ Page({
       choose:false
     },{
       name:'第四章',
-      choose:true
+      choose:false
     }]
   },
   chooseFriend:function (e) {

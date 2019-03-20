@@ -21,7 +21,7 @@
           <view class='lesson' >
             <view
               class='card bg_{{ bg_num[day_id][card_id] }}'
-              wx:for='{{ dayLessons }}' wx-key='{{ card_id }}' wx:for-index='card_id' wx:for-item='lessonCard'
+              wx:for='{{ dayLessons }}' wx:key='{{ card_id }}' wx:for-index='card_id' wx:for-item='lessonCard'
               style='height: {{ lessonCard["isLesson"]? lessonCard["lessonNum"] * 120 - 10 : 0 }}rpx; top: {{ (card_id) * 120 + 10}}rpx;'
             >
               <!--<text>{{ card_id }}</text>-->

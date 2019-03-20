@@ -121,6 +121,8 @@ page {
   margin: 35rpx;
   margin-top: 0rpx;
   border-radius: 15rpx;
+
+  color: #1b1c38;
 }
 
 .today_course_img {
@@ -128,6 +130,12 @@ page {
   height: 32rpx;
   margin: 15rpx;
   border-radius: 5rpx;
+}
+
+.course_card {
+  display: flex;
+  flex-direction: row;
+  width: 600rpx;
 }
 
 .swiper-box {

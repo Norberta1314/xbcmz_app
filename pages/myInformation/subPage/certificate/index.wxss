@@ -62,18 +62,13 @@ page {
   border-bottom: 5rpx solid #dde4ec;
   justify-content:space-around;
 }
-.certificate-get1-text3{
-  height:45rpx;
-  line-height: 45rpx;
-  padding: 10rpx;
-  background-color: #d0c6e3;
-  font-size: 28rpx;
-}
+
 .small-font{
   height:45rpx;
   line-height: 45rpx;
-  padding: 10rpx;
+  padding: 5rpx 10rpx 5rpx 10rpx;
   background-color: #e5e5e5;
-  font-size: 28rpx;
+  font-size: 20rpx;
+  margin-top: 15rpx;
 }
 

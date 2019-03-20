@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 9,
+			"current": 11,
 			"list": [
 				{
 					"id": -1,
@@ -103,6 +103,19 @@
 					"name": "video",
 					"pathName": "pages/teachVideo/subPage/video/index",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "daka",
+					"pathName": "pages/myInformation/subPage/punch/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "课表",
+					"pathName": "pages/learning/subPage/timeTable/index",
 					"scene": null
 				}
 			]

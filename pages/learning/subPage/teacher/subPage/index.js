@@ -22,11 +22,16 @@ Page({
       },
       success: (res) => {
         let data = res.data.data
+        console.log("获取教师信息成功")
+        console.log(data)
         this.setData({
           name: data.teacher_name,
           email: data.email,
           tel: data.phone
         })
+      },
+      fail: (res) => {
+        console.log("获取教师信息失败")
       }
     })
   }

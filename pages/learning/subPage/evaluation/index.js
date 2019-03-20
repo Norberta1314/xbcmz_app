@@ -1,3 +1,4 @@
+const app = getApp();
 Page({
     data: {
         listData:[
@@ -11,7 +12,11 @@ Page({
         ]
     },
     onLoad: function (options) {
-        var that = this
+        var _this = this
+        _this.getTeacher()
+        _this.showModal()
+    },
+    showModal() {
         wx.showModal({
             title: '提示',
             content: '当前不是评教时间',
@@ -21,10 +26,23 @@ Page({
                     console.log('用户点击确定')
                 }else if(res.cancel){
                     console.log('用户点击取消')
-                     wx.navigateBack({
+                    wx.navigateBack({
                         delta: 1
                     })
                 }
+            }
+        })
+    },
+    getTeacher() {
+        let _this = this
+        app.fetch({
+            url:app.API('timeTable'),
+            method:'GET',
+            success:(res) => {
+                let results = res.data.data
+                this.setData({
+                    listData: results
+                })
             }
         })
     }

@@ -78,13 +78,25 @@
 
   <!--今日课表-->
   <view class='today_course'>
-    <image src='../../images/learning/today_course_img.png' class='today_course_img'>
+    <image src='../../images/learning/today_course_img.png' class='today_course_img'></image>
+      <view class='course_card'>
+        <view wx:for='{{ timeTable[today] }}'
+              wx:if='{{ item.isLesson === 1}}'
+              wx:key='index'>
+          <view style='font-size: 35rpx; padding-left: 50rpx'>
+            {{ item.name }} {{ item.place }}
+          </view>
+          <view style='font-size: 30rpx; padding-left: 400rpx'>
+            第 {{ index }} 到 {{ index + item.lessonNum }}节课
+          </view>
+        </view>
+      </view>
 
-    </image>
+
 
   </view>
 
-  <add></add>
+  <!--<add></add>-->
 </view>
 
 <view wx:if='{{ type===1 }}' class='teacher-background'>

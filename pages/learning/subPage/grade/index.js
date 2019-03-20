@@ -10,11 +10,21 @@ Page({
     scores: ''
   },
   onLoad: function () {
+    this.loadding()
     let _this = this
     app.$store.setWxCtx(_this, 'grade')
     _this.setName()
     _this.getGrade()
     _this.setGPA()
+  },
+  loadding() {
+    wx.showLoading({
+      title: '加载中',
+    })
+
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 800)
   },
   setName() {
     let _this = this

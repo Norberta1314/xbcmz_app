@@ -1,6 +1,6 @@
 <view class='searchInfo'>
 
-  <button class='button_edit'>编辑</button>
+  <button bindtap='edit'class='button_edit'>编辑</button>
 
   <view class='searchinfo_item'>姓名： {{ name }}</view>
   <view class='searchinfo_item'>学号： {{ sid }}</view>

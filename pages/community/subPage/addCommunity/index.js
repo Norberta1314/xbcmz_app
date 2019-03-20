@@ -65,9 +65,7 @@ Page({
         notice: friend
       },
       success: (res) => {
-        setTimeout(() => {
-          wx.navigateBack(1)
-        }, 2000)
+        wx.navigateBack(1)
       },
       fail: (res) => {
         console.log('fail')

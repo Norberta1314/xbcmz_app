@@ -10,6 +10,7 @@ page {
     background-size: cover;
     background-attachment:fixed;
     width: 750rpx;
+    height: 1200rpx;
 }
 button {
     padding: 0;
@@ -174,4 +175,29 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.suggest-card {
+    background-color: #fff;
+    margin: 20rpx 50rpx 10rpx 50rpx;
+    border: 5rpx solid #dcdcdc;
+    min-height: 300rpx;
+}
+
+.suggest-title {
+    color: #555;
+    font-size: 35rpx;
+    padding: 20rpx;
+}
+
+.suggest-info {
+    color: #aaa;
+    font-size: 23rpx;
+    padding: 0rpx 30rpx 0rpx 30rpx;
+}
+
+.suggest-form {
+    color: #bbb;
+    font-size: 20rpx;
+    margin: 40rpx 40rpx 30rpx 400rpx;
 }

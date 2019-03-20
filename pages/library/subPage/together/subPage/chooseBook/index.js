@@ -7,7 +7,7 @@ Page({
       choose:false
     },{
       name:'解忧杂货铺',
-      choose:true
+      choose:false
     },{
       name:'计算机组成与原理',
       choose:false
@@ -16,7 +16,7 @@ Page({
       choose:false
     },{
       name:'离散数学',
-      choose:true
+      choose:false
     }]
   },
   chooseFriend:function (e) {

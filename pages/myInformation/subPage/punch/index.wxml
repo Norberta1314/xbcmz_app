@@ -1,14 +1,55 @@
 <view class='m-backgraund'>
   <view class='title'>今日打卡</view>
-  <view class='check-item' wx:for='{{ checks }}' wx:key='index'>
+  <view bindtap='bindCheckItem'
+        class='check-item'
+        wx:for='{{ checks }}' wx:key='{{ item.id }}'
+        data-id='{{ item.id }}'
+  >
     <view class='name'>
       <view class='color-block '></view>
       <view class='check-title'>{{ item.title }}</view>
     </view>
     <image src='{{ item.status?"/images/myInformation/subPage/punch/1.png":"/images/myInformation/subPage/punch/0.png" }} '/>
+
+    <view wx:if='{{ item.showCard }}'class='punch-card'>
+      <view class='punch-title'>
+        {{ item.title }}
+      </view>
+      <view class='content'>
+        {{ item.content }},已坚持 {{ item.time }}天，加油！坚持就是胜利！
+      </view>
+
+      <view wx:if='{{ item.status === 0 }}'>
+        <view catchtap='catchDelayTap'
+              class='button-delay'
+              data-id='{{ item.id }}'
+        >
+          今日拖延
+        </view>
+        <view
+                catchtap='catchPunchTap'
+                class='button-punch'
+                data-id='{{ item.id }}'
+        >
+          今日打卡
+        </view>
+      </view>
+
+      <view wx:if='{{ item.status === 1 }}'>
+        <view catchtap='catchCompleteTap'
+              data-id='{{ item.id }}'>
+          今日已打卡
+        </view>
+
+      </view>
+
+    </view>
+
   </view>
 
   <view class='customize'>
     +自定义打卡
   </view>
+
+
 </view>

@@ -41,3 +41,12 @@ page {
   text-align: center;
 }
 
+.hint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #eee;
+  font-size: 28rpx;
+  width: 500rpx;
+}
+

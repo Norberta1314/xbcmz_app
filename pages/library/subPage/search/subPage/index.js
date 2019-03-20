@@ -15,5 +15,17 @@ Page({
       detail: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam beatae deserunt dolores ducimus eum id iure libero minus nisi nobis nostrum optio pariatur, quam quos totam ut vel vero!',
       name_detail:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aperiam atque dolores eum ex fuga necessitatibus quibusdam totam voluptatum? Accusamus aperiam dolore ducimus excepturi incidunt placeat quaerat sed tempora! Asperiores.'
     }
-  }
+  },
+  onLoad() {
+    this.onLoadding()
+  },
+  onLoadding() {
+    wx.showLoading({
+      title: '加载中',
+    })
+
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 800)
+  },
 })
