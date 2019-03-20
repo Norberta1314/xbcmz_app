@@ -135,6 +135,7 @@ page {
 .course_card {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   width: 600rpx;
 }
 

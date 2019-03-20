@@ -1,12 +1,18 @@
-<view class='searchInfo'>
+<view class='m-backgraund'>
 
-  <button class='button_edit'>编辑</button>
-
-  <view class='searchinfo_item'>姓名： </view>
-  <view class='searchinfo_item'>学号： </view>
-  <view class='searchinfo_item'>学院： </view>
-  <view class='searchinfo_item'>班级： </view>
-  <view class='searchinfo_item'>联系方式： </view>
-  <view class='searchinfo_item'>邮箱： </view>
-  <view class='searchinfo_item'>家庭住址： </view>
+  <view wx:for='{{ suggestItem }}' wx:key='{{ item.id }}'
+        class='suggest-card'
+        data-id='{{ item.id }}'
+        bindtap='bindChooseSuggest'
+  >
+    <view class='suggest-title'>
+      {{ item.title }}
+    </view>
+    <view class='suggest-info'>
+      {{ item.info }}
+    </view>
+    <view class='suggest-form'>
+      来源：{{ item.form }}
+    </view>
+  </view>
 </view>

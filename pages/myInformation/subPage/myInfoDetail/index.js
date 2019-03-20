@@ -38,7 +38,21 @@ Page({
     })
   },
   edit() {
-
+    wx.showModal({
+      title: '提示',
+      content: '已经提交修改资料申请到管理员处，等待管理员审核。',
+      cancelText: '返回',
+      success:function(res){
+        if(res.confirm){
+          console.log('用户点击确定')
+        }else if(res.cancel){
+          console.log('用户点击取消')
+          wx.navigateBack({
+            delta: 1
+          })
+        }
+      }
+    })
   }
 
 })

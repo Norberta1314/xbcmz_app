@@ -7,6 +7,7 @@ Page({
       info:'热爱学习热爱生活，想找女朋友'
     },
     showFriend:0,
+    showGrey: false
   },
   onLoad(){
     this.onLoadding()
@@ -31,5 +32,12 @@ Page({
     this.setData({
       showFriend: 0,
     })
+  },
+  bindFollow: function () {
+    this.setData({
+      showGrey: !this.data.showGrey
+    })
   }
+
+
 })

@@ -161,6 +161,7 @@ button {
     font-size: 24rpx;
     height: 40rpx;
     line-height: 40rpx;
+    padding: 20rpx;
     /*margin-bottom: 5rpx;*/
 }
 

@@ -95,6 +95,10 @@ button {
     font-size: 28rpx;
 }
 
+.followColor {
+    background-color: #999;
+}
+
 .friend-info {
     padding: 30rpx;
 }

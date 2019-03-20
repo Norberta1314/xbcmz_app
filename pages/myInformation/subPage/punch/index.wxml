@@ -16,7 +16,7 @@
         {{ item.title }}
       </view>
       <view class='content'>
-        {{ item.content }},已坚持 {{ item.time }}天，加油！坚持就是胜利！
+        {{ item.content }},已坚持 <text style='color: red'>{{ item.time }}</text>天，加油！坚持就是胜利！
       </view>
 
       <view wx:if='{{ item.status === 0 }}'>
@@ -28,7 +28,7 @@
         </view>
         <view
                 catchtap='catchPunchTap'
-                class='button-punch'
+                class='button-delay'
                 data-id='{{ item.id }}'
         >
           今日打卡
@@ -37,7 +37,9 @@
 
       <view wx:if='{{ item.status === 1 }}'>
         <view catchtap='catchCompleteTap'
-              data-id='{{ item.id }}'>
+              data-id='{{ item.id }}'
+              class='button-delay'
+        >
           今日已打卡
         </view>
 
@@ -47,9 +49,9 @@
 
   </view>
 
-  <view class='customize'>
-    +自定义打卡
-  </view>
+  <!--<view class='customize'>-->
+    <!--+自定义打卡-->
+  <!--</view>-->
 
 
 </view>

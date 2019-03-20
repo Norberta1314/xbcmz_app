@@ -70,7 +70,28 @@ page {
   top: 200rpx;
   left: 125rpx;
   width: 500rpx;
-  height: 500rpx;
+  min-height: 500rpx;
   border-radius: 20rpx;
-  background-color: #ead9e4;
+  border-bottom: 20rpx;
+  background-color: #f6e8f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.punch-title {
+  padding: 20rpx;
+}
+
+.punch-card .content {
+  padding: 40rpx;
+}
+
+.button-delay {
+  background-color: #b2e2fa;
+  width: 218rpx;
+  height: 66rpx;
+  line-height: 66rpx;
+  text-align: center;
+  margin: 20rpx;
 }

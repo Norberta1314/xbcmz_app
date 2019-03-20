@@ -51,7 +51,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#eeeeee",
-    "navigationBarTitleText": "point教学",
+    "navigationBarTitleText": "星露谷学习平台",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {

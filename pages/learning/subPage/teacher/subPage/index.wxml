@@ -1,5 +1,5 @@
 <view class="teacher-table">
-    <view class='about-num'>相关教师（1）人</view>
+    <view class='about-num'>相关教师 {{ number }} 人</view>
     <view class="max-box">
         <view class="teacher-name">{{name}}</view>
         <view class="teacher-tel">邮箱  {{email}}</view>
