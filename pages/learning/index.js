@@ -18,7 +18,7 @@ Page({
     showRead: false,
     beginMonth: 3,
     type: '',
-    timeTable:[[
+    timeTable: [[
       {
         isLesson: 1,
         lessonNum: 2,
@@ -81,12 +81,12 @@ Page({
         lessonNum: 1,
         place: '',
         name: ''
-      },{
+      }, {
         isLesson: 0,
         lessonNum: 1,
         place: '',
         name: ''
-      },{
+      }, {
         isLesson: 1,
         lessonNum: 2,
         place: '第三教学楼223',
@@ -187,7 +187,7 @@ Page({
         lessonNum: 1,
         place: '',
         name: ''
-      },{
+      }, {
         isLesson: 1,
         lessonNum: 2,
         place: '第二教学楼208',
@@ -258,9 +258,9 @@ Page({
         name: ''
       }
     ]],
-    today:''
+    today: ''
   },
-  onLoad: function(e) {
+  onLoad: function (e) {
     wx.showLoading({
       title: '加载中',
     })
@@ -272,19 +272,24 @@ Page({
     let _this = this
     app.$store.setWxCtx(this, 'teachVideo')
     this.getPeople()
-    if (this.data.type === 0) {
+    if ( this.data.type === 0 ) {
       this.getAttendence()
     }
     _this.getTodayTimeTable()
   },
-  getTodayTimeTable(){
+  getTodayTimeTable() {
     let today = new Date().getDay();
+    if (today > 0 ) {
+      today--
+    } else {
+      today = 6
+    }
     this.setData({
       today: today
     })
 
   },
-  getPeople:function() {
+  getPeople: function () {
     let type = app.$store.getAppState('type')
     this.setData({
       type: type
@@ -294,7 +299,7 @@ Page({
   getAttendence() {
     let _this = this
     app.fetch({
-      url:app.API('attendence'),
+      url: app.API('attendence'),
       method: 'GET',
       success: (res) => {
         const result = res.data.data
@@ -375,11 +380,11 @@ Page({
       url: '/pages/learning/subPages/teacherChooseClass/index',
     })
   },
-   bindTeacherTimeTable() {
+  bindTeacherTimeTable() {
     wx.navigateTo({
       url: '/pages/learning/subPages/teatherTimeTable/index'
     })
-   },
+  },
   bindTeacherSearchNotify() {
     wx.navigateTo({
       url: '/pages/learning/subPages/teacherSearchNotify/index'

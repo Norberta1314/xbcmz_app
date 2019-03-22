@@ -57,5 +57,10 @@ Page({
       url: '/pages/myInformation/subPage/walk/index'
     })
     wx.navigateBack()
+  },
+  loginOut:function () {
+    wx.navigateTo({
+      url: '/pages/login/index'
+    })
   }
 })

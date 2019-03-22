@@ -61,6 +61,10 @@
     <button bindtap='bindWalk'class='button-main'>
       <image src='../../images/myInformation/button/button_walk.png' class='button-main-img'></image>
     </button>
+
+    <button bindtap='loginOut' class='button-main'>
+      <view class='button-main-img buttonLoginOut'>切换绑定</view>
+    </button>
   </view>
 
   <!--<add></add>-->

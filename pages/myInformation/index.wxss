@@ -114,3 +114,7 @@ button {
   width: 700rpx;
   height: 80rpx;
 }
+
+.buttonLoginOut {
+  background-color: #dde4ec;
+}

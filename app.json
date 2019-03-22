@@ -65,7 +65,8 @@
         "iconPath": "images/bar/unselected/learning.png",
         "pagePath": "pages/learning/index",
         "text": "学业"
-      },{
+      },
+      {
         "selectedIconPath": "images/bar/selected/teachingVideo.png",
         "iconPath": "images/bar/unselected/teachingVideo.png",
         "pagePath": "pages/teachVideo/index",

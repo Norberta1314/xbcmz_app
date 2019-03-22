@@ -16,7 +16,7 @@ Page({
     app.$store.setWxCtx(this, 'login')
     wx.getSetting({
       success(res) {
-        if (res.authSetting['scope.userInfo']) {
+        if ( res.authSetting['scope.userInfo'] ) {
           // 已经授权，可以直接调用 getUserInfo 获取头像昵称
           _this.setData({
             canIUse: false
@@ -80,7 +80,7 @@ Page({
           },
           success: (res) => {
             const response = res.data
-            const {token, User } = response.data
+            const {token, User} = response.data
             app.$store.setAppState({
               token: token,
               type: User.type,
