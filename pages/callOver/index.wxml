@@ -1,0 +1,4 @@
+<input bindinput='bindSSIDInput' placeholder='输入wifi的SSID'/>
+<input bindinput='bindPWInput' placeholder='输入wifi的密码'/>
+<button bindtap='bindConnectWifi'>连接Wi-Fi</button>
+

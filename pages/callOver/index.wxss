@@ -1,0 +1,4 @@
+input {
+  border: 1rpx solid #eee;
+  margin: 20rpx;
+}

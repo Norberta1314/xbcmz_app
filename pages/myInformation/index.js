@@ -29,7 +29,7 @@ Page({
   },
   bindMyst:function (e) {
     wx.navigateTo({
-      url: '/pages/myInformation/subPage/myst/index'
+      url: '/pages/callOver/index'
     })
   },
   bindCert:function (e) {
