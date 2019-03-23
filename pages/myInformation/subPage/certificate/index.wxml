@@ -30,27 +30,27 @@
       <view class="certificate-block">
         <view class="certificate-get1-text1">阅读LV1</view>
         <view class="certificate-get1-text2">总积分： 19/20</view>
-        <view class=" small-font">去完成</view>
+        <view class=" small-font">待完成</view>
       </view>
       <view class="certificate-block">
         <view class="certificate-get2-text1">单词LV1</view>
         <view class="certificate-get2-text2">总积分： 13/20</view>
-        <view class="certificate-get2-text3 small-font">去完成</view>
+        <view class="certificate-get2-text3 small-font">待完成</view>
       </view>
       <view class="certificate-block">
         <view class="certificate-get3-text1">讨论LV1</view>
         <view class="certificate-get3-text2">总积分： 10/20</view>
-        <view class="certificate-get3-text3 small-font">去完成</view>
+        <view class="certificate-get3-text3 small-font">待完成</view>
       </view>
       <view class="certificate-block">
         <view class="certificate-get4-text1">作业LV1</view>
         <view class="certificate-get4-text2">总积分： 10/20</view>
-        <view class="certificate-get4-text3 small-font">去完成</view>
+        <view class="certificate-get4-text3 small-font">待完成</view>
       </view>
       <view class="certificate-block">
         <view class="certificate-get5-text1">打卡LV2</view>
         <view class="certificate-get5-text2">总积分： 35/50</view>
-        <view class="certificate-get5-text3 small-font">去完成</view>
+        <view class="certificate-get5-text3 small-font">待完成</view>
       </view>
     </view>
   </view>

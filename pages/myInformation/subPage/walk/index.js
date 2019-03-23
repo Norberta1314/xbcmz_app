@@ -33,6 +33,24 @@ Page({
       form:'segmentfault',
       src:'https://segmentfault.com/a/1190000018577041'
     }]
+  },
+
+  bindChooseSuggest(e) {
+    wx.showModal({
+      title: '抱歉',
+      content: '考虑版权原因，我们准备超链接到原网页。但是非企业用户不允许跳转超链接，很抱歉此部分内容无法展示',
+      cancelText: '返回',
+      success:function(res){
+        if(res.confirm){
+          console.log('用户点击确定')
+        }else if(res.cancel){
+          console.log('用户点击取消')
+          wx.navigateBack({
+            delta: 1
+          })
+        }
+      }
+    })
   }
   
 })
