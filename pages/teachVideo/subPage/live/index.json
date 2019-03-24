@@ -1,8 +1,0 @@
-{
-  "usingComponents": {
-    "comment": "/components/comment/index"
-  },
-  "navigationBarBackgroundColor": "#eeeeee",
-  "navigationBarTitleText": "直播",
-  "navigationBarTextStyle": "black"
-}

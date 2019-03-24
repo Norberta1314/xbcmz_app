@@ -1,9 +1,0 @@
-{
-  "usingComponents": {
-    "comment": "/components/comment/index"
-  },
-  "backgroundTextStyle": "light",
-  "navigationBarBackgroundColor": "#eeeeee",
-  "navigationBarTitleText": "讨论",
-  "navigationBarTextStyle": "black"
-}

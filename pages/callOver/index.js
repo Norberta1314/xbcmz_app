@@ -62,28 +62,52 @@ Page({
   },
   bindConnectBooth() {
     let _this = this
+
+    wx.showModal({
+      title: '抱歉...',
+      content: '无指定蓝牙设备',
+      cancelText: '返回',
+      success:function(res){
+        if(res.confirm){
+
+        }else if(res.cancel){
+
+          wx.navigateBack({
+            delta: 1
+          })
+        }
+      }
+    })
+
+
     wx.openBluetoothAdapter({
       success(res) {
         console.log("初始化蓝牙模块成功")
-        wx.startBluetoothDevicesDiscovery({
-          success(res) {
-            console.log("开始发现蓝牙设备成功")
-          },
-          fail(res) {
-            console.log("开始发现蓝牙设备失败")
-            console.log(res)
-          }
-        })
-        wx.getBluetoothDevices({
-          success(res) {
-            console.log(res)
-          },
-          fail(res) {
-            console.log("get蓝牙设备失败")
-            console.log(res)
-          }
-        })
 
+        setTimeout(() => {
+          wx.startBluetoothDevicesDiscovery({
+            success(res) {
+              console.log("开始发现蓝牙设备成功")
+              setTimeout(() => {
+                wx.getBluetoothDevices({
+                  success(res) {
+                    console.log(res)
+                    console.log("get蓝牙设备成功")
+                  },
+                  fail(res) {
+                    console.log("get蓝牙设备失败")
+                    console.log(res)
+                  }
+                })
+              })
+
+            },
+            fail(res) {
+              console.log("开始发现蓝牙设备失败")
+              console.log(res)
+            }
+          })
+        }, 1000)
 
       },
       fail(res) {
@@ -91,14 +115,19 @@ Page({
         console.log(res)
       },
       complete(res) {
-        wx.closeBluetoothAdapter({
-          success(res) {
-            console.log("关闭蓝牙")
-          }
-        })
+        setTimeout(()=>{
+          wx.closeBluetoothAdapter({
+            success(res) {
+              console.log("关闭蓝牙")
+            }
+          })
+        }, 3000)
+
       }
 
     })
+
+
   }
 
 })

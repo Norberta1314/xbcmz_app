@@ -1,4 +1,45 @@
+page{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+}
+
+.m-backgraund {
+  background: url('https://s2.ax1x.com/2019/03/24/AYfJPA.png');
+  background-size: cover;
+  background-attachment:fixed;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 input {
-  border: 1rpx solid #eee;
+  border-left: 1rpx solid #eee;
+  border-bottom: 1rpx solid #eee;
+  margin: 20rpx;
+  width: 562rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  border-radius: 10rpx;
+  background-color: #f2f3f4;
+}
+
+.inputClass {
+  margin-left: 20rpx;
+}
+
+button {
+  background-color: #1b1c38;
+  color: #eee;
+  width: 356rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  font-size: 35rpx;
   margin: 20rpx;
 }
