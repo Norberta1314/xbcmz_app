@@ -24,7 +24,7 @@ const apiMap = {
 
   timeTable: 'user/stu/class/schedule',
   attendence:'user/stu/attendence',
-  teacherSearch: 'user/teacher/search/',
+  teacherSearch: 'user/teacher/search',
   grade:'user/stu/grade',
   examTable:'user/stu/exams',
   taskList:'user/stu/exams'

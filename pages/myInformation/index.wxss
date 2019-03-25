@@ -69,8 +69,7 @@ button {
 .time-term {
   height: 85rpx;
   line-height: 85rpx;
-  font-size: 40rpx;
-  margin-left: 20rpx;
+  font-size: 35rpx;
   color: #eee;
 }
 
