@@ -99,9 +99,12 @@
   <!--<add></add>-->
 </view>
 
-<view wx:if='{{ type===1 }}' class='teacher-background'>
-  <view bindtap='bindTeacherClass' class='item'>课程信息管理</view>
-  <view bindtap='bindTeacherTimeTable' class='item'>课程表查询</view>
-  <view bindtap='bindTeacherSearchNotify'class='item'>教务通知查询</view>
-  <view bindtap='bindTeacherAttendamce'class='item'>点名</view>
-</view>
+
+<!--教师端-->
+
+<!--<view wx:if='{{ type===1 }}' class='teacher-background'>-->
+  <!--<view bindtap='bindTeacherClass' class='item'>课程信息管理</view>-->
+  <!--<view bindtap='bindTeacherTimeTable' class='item'>课程表查询</view>-->
+  <!--<view bindtap='bindTeacherSearchNotify'class='item'>教务通知查询</view>-->
+  <!--<view bindtap='bindTeacherAttendamce'class='item'>点名</view>-->
+<!--</view>-->
