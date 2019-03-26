@@ -80,13 +80,16 @@
   <view class='today_course'>
     <image src='../../images/learning/today_course_img.png' class='today_course_img'></image>
       <view class='course_card'>
+        <view class='course-line'></view>
         <view wx:for='{{ timeTable[today] }}'
               wx:if='{{ item.isLesson === 1}}'
-              wx:key='index'>
-          <view style='font-size: 35rpx; padding-left: 50rpx'>
+              wx:key='index'
+              class='course-item'
+        >
+          <view style='font-size: 35rpx; margin-left: 10rpx'>
             {{ item.name }} {{ item.place }}
           </view>
-          <view style='font-size: 30rpx; padding-left: 400rpx; color: #888'>
+          <view style='font-size: 30rpx; margin-left: 300rpx; color: #888'>
             第 {{ index }} 到 {{ index + item.lessonNum }}节课
           </view>
         </view>

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4240903-b32a-431b-9d68-d9475598feb8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/callOver/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/callOver/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learning/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learning/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learning/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learning/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/myInformation/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/myInformation/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/myInformation/subPage/myInfoDetail/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/myInformation/subPage/myInfoDetail/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,10 +22,42 @@
     <favorites_list name="xbcmz_app" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.50167507">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/learning/index.wxml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="347">
+                  <caret line="92" column="48" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
+                  <folding>
+                    <element signature="n#style#0;n#button#7;n#view#0;n#view#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#view#2;n#view#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#view#1;n#view#0;n#view#0;n#view#2;n#view#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/myInformation/subPage/myInfoDetail/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                  <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/myInformation/index.wxml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="431">
+                  <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/callOver/index.wxml">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="140">
@@ -29,55 +66,15 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/myInformation/index.wxml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="301">
-                  <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pages/learning/index.wxml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="122">
-                  <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-                  <folding>
-                    <element signature="n#style#0;n#button#7;n#view#0;n#view#0;n#!!top" expanded="true" />
-                    <element signature="n#view#1;n#!!top" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/myInformation/index.wxss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="241">
-                  <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/utils/api.js">
+            <entry file="file://$PROJECT_DIR$/pages/learning/index.wxss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/callOver/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="183">
-                  <caret line="53" selection-start-line="52" selection-end-line="53" />
+                <state relative-caret-position="288">
+                  <caret line="152" column="1" lean-forward="true" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -116,7 +113,6 @@
         <option value="$PROJECT_DIR$/pages/learning/subPage/timeTable/index.js" />
         <option value="$PROJECT_DIR$/pages/library/index.wxml" />
         <option value="$PROJECT_DIR$/pages/myInformation/subPage/myInfoDetail/index.wxml" />
-        <option value="$PROJECT_DIR$/pages/myInformation/subPage/myInfoDetail/index.js" />
         <option value="$PROJECT_DIR$/pages/myInformation/subPage/walk/index.wxss" />
         <option value="$PROJECT_DIR$/pages/myInformation/subPage/walk/index.wxml" />
         <option value="$PROJECT_DIR$/pages/community/index.js" />
@@ -128,7 +124,6 @@
         <option value="$PROJECT_DIR$/pages/community/index.wxml" />
         <option value="$PROJECT_DIR$/pages/learning/subPage/teacher/subPage/index.wxml" />
         <option value="$PROJECT_DIR$/pages/learning/subPage/teacher/subPage/index.js" />
-        <option value="$PROJECT_DIR$/pages/learning/index.wxss" />
         <option value="$PROJECT_DIR$/pages/library/subPage/search/index.js" />
         <option value="$PROJECT_DIR$/pages/community/index.wxss" />
         <option value="$PROJECT_DIR$/pages/teachVideo/index.wxss" />
@@ -145,20 +140,22 @@
         <option value="$PROJECT_DIR$/pages/myInformation/subPage/talk/index.wxml" />
         <option value="$PROJECT_DIR$/components/comment/index.js" />
         <option value="$PROJECT_DIR$/pages/teachVideo/subPage/video/index.wxss" />
-        <option value="$PROJECT_DIR$/pages/learning/index.wxml" />
         <option value="$PROJECT_DIR$/pages/login/index.js" />
         <option value="$PROJECT_DIR$/pages/learning/index.js" />
         <option value="$PROJECT_DIR$/pages/myInformation/index.js" />
         <option value="$PROJECT_DIR$/pages/callOver/index.json" />
-        <option value="$PROJECT_DIR$/pages/myInformation/index.wxml" />
         <option value="$PROJECT_DIR$/pages/myInformation/subPage/walk/index.js" />
         <option value="$PROJECT_DIR$/pages/myInformation/subPage/certificate/index.wxml" />
-        <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/pages/callOver/index.js" />
-        <option value="$PROJECT_DIR$/pages/callOver/index.wxml" />
         <option value="$PROJECT_DIR$/pages/callOver/index.wxss" />
         <option value="$PROJECT_DIR$/pages/myInformation/index.wxss" />
         <option value="$PROJECT_DIR$/utils/api.js" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/pages/learning/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/learning/index.wxss" />
+        <option value="$PROJECT_DIR$/pages/myInformation/subPage/myInfoDetail/index.js" />
+        <option value="$PROJECT_DIR$/pages/myInformation/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/callOver/index.wxml" />
       </list>
     </option>
   </component>
@@ -188,13 +185,7 @@
               <item name="xbcmz_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="xbcmz_app" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xbcmz_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xbcmz_app" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="myInformation" type="462c0819:PsiDirectoryNode" />
+              <item name="callOver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xbcmz_app" type="b2602c69:ProjectViewProjectNode" />
@@ -270,7 +261,7 @@
       <workItem from="1553090769813" duration="13460000" />
       <workItem from="1553213693352" duration="2840000" />
       <workItem from="1553221369919" duration="6840000" />
-      <workItem from="1553427597210" duration="3407000" />
+      <workItem from="1553427597210" duration="5780000" />
     </task>
     <task id="LOCAL-00001" summary="五个主页部分">
       <created>1551182603640</created>
@@ -608,11 +599,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553487476461</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="阉割版删文件">
+      <created>1553487631650</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1553487631651</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239148000" />
+    <option name="totallyTimeSpent" value="241521000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -626,7 +624,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.14592275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.14592275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50120485" side_tool="true" weight="0.14517266" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -637,7 +635,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.8497854" visible="true" weight="0.48554218" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.8497854" weight="0.48554218" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.6008584" weight="0.48433736" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1502146" side_tool="true" weight="0.48554218" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -737,7 +735,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="图书馆" />
     <MESSAGE value="联调" />
     <MESSAGE value="video Detail" />
     <MESSAGE value="打卡" />
@@ -762,7 +759,8 @@
     <MESSAGE value="小程序审核" />
     <MESSAGE value="wifi模块" />
     <MESSAGE value="307解决" />
-    <option name="LAST_COMMIT_MESSAGE" value="307解决" />
+    <MESSAGE value="阉割版删文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="阉割版删文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -776,13 +774,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/myInformation/subPage/punch/index.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="89" column="13" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/myInformation/subPage/punch/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -839,13 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/learning/index.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="137" column="18" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1126,27 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/callOver/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="53" selection-start-line="52" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/callOver/index.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/callOver/index.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -1161,28 +1124,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/myInformation/index.wxml">
+    <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/learning/index.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="n#style#0;n#button#7;n#view#0;n#view#0;n#!!top" expanded="true" />
-            <element signature="n#view#1;n#!!top" />
-          </folding>
+        <state relative-caret-position="440">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="303">
           <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/callOver/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="53" selection-start-line="52" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/learning/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="152" column="1" lean-forward="true" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/learning/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="92" column="48" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#button#7;n#view#0;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#view#2;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#view#0;n#view#0;n#view#2;n#view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/myInformation/subPage/myInfoDetail/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/myInformation/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/callOver/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>

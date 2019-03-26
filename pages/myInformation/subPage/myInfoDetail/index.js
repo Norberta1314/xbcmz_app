@@ -40,7 +40,7 @@ Page({
   edit() {
     wx.showModal({
       title: '提示',
-      content: '已经提交修改资料申请到管理员处，等待管理员审核。',
+      content: '已提交修改申请，请等待管理员审核。',
       cancelText: '返回',
       success:function(res){
         if(res.confirm){

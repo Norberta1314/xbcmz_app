@@ -139,6 +139,19 @@ page {
   width: 600rpx;
 }
 
+.course-line {
+  height: 1rpx;
+  width: 535rpx;
+  background-color: #999;
+  margin: 3rpx 0 15rpx 50rpx;
+}
+
+.course-item {
+  margin: 3rpx 0 15rpx 50rpx;
+  padding-right: 50rpx;
+  border-bottom: 1rpx solid #999;
+}
+
 .swiper-box {
   min-height: 300rpx;
   width: 680rpx;
